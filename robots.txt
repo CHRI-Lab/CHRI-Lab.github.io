@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://CHRI-Lab.github.io/sitemap.xml
