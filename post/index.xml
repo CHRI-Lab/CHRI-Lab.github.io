@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News | Computational Human Robot Interaction Lab</title>
+    <title>Latest News | computational human-robot interaction lab</title>
     <link>https://CHRI-Lab.github.io/post/</link>
       <atom:link href="https://CHRI-Lab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Latest News</title>
@@ -13,25 +13,90 @@
     </image>
     
     <item>
-      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>https://CHRI-Lab.github.io/post/20-12-02-icml-best-paper/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/post/20-12-02-icml-best-paper/</guid>
-      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+      <title>The SydCHI Local Chapter just got accepted</title>
+      <link>https://CHRI-Lab.github.io/post/sydchi_accepted/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/sydchi_accepted/</guid>
+      <description>&lt;p&gt;Super excited about the new SydCHI local chapter.
+Stay tune!&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>https://CHRI-Lab.github.io/post/20-12-01-wowchemy-prize/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+      <title>Best Demo Award at HRI 2020!</title>
+      <link>https://CHRI-Lab.github.io/post/hri2020_demo_award/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/hri2020_demo_award/</guid>
+      <description>&lt;p&gt;Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz
+&lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>https://CHRI-Lab.github.io/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Reviewer Award for ICCE</title>
+      <link>https://CHRI-Lab.github.io/post/best_reviewer_icce2019/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/best_reviewer_icce2019/</guid>
+      <description>&lt;p&gt;I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&#34;&gt;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4 Full Papers Presented @RoMan 2019, New Delhi!</title>
+      <link>https://CHRI-Lab.github.io/post/roman2019/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/roman2019/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends at RoMan.
+We presented four papers and enjoyed a day off in Jaipur.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paper accepted! Allohaptic</title>
+      <link>https://CHRI-Lab.github.io/post/allohaptic2020/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/allohaptic2020/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends virtually at RoMan2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The iReCheck project accepted!</title>
+      <link>https://CHRI-Lab.github.io/post/irechech-accepted/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/irechech-accepted/</guid>
+      <description>&lt;p&gt;The iReCheck project submitted last April will be funded by the French ANR and the Swiss NSF.
+The goal of the project is to explore the learning by teaching sceanrio proposed in the cowriter project in with both performance and social adaptation, and with TD learners and learners with NDD.
+The project brings educational expertise of the EPFL team with the NDD expertise of the French partners to build a system that can suit all types of learners.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First day at UNSW as Lecturer (Assistant Prof)</title>
+      <link>https://CHRI-Lab.github.io/post/unsw-start/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/unsw-start/</guid>
+      <description>&lt;p&gt;Officially starting at  @UNSWEngineering today. Looking forward to this exciting adventure! Stay tuned, Phd job offers coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demos at NCCR Robotics Industry Days</title>
+      <link>https://CHRI-Lab.github.io/post/nccr_id2019/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/nccr_id2019/</guid>
+      <description>&lt;p&gt;The CHILI Lab presented several demo at the Swiss Converntion Center.
+Always a great opportunity to meet with colleagues from the NCCR and robotics actor of the reagion.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

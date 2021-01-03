@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Computational Human Robot Interaction Lab</title>
+    <title>2 | computational human-robot interaction lab</title>
     <link>https://CHRI-Lab.github.io/publication-type/2/</link>
       <atom:link href="https://CHRI-Lab.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
@@ -13,17 +13,67 @@
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://CHRI-Lab.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Acquisition of handwriting in children with and without dysgraphia: A computational approach</title>
+      <link>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
+      <link>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
+      <link>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Trends in Social Robots for Learning</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2020-research/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2020-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging Multilevel Time Scales in HRI: An Analysis Framework</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orchestration of Robotic Activities in Classrooms: Challenges and Opportunities</title>
+      <link>https://CHRI-Lab.github.io/publication/shahmoradi-2019-orchestration/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/shahmoradi-2019-orchestration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reply: Limitations in the creation of an automatic diagnosis tool for dysgraphia</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Une architecture cognitive et affective orientée interaction</title>
+      <link>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computational Human Robot Interaction Lab</title>
+    <title>computational human-robot interaction lab</title>
     <link>https://CHRI-Lab.github.io/</link>
       <atom:link href="https://CHRI-Lab.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Computational Human Robot Interaction Lab</description>
+    <description>computational human-robot interaction lab</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>Computational Human Robot Interaction Lab</title>
+      <title>computational human-robot interaction lab</title>
       <link>https://CHRI-Lab.github.io/</link>
     </image>
     
@@ -28,61 +28,473 @@
     </item>
     
     <item>
-      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>https://CHRI-Lab.github.io/post/20-12-02-icml-best-paper/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/post/20-12-02-icml-best-paper/</guid>
-      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+      <title>Domestic Drones: Context of Use in Research Literature</title>
+      <link>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>https://CHRI-Lab.github.io/post/20-12-01-wowchemy-prize/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>https://CHRI-Lab.github.io/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/preprint/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <title>The SydCHI Local Chapter just got accepted</title>
+      <link>https://CHRI-Lab.github.io/post/sydchi_accepted/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/sydchi_accepted/</guid>
+      <description>&lt;p&gt;Super excited about the new SydCHI local chapter.
+Stay tune!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://CHRI-Lab.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
+      <link>https://CHRI-Lab.github.io/publication/neto-using-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Demo Award at HRI 2020!</title>
+      <link>https://CHRI-Lab.github.io/post/hri2020_demo_award/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/hri2020_demo_award/</guid>
+      <description>&lt;p&gt;Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz
+&lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://CHRI-Lab.github.io/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
+      <title>Acquisition of handwriting in children with and without dysgraphia: A computational approach</title>
+      <link>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
+      <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
+      <link>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
+      <link>https://CHRI-Lab.github.io/publication/yadollahi-2020-exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/yadollahi-2020-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</title>
+      <link>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
+      <link>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Trends in Social Robots for Learning</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2020-research/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2020-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>https://CHRI-Lab.github.io/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Reviewer Award for ICCE</title>
+      <link>https://CHRI-Lab.github.io/post/best_reviewer_icce2019/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/best_reviewer_icce2019/</guid>
+      <description>&lt;p&gt;I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&#34;&gt;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4 Full Papers Presented @RoMan 2019, New Delhi!</title>
+      <link>https://CHRI-Lab.github.io/post/roman2019/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/roman2019/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends at RoMan.
+We presented four papers and enjoyed a day off in Jaipur.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paper accepted! Allohaptic</title>
+      <link>https://CHRI-Lab.github.io/post/allohaptic2020/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/allohaptic2020/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends virtually at RoMan2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The iReCheck project accepted!</title>
+      <link>https://CHRI-Lab.github.io/post/irechech-accepted/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/irechech-accepted/</guid>
+      <description>&lt;p&gt;The iReCheck project submitted last April will be funded by the French ANR and the Swiss NSF.
+The goal of the project is to explore the learning by teaching sceanrio proposed in the cowriter project in with both performance and social adaptation, and with TD learners and learners with NDD.
+The project brings educational expertise of the EPFL team with the NDD expertise of the French partners to build a system that can suit all types of learners.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First day at UNSW as Lecturer (Assistant Prof)</title>
+      <link>https://CHRI-Lab.github.io/post/unsw-start/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/unsw-start/</guid>
+      <description>&lt;p&gt;Officially starting at  @UNSWEngineering today. Looking forward to this exciting adventure! Stay tuned, Phd job offers coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bridging Multilevel Time Scales in HRI: An Analysis Framework</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning By Collaborative Teaching: An Engaging Multi-Party CoWriter Activity</title>
+      <link>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Symmetry with Tangible Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnet-assisted ball drive</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2019-magnet/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-magnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orchestration of Robotic Activities in Classrooms: Challenges and Opportunities</title>
+      <link>https://CHRI-Lab.github.io/publication/shahmoradi-2019-orchestration/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/shahmoradi-2019-orchestration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reply: Limitations in the creation of an automatic diagnosis tool for dysgraphia</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?</title>
+      <link>https://CHRI-Lab.github.io/publication/nasir-2019-robot/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/nasir-2019-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning-R4L: Adaptive Learning</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-robots/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
+      <link>https://CHRI-Lab.github.io/publication/yadollahi-studying-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/yadollahi-studying-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dynamics of Handwriting Improves the Automated Diagnosis of Dysgraphia</title>
+      <link>https://CHRI-Lab.github.io/publication/zolna-2019-dynamics/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/zolna-2019-dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-tip/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demos at NCCR Robotics Industry Days</title>
+      <link>https://CHRI-Lab.github.io/post/nccr_id2019/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/nccr_id2019/</guid>
+      <description>&lt;p&gt;The CHILI Lab presented several demo at the Swiss Converntion Center.
+Always a great opportunity to meet with colleagues from the NCCR and robotics actor of the reagion.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Une architecture cognitive et affective orientée interaction</title>
+      <link>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behavioural Analysis in HRI</title>
+      <link>https://CHRI-Lab.github.io/project/engagement/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/engagement/</guid>
+      <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
+metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
+&lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
+research domain, is starting to seek for reproducibility [10]; a consensus begins to appear concerning
+common measures that can be used across a wide range of studies. In social HRI, the evaluation of
+the quality of an interaction is complex because it is very task dependent. However, certain metrics
+such as engagement seem to well reflect the quality of interactions between a robot agent and the
+human.&lt;/p&gt;
+&lt;p&gt;One aspect of acceptability of a robot is the home environment in which it is to be able to perceive when it will be
+solicited. The goal for the robot is to not disturb the user and to be able to predict that it will be solicited. This is
+something we do all the time as humans (we can see a street vendor approaching us and we know they will talk
+to us). The process for us human relies on proxemics (speed and angle of approach) but not only.&lt;/p&gt;
+&lt;p&gt;In my work on modeling engagement [11, 12], I used multi-modal data to train a SVM to detect engagement. We&lt;/p&gt;
+&lt;p&gt;collected data from various sensors embedded in the Kompai robot and reduced the number of crucial features
+from 32 to 7. Interestingly shoulder orientation and position of the face in the image are among these crucial
+features. If we transpose these features to what humans do, these features seem coherent with behavioral
+analysis.
+The previous model aimed to predict the engagement, but once the user is engaged, it is important to evaluate its
+attitude and mood. Using the COST and HAART dataset, we trained a model to detect social touch. Together with
+colleagues, we won the Social Touch Challenge at ICMI 2015 improving the gestures recognition from 60% accuracy
+to 70% training a Random Forest Model. [13]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioural Styles</title>
+      <link>https://CHRI-Lab.github.io/project/stylebot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/stylebot/</guid>
+      <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
+communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
+and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
+that these styles were perceptible and could influence the attitude of the child interacting with the
+robot[15, 16].
+More recently, we showed that idle movements (movements that have no communicative intention) when
+displayed by a humanoid robot increases the anthropomorphic perception of the robot by the user
+[17].
+These findings help in designing more natural interaction with humanoid robots, making them more acceptable
+and socially intelligent.
+Research Perspectives: We will be continuing research in this area working within the ANIMATAS EU project
+(starting in January 2018) on synchrony and how alignment can keep learners engaged in a collaborative task with a
+robot.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YH4ywpgM1OU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Xg49gsWKMLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cellulo</title>
+      <link>https://CHRI-Lab.github.io/project/cellulo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/cellulo/</guid>
+      <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zv6nDMQCWCo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/g_7glQmTIVo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s3KAoQNUPZs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh</title>
+      <link>https://CHRI-Lab.github.io/project/cowriting_kazakh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/cowriting_kazakh/</guid>
+      <description>&lt;p&gt;Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.&lt;/p&gt;
+&lt;p&gt;Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.&lt;/p&gt;
+&lt;p&gt;The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.&lt;/p&gt;
+&lt;p&gt;With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &amp;ldquo;CoWriting Kazakh&amp;rdquo; child-robot interaction activity.&lt;/p&gt;
+&lt;p&gt;The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Pens</title>
+      <link>https://CHRI-Lab.github.io/project/handwriting/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/handwriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Find Your Voice</title>
+      <link>https://CHRI-Lab.github.io/project/fyv/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/fyv/</guid>
+      <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
+Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
+One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
+To help children develop the ability to tell jokes with their peers, we propose leveraging a new interactive technology – voice assistant robots (e.g., Alexa), which have become increasingly affordable and commonplace in homes. These robots, which are portable and have lifelike voices, can model how to tell a joke and using voice recognition software, respond to the jokes that children tell. Children thus have unlimited opportunities for scaffolded practice and can receive timely feedback in a non-threatening environment before telling their jokes to family and friends. In addition to the accessibility and human-like verbal responses of voice assistant robots, robots can be customized to tell jokes that are appropriate for each child’s age, language, and culture. The goal of our project therefore is to enable children to improve their ‘joke telling’ skills by learning the intonation, timing, through interacting with a virtual assistants such as Alexa.
+Our research project will explore the feasibility of coding Alexa and other voice assistants to be able to respond and engage with children telling a diversity of jokes. Several aspects need to be taken into account when delivering a joke that children can imitate and practice with. We will look into how the timing and intonation will need to be evaluated from the audio recording in order to provide an adaptive feedback to the child training to deliver jokes. This feedback could be from both sides, the voice assistant robot helping the child in how telling jokes, or the child helping the assistant to improve how telling jokes. The final goal is, once the child has learnt how to tell jokes, to understand when and how will he/she be able to share the joke with their peers, and how long might this process take and how would we be able to tell they have become more confident.
+Finally, an engaging joke-telling learning scenario will need to be designed in order to train children for a long-term impact. Our project will also consider how this might materialize.  In the future, virtual assistants will be able to be designed to give encouraging feedback to the child as they interact with it. This could be verbal, visual or both. This feedback could encourage children for finding their voice. Based on the initial findings from the pilot project  we would like to develop a more extensive project proposal with the goal of investigating how to develop new interventions using the next generation of interactive robots, such as Olly, whose developers, we are also collaborating with (&lt;a href=&#34;https://heyolly.com/),&#34;&gt;https://heyolly.com/),&lt;/a&gt; that have more scope for providing customized feedback can be used.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning (R4L)</title>
+      <link>https://CHRI-Lab.github.io/project/robots4learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/robots4learning/</guid>
+      <description>&lt;p&gt;With the increasing number of engineering jobs, politics have more recently turned towards introduction of
+engineering subjects in early stages of curricula. More and more countries have started to introduce programming
+(and even robotics) to young children. However, this constitutes a real challenge for the teaching
+professionals, who are not trained for that, and are often skeptical to use new technologies in classrooms.
+Hence, the challenge is to introduce robots as tools to be used not only in programming or robotics
+based courses, but in the whole curricula in order to make them attractive to teachers as a pedagogical
+tool.
+”Educational robotics” does not really constitute a research community per say. On one hand, there are scholars
+working on ”how to teach robotics” using robotics platforms such as Thymio and Mindstorms. Some scholars
+perform research in this domain (for example, measuring which learning activities produce faster learning), but
+their numbers are scarce, they typically meet in half-day workshops before ed’tech conferences (CSCL, AI&amp;amp;Ed, ….).
+On the other hand, one finds scholars who mainly do research on HRI and consider education as an interesting
+place for testing child-robot interactions.
+I launched in 2016 a series of workshops to build a Robots for Learning (R4L) research community. The first event
+was a workshop, along with the RoMan 2016 conference. The event gathered 30 participants from all around the
+world. The second event was a workshop along the HRI 2017 conference in Vienna, Austria, with 60 participants
+and 10 presentations. This fall, we hosted the first stand alone event, in Switzerland, for which we invited main
+actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
+mix scientists from field of robotics with those from digital education and learning technologies (See
+&lt;a href=&#34;http://robots4learning.wordpress.com&#34;&gt;http://robots4learning.wordpress.com&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visitors and PostDoc</title>
+      <link>https://CHRI-Lab.github.io/prospective/visitors/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/visitors/</guid>
+      <description>&lt;p&gt;Grants for postdocs&lt;/p&gt;
+&lt;p&gt;Grans for visitors:
+french
+unsw
+others&lt;/p&gt;
 </description>
     </item>
     
@@ -100,6 +512,434 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/people/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>CAIO</title>
+      <link>https://CHRI-Lab.github.io/project/caio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/caio/</guid>
+      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
+so, they have to be able to reason about the users’ and their environment. During my PhD, I have
+been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
+Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
+showed promising results in modeling cognitive processes and specifically allowing decision making
+based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
+reflexes.&lt;/p&gt;
+&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
+CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
+learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
+between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
+understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
+correct them; or the robot could even create misunderstandings to enhance learning (by fostering
+questioning).
+Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
+via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
+been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
+path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Find Your Voice: Use of Voice Assistant for Learning</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/fyv_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/fyv_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/fyv2020.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, be new to a culture (migrants) or have impairments in communication due to atypical development  (e.g., autism spectrum disorder, speech or hearing disorders).&lt;/p&gt;
+&lt;p&gt;The voices of these children often go unheard, as they find it hard to contribute to a conversation.&lt;/p&gt;
+&lt;p&gt;The Find your Voice (FyV, &lt;a href=&#34;http://wafa.johal.org/project/fyv/&#34;&gt;http://wafa.johal.org/project/fyv/&lt;/a&gt;) project was initiated to investigate how joke telling could help children to speak up and gain confidence. We are also interested in story telling and general conversation. Improvements in communication can have a significant impact in confidence, and  help children:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reduce stress&lt;/li&gt;
+&lt;li&gt;improve self-confidence&lt;/li&gt;
+&lt;li&gt;ease social interactions&lt;/li&gt;
+&lt;li&gt;make friends more easily&lt;/li&gt;
+&lt;li&gt;improving literacy and language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To help children develop the ability to communicate, tell jokes or stories to their peers, we propose leveraging social robots (e.g. NAO) and voice assistants (e.g., Alexa, Olly and Google Home) to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Model how to tell jokes/stories and respond to other children during conversations .&lt;/li&gt;
+&lt;li&gt;Practice joke/story telling with a ‘friendly’ and ‘non-judgmental’ audience.&lt;/li&gt;
+&lt;li&gt;Practice turn taking during conversation.&lt;/li&gt;
+&lt;li&gt;TLearn jokes, stories and interesting facts to tell other children.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The overall goals of the project are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To enable children to improve their social communication skills by learning intonation and timing, through interacting with voice assistants&lt;/li&gt;
+&lt;li&gt;To learn to how to perform in front of peers and family&lt;/li&gt;
+&lt;li&gt;To make children more confident in social situations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The FyV project involves partners in London and California.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;At UNSW, our main goal will be to develop a ‘Learning by Teaching’ application using a robot or voice assistant. This application will allow the user to teach a virtual agent (robot or voice assistant) a joke/story. As the agent learns by demonstration, the user can practice and refine how the story/joke is told until the voice assistant (and the child) is able to tell the joke/story in a satisfactory way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design the Learning Scenario&lt;/li&gt;
+&lt;li&gt;Explore TTS software for speech conversion&lt;/li&gt;
+&lt;li&gt;Implement a new Alexa Skill&lt;/li&gt;
+&lt;li&gt;Run a Pilot demonstrating the learning of joke/story telling features (e.g. pauses and intonations)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Voice Assistant, Machine Learning, HCI&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python or C++. Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/soobinseo/Transformer-TTS&#34;&gt;https://github.com/soobinseo/Transformer-TTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/barronalex/Tacotron&#34;&gt;https://github.com/barronalex/Tacotron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.amazon.com/en-US/alexa/alexa-skills-kit&#34;&gt;https://developer.amazon.com/en-US/alexa/alexa-skills-kit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Action Recognition from AD Movies</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/human_action_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/human_action_recognition/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Action Recognition is curcial for robots to perfoma around humans.
+Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.&lt;/p&gt;
+&lt;p&gt;The field of action recognition has  aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing.
+Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset.
+In this project we propose to use audio desription movies to label actions.
+AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen.
+This information often deals with action actually depicted on the scene.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a pipeline to collect and crop clip of AD movies for at home actions.
+This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject+ Action + Object] type of data.&lt;/li&gt;
+&lt;li&gt;Investigate methods for HAR&lt;/li&gt;
+&lt;li&gt;Implement a tree model combaning HAR with YOLO to identify agent and objects&lt;/li&gt;
+&lt;li&gt;Evaluate the HAR pipeline with the Toyota Robot HSR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Human Action Recognition,&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X&#34;&gt;https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf&#34;&gt;https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54&#34;&gt;https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prior.allenai.org/projects/charades&#34;&gt;https://prior.allenai.org/projects/charades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1708.02696.pdf&#34;&gt;https://arxiv.org/pdf/1708.02696.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1806.11230.pdf&#34;&gt;https://arxiv.org/pdf/1806.11230.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Social Interaction Modelling</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;The field of social human-robot interaction is growing.
+Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
+Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which multi-modal features can be transferable from HH to HR setups?&lt;/li&gt;
+&lt;li&gt;Are there common features that discriminate human behaviour in HH or HR scenarios (e.g. &amp;lsquo;Do people speak less or slower with robots?&amp;rsquo; &amp;hellip; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore datasets (PinSoRo, MHHRI and P2PSTORY): type of data (video; audio, point cloud), available labels and annotation &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Extract relevant features multimodal on each dataset&lt;/li&gt;
+&lt;li&gt;Evaluate predictive models for each dataset (i.e. engagement)&lt;/li&gt;
+&lt;li&gt;Explore transfer learning from one dataset to another&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also potential to use UNSW’s National Facility for Human-Robot Interaction Research to create a new dataset.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Machine Learning, Human-Robot Interaction&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Persuasive Robots - Exploring Behavioural Styles</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
+Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
+Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
+&lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement behavioural styles for the Nao robot (voice and behaviour) and for a voice assistant (voice only)&lt;/li&gt;
+&lt;li&gt;Design at least two behaviour styles based on human behaviour and personality styles&lt;/li&gt;
+&lt;li&gt;Evaluate and compare these styles via experimentation&lt;/li&gt;
+&lt;li&gt;Design a scenario similar to the one described in paper [3]&lt;/li&gt;
+&lt;li&gt;Setup a data collection environment (posture, video and audio) in the HRI Lab facility of UNSW&lt;/li&gt;
+&lt;li&gt;Select appropriate tasks and/or questionnaires to measure engagement, trust and/or persuasion&lt;/li&gt;
+&lt;li&gt;Evaluate the system via an experiment with users&lt;/li&gt;
+&lt;li&gt;Complete the data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Robotics, HRI, Psychology&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS and Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[1]https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14081257/Robots_social_impact_eng.pdf&lt;/li&gt;
+&lt;li&gt;[2] &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.721.279&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johal, W., Pesty, S., &amp;amp; Calvary, G. (2014, August). Towards companion robots behaving with style. In The 23rd IEEE International Symposium on Robot and Human Interactive Communication (pp. 1063-1068). IEEE.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[3] Bainbridge, W. A., Hart, J. W., Kim, E. S., &amp;amp; Scassellati, B. (2011). The benefits
+of interactions with physically present robots over video-displayed agents.
+International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
+&lt;li&gt;[4] Peters, R., Broekens, J., Li, K., &amp;amp; Neerincx, M. A. (2019, July). Robot Dominance Expression Through Parameter-based Behaviour Modulation. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (pp. 224-226). ACM.&lt;/li&gt;
+&lt;li&gt;[5] Shane Saunderson et al. It Would Make Me Happy if You Used My Guess: Comparing Robot Persuasive Strategies in Social Human–Robot Interaction, IEEE Robotics and Automation Letters (2019). DOI: 10.1109/LRA.2019.2897143&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhD Position Available!</title>
+      <link>https://CHRI-Lab.github.io/prospective/phd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/phd/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Human-Robot Interaction investigates  the use of natural communication channels (speech, gestures &amp;hellip;) between robots and humans and finds applications in the industry as well as in personal services such as therapy and education.
+The state-of the art research in Human-Robot Interaction has mainly explored short term interactions (limited time or limited sessions).
+Interested in long term impact, our research aims to provide new elements that enable to &lt;strong&gt;measure unplugged effect of HRI&lt;/strong&gt; (e.g. impact outside the interaction).
+Grounding our research on human-human interaction and human-computer interaction (related to healthcare, education or cognitive sciences), our work will feature AI and data-driven approaches and will lead to empirical evaluations of the proposed systems.&lt;/p&gt;
+&lt;p&gt;Technical and theoretical contributions will be valued and potentially provide impact in both research and society.
+Contributions can be focused in modelling the interaction, enabling autonomous and adapted interaction or designing new interaction types.&lt;/p&gt;
+&lt;h3 id=&#34;profile-of-the-candidate&#34;&gt;Profile of the candidate&lt;/h3&gt;
+&lt;p&gt;You must have Bachelor or Masters degree in Computer Sciences or a related field (Mathematics, Electrical or Mechanical).
+Good programming skills are required (C++, Python and others).
+Training and skills in AI, machine learning or robotics is preferable. Knowledge of classical programming frameworks in these domains is appreciated (PyTorch, Tf, ROS).
+English proficiency is required.
+The PhD position is highly interdisciplinary and requires an understanding and/or interest in social sciences.&lt;/p&gt;
+&lt;h3 id=&#34;further-details&#34;&gt;Further details&lt;/h3&gt;
+&lt;p&gt;Depending on the research focus, joint supervisors specialised in Design, Robotics, AI, HCI or Education, will be invited.
+UNSW and CSE will provide you to access to the HCI and Robotics Labs, GPU clusters and the HRI experimental facility equipped with more than 200 sensors (available to run studies).&lt;/p&gt;
+&lt;p&gt;UNSW Sydney is in the top 100 universities in the world, with more than 59,000 students and a strong research community.
+Located in Sydney, Australia’s largest city, the University was established in 1949 with a unique focus on scientific, technological and professional disciplines.
+At UNSW, you will benefit from an international and vibrant research community in a pleasant environment.&lt;/p&gt;
+&lt;p&gt;The net amount of the scholarship will be approximately AUD 2300 per month, increasing annually. You will also receive a holiday allowance. Additional financial support is available for attending conferences and workshops. There will also be possibilities for a research visit (industry or international) during the PhD.&lt;/p&gt;
+&lt;h3 id=&#34;queries&#34;&gt;Queries&lt;/h3&gt;
+&lt;p&gt;For informal queries, do not hesitate to contact wafa /&lt;em&gt;dot&lt;/em&gt;/ johal /&lt;em&gt;at&lt;/em&gt;/ unsw.edu.au.
+Your application should include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A letter highlighting your motivation for your application including:
+Why do you wish to pursue a PhD in human-robot interaction? What prior experience do you have? How would you approach human-robot interaction research?
+Please also indicate your research interests and whether you have any external funding for covering the UNSW tuition fee (see section below) and living costs.&lt;/li&gt;
+&lt;li&gt;A CV, with copies of relevant grades, masters thesis work or publications.&lt;/li&gt;
+&lt;li&gt;The names and contact details of at least 2 referees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Selected candidates will be invited for interview, which can be organised over Skype if necessary.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;tuition-scholarships&#34;&gt;Tuition Scholarships&lt;/h1&gt;
+&lt;p&gt;To enrol in the PhD program in computer science at UNSW, you are expected to have a degree that is equivalent to a First Class Honours degree in Computer Science, Mathematics, or a related field.
+Obtaining a &lt;a href=&#34;https://research.unsw.edu.au/postgraduate-research-scholarships&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PhD scholarship&lt;/a&gt; from UNSW is a very competitive process.
+&lt;a href=&#34;https://selfassessment.research.unsw.edu.au/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UNSW&amp;rsquo;s online self-assessment tool&lt;/a&gt; gives a good indication of how competitive you are for scholarships.
+PhD students under my supervision are often eligible for top-up scholarships from Data61.&lt;/p&gt;
+&lt;p&gt;Along with the documents mentioned above, please send me the results of the online self-assessment tool.&lt;/p&gt;
+&lt;p&gt;All scholarship applicants need to prepare a research proposal in consultation with the prospective supervisor (around 500 words).
+The selection also usually takes into account your grades (mainly for the last 2 years of study), the ranking of your previous university, and your publications (if any).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Writing</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
+&lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to control the Fetch Robot arm given a series of handwriting strokes&lt;/li&gt;
+&lt;li&gt;Explore the use of different methods for the robot to learn letter writing from demonstrations&lt;/li&gt;
+&lt;li&gt;Evaluate the implemented method compare to other state of the art methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;ROS, Learning by Demonstration, Robotics, Handwriting&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tangible e-Ink Paper Interfaces for Learners</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/tip_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/tip_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;While digital tools are more and more used in classrooms, teachers&#39; common practice remains to use photocopied paper documents to share and collect learning exercises from their students.
+With the Tangible e-Ink Paper (TIP) system, we aim to explore the use of tangible manipulatives interacting with paper sheets as a bridge between digital and paper traces of learning.
+Featuring an e-Ink display, a paper-based localisation system and a wireless connection, TIPs are envisioned to be used as a versatile tool across various curriculum activities.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Literature Review on Tangible UI (TUI) in Education&lt;/li&gt;
+&lt;li&gt;Implement and test a proof of concept of TIPs for learning&lt;/li&gt;
+&lt;li&gt;Assemble 3 TIPs (3D printing of parts, soldering, etc.)&lt;/li&gt;
+&lt;li&gt;Install libraries on Rasberry PI ( e.g. libdots - used for self-paper-based localisation, bluetooth communication)&lt;/li&gt;
+&lt;li&gt;Develop two demo applications using TIPs for
+&lt;ul&gt;
+&lt;li&gt;individual work (on A4 sheet of paper)&lt;/li&gt;
+&lt;li&gt;collaborative work (on min A2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Tangible User Interfaces, HCI&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites-and-learning-outcomes&#34;&gt;Prerequisites and Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Javascript, Python or C++. Git.&lt;/li&gt;
+&lt;li&gt;Qt, Rasberry Pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/271833/files/paper.pdf&#34;&gt;https://infoscience.epfl.ch/record/271833/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/224129/files/paper.pdf&#34;&gt;https://infoscience.epfl.ch/record/224129/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&#34;&gt;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tangible Human Swarm Interaction</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/h-swarm_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
+&lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
+Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
+Children with visuo-motor coordination difficulties are typically diagnosed with developmental coordination disorder  or cerebral palsy and need undergo physical therapy.
+The therapy sessions are often not engaging for children and conducted individually.
+In this project, we aim to design new forms of interaction with a swarm for enhance visuo-motor coordination. We propose to develop a game that allows multiple children to play collaboratively on the same table.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement the set of basic swarm behaviour using 4 Cellulo robots&lt;/li&gt;
+&lt;li&gt;Integrate collaorative and tangible interactions&lt;/li&gt;
+&lt;li&gt;Test the system with a participants. We plan ti integrate a measure of cognitive load using eye tracking data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;HCI, Health, Game, Swarm Robotics&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++, Js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.epfl.ch/labs/chili/index-html/research/cellulo/&#34;&gt;https://www.epfl.ch/labs/chili/index-html/research/cellulo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tangible Robots for Collaborative Online Learning</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/tangible_online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
+&lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;In this project, we aim to design and test a novel way to engage students in collaborative online learning by using haptic enabled tangible robots.
+The project will consist in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;developing a tool allowing the design of online activities for two or more robots to be connected&lt;/li&gt;
+&lt;li&gt;implementing a demonstrator for this new library that will embed a series of small exercises hilightling the new capability of remote haptic-assisted collaboration&lt;/li&gt;
+&lt;li&gt;evaluating the demonstrator with a user experiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;HCI, Haptics, Robot, Collaborative Work (Training/Gaminig)&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: C++, Js,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/JXBHFMBC&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/JXBHFMBC&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schneider, B., Jermann, P., Zufferey, G., &amp;amp; Dillenbourg, P. (2011). Benefits of a Tangible Interface for Collaborative Learning and Interaction. IEEE Transactions on Learning Technologies, 4(3), 222–232. &lt;a href=&#34;https://doi.org/10.1109/TLT.2010.36&#34;&gt;https://doi.org/10.1109/TLT.2010.36&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asselborn, T., Guneysu, A., Mrini, K., Yadollahi, E., Ozgur, A., Johal, W., &amp;amp; Dillenbourg, P. (2018). Bringing letters to life: Handwriting with haptic-enabled tangible robots. Proceedings of the 17th ACM Conference on Interaction Design and Children, 219–230.&lt;/li&gt;
+&lt;li&gt;East, B., DeLong, S., Manshaei, R., Arif, A., &amp;amp; Mazalek, A. (2016). Actibles: Open Source Active Tangibles. Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces, 469–472. &lt;a href=&#34;https://doi.org/10.1145/2992154.2996874&#34;&gt;https://doi.org/10.1145/2992154.2996874&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2019a). RoboGraphics: Dynamic Tactile Graphics Powered by Mobile Robots. The 21st International ACM SIGACCESS Conference on Computers and Accessibility, 318–328. &lt;a href=&#34;https://doi.org/10.1145/3308561.3353804&#34;&gt;https://doi.org/10.1145/3308561.3353804&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2019b). RoboGraphics: Using Mobile Robots to Create Dynamic Tactile Graphics. The 21st International ACM SIGACCESS Conference on Computers and Accessibility, 673–675. &lt;a href=&#34;https://doi.org/10.1145/3308561.3354597&#34;&gt;https://doi.org/10.1145/3308561.3354597&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2018). The Haptic Video Player: Using Mobile Robots to Create Tangible Video Annotations. Proceedings of the 2018 ACM International Conference on Interactive Surfaces and Spaces, 203–211. &lt;a href=&#34;https://doi.org/10.1145/3279778.3279805&#34;&gt;https://doi.org/10.1145/3279778.3279805&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guneysu, A., Johal, W., Ozgur, A., &amp;amp; Dillenbourg, P. (2018). Tangible Robots Mediated Collaborative Rehabilitation Design: Can we Find Inspiration from Scripting Collaborative Learning? Workshop on Robots for Learning R4L HRI2018.&lt;/li&gt;
+&lt;li&gt;Guneysu Ozgur, A., Wessel, M. J., Johal, W., Sharma, K., Ozgur, A., Vuadens, P., Mondada, F., Hummel, F. C., &amp;amp; Dillenbourg, P. (2018). Iterative design of an upper limb rehabilitation game with tangible robots. Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, 241–250.&lt;/li&gt;
+&lt;li&gt;Guneysu Ozgur, A., Wessel, M. J., Olsen, J. K., Johal, W., Özgür, A., Hummel, F. C., &amp;amp; Dillenbourg, P. (2020). Gamified Motor Training with Tangible Robots in Older Adults: A Feasibility Study and Comparison with Young. Frontiers in Aging Neuroscience, 12. &lt;a href=&#34;https://doi.org/10.3389/fnagi.2020.00059&#34;&gt;https://doi.org/10.3389/fnagi.2020.00059&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ishii, H., &amp;amp; Ullmer, B. (1997). Tangible Bits: Towards Seamless Interfaces Between People, Bits and Atoms. Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems, 234–241. &lt;a href=&#34;https://doi.org/10.1145/258549.258715&#34;&gt;https://doi.org/10.1145/258549.258715&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Johal, W., Tran, A., Khodr, H., Özgür, A., &amp;amp; Dillenbourg, P. (2019). TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration. Proceedings of the 31st Australian Conference on Human-Computer-Interaction, 595–598. &lt;a href=&#34;https://doi.org/10.1145/3369457.3369539&#34;&gt;https://doi.org/10.1145/3369457.3369539&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Loparev, A., Westendorf, L., Flemings, M., Cho, J., Littrell, R., Scholze, A., &amp;amp; Shaer, O. (2017). BacPack: Exploring the Role of Tangibles in a Museum Exhibit for Bio-Design. Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction, 111–120. &lt;a href=&#34;https://doi.org/10.1145/3024969.3025000&#34;&gt;https://doi.org/10.1145/3024969.3025000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Okerlund, J., Shaer, O., &amp;amp; Latulipe, C. (2016). Teaching Computational Thinking Through Bio-Design (Abstract Only). Proceedings of the 47th ACM Technical Symposium on Computing Science Education, 698. &lt;a href=&#34;https://doi.org/10.1145/2839509.2850569&#34;&gt;https://doi.org/10.1145/2839509.2850569&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;O’Malley, C., &amp;amp; Fraser, D. S. (2004). Literature review in learning with tangible technologies.&lt;/li&gt;
+&lt;li&gt;Ozgur, A. G., Wessel, M. J., Asselborn, T., Olsen, J. K., Johal, W., Özgür, A., Hummel, F. C., &amp;amp; Dillenbourg, P. (2019). Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories? 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 5326–5330. &lt;a href=&#34;https://doi.org/10.1109/EMBC.2019.8857508&#34;&gt;https://doi.org/10.1109/EMBC.2019.8857508&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ozgur, A., Johal, W., Mondada, F., &amp;amp; Dillenbourg, P. (2017). Haptic-enabled handheld mobile robots: Design and analysis. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, 2449–2461.&lt;/li&gt;
+&lt;li&gt;Ozgur, A., Lemaignan, S., Johal, W., Beltran, M., Briod, M., Pereyre, L., Mondada, F., &amp;amp; Dillenbourg, P. (2017). Cellulo: Versatile handheld robots for education. 2017 12th ACM/IEEE International Conference on Human-Robot Interaction (HRI, 119–127.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voice for ROS</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/voice-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/voice-robot/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A scenario, using tangible robots (Cellulo) combined with voice assistant for upper-arm rehabilitation will be implemented to show the potential of this new ros-package.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about Google DialogFlow and ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to access and manipulates DialogFlow features&lt;/li&gt;
+&lt;li&gt;Develop a Cellulo Rehabilitation Game&lt;/li&gt;
+&lt;li&gt;Test the game with a pilot experiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Voice-Assistant, Human-Robot Interaction, ROS&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dialogflow.com/&#34;&gt;https://dialogflow.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ros.org/&#34;&gt;https://www.ros.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wafa.johal.org/project/cellulo/&#34;&gt;http://wafa.johal.org/project/cellulo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hudson, C., Bethel, C. L., Carruth, D. W., Pleva, M., Juhar, J., &amp;amp; Ondas, S. (2017, October). A training tool for speech driven human-robot interaction applications. In 2017 15th International Conference on Emerging eLearning Technologies and Applications (ICETA) (pp. 1-6). IEEE.&lt;/li&gt;
+&lt;li&gt;Moore, R. K. (2017). Is spoken language all-or-nothing? Implications for future speech-based human-machine interaction. In Dialogues with Social Robots (pp. 281-291). Springer, Singapore.&lt;/li&gt;
+&lt;li&gt;Beirl, D., Yuill, N., &amp;amp; Rogers, Y. (2019). Using Voice Assistant Skills in Family Life. In Lund, K., Niccolai, G. P., Lavoué, E., Gweon, C. H., &amp;amp; Baker, M. (Eds.), A Wide Lens: Combining Embodied, Enactive, Extended, and Embedded Learning in Collaborative Settings, 13th International Conference on Computer Supported Collaborative Learning (CSCL) 2019, Volume 1 (pp. 96-103). Lyon, France: International Society of the Learning Sciences.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

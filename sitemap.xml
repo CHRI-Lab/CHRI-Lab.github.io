@@ -3,106 +3,938 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/post/20-12-02-icml-best-paper/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/post/</loc>
-    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/post/20-12-01-wowchemy-prize/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/authors/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/author/nelson-bighetti/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/tags/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-29T00:00:10+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://CHRI-Lab.github.io/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://CHRI-Lab.github.io/authors/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/drone/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/education/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/mohammad-obaid/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/omar-mubin/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication_types/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tags/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/wafa-johal/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/sydchi_accepted/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/ana-paiva/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/arzu-guneysu/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/cellulo/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/hugo-nicolau/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/isabel-neto/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/marta-couto/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/tangible/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/neto-using-2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/hri2020_demo_award/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/cowriting_kazakh/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication-type/2/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/aging/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/aida-zhanatkyzy/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/aizada-turarova/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/anara-sandygulova/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/anna-cohenmiller/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/arzu-guneysu-ozgur/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/ayberk-ozgur/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/barbara-bruno/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/bolat-tleubayev/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/caroline-jolly/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/david-cohen/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/elmira-yadollahi/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/yadollahi-2020-exploring/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/friedhelm-c.-hummel/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/gamified-activities/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/handwriting/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/haptic-interface/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/healthy-ageing/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/hugues-pellerin/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/ingrid-zammouri/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/interactive-learning-environments/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/iterative-design/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/jennifer-kaitlyn-olsen/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/laurence-casteran/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/maximilian-jonas-wessel/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/melissa-skweres/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/motor-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/occupational-thearpy/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/pierre-dillenbourg/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2020-research/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robotic-exercise/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robots-for-education/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/salvatore-m.-anzalone/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/tangible-robots/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/task-performance-and-analysis/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/thibault-asselborn/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/thomas-gargot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/transfer-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/zhanel-zhexenova/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/zhansaule-telisheva/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/hri2020_accepted/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/cowriter/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/cowriting-kazakh/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/best_reviewer_icce2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/roman2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/allohaptic2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/amaury-dame/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/ar-rendering/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/ar-robotic-learning-sessions/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/ar-system/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/augmented-reality/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/augmented-reality-representations/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/augmented-robotics/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/collaborative-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/computer-aided-instruction/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/computer-science-education/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/control-group/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/educational-robots/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/experimental-group/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/francesco-mondada/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/human-robot-interaction/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/infrared-detectors/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/infrared-sensors/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/interactive-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/interactive-systems/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/olguta-robu/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/optics/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/programming/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/programming-teaching/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robot-platforms/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robotic-learning-activity/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robotics/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robotics-platforms/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/sensor-data/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/standard-devices/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/stephane-magnenat/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/teaching/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/thymio-robot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/trendy-wave/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/visual-attention/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/irechech-accepted/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/unsw-start/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/others/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication-type/0/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication-type/3/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/adil-zhaksylyk/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/alex-tran/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/andeol-cadic-melchior/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/anton-kim/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/aykerk-ozgur/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/brian-scassellati/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/friedhelm-c-hummel/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/hala-khodr/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/jan-de-wit/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/jauwairia-nasir/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/jennifer-k-olsen/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/joao-dias/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/konrad-zolna/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/kshitij-sharma/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/laila-el-hamamsy/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2019-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/louis-p-faucon/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/lukasz-kidzinski/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2019-magnet/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/maximilian-j-wessel/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/meruyert-omarova/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/mirjam-de-haas/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/morgane-chevalier/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/shahmoradi-2019-orchestration/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/pablo-maceira-elvira/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/nasir-2019-robot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2019-robots/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/sina-shahmoradi/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/sonia-andersen/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/stian-haklev/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/yadollahi-studying-2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/severin-lemaignan/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/zolna-2019-dynamics/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2019-tip/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/utku-norman/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/nccr_id2019/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/carole-adam/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/damien-pellier/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/humbert-fiorino/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/sylvie-pesty/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/affective-computing/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/engagement/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/stylebot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/cellulo/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/cowriting_kazakh/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/handwriting/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/fyv/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/haptic/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/home-assistant/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/learning-companion/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/moca/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/r4l/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/robots4learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/styles/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/swarm/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/tangible-robot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/visitors/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/contact/</loc>
+    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/people/</loc>
+    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/active/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/applied-machine-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/caio/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/caio/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
@@ -110,7 +942,168 @@
   </url>
   
   <url>
-    <loc>https://CHRI-Lab.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>https://CHRI-Lab.github.io/tag/co-writer/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/cse-honours/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/daisy-ingle/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/duc-luong-ong/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/experiment/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/fyv_2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/hri/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/human_action_recognition/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/post/</loc>
+    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/machine-learning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/michael-odea/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/oltan-sevinc/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/phd/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/position/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/reasoning/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/event/</loc>
+    <lastmod>2020-12-29T00:00:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/ros/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/social-hri/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/tip_2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/h-swarm_2020/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/tangible_online/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/tangible-interfaces/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/terry-agapitos/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/user-experiments/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/prospective/undergrad/voice-robot/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/voice-assistant/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/wafa-johal/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/yu-carson-liu/</loc>
+    <lastmod>2021-01-04T09:12:03+11:00</lastmod>
   </url>
   
 </urlset>

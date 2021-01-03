@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 | Computational Human Robot Interaction Lab</title>
+    <title>1 | computational human-robot interaction lab</title>
     <link>https://CHRI-Lab.github.io/publication-type/1/</link>
       <atom:link href="https://CHRI-Lab.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,17 +13,123 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://CHRI-Lab.github.io/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>Domestic Drones: Context of Use in Research Literature</title>
+      <link>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
+      <link>https://CHRI-Lab.github.io/publication/neto-using-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
+      <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
+      <link>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
+      <link>https://CHRI-Lab.github.io/publication/yadollahi-2020-exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/yadollahi-2020-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning By Collaborative Teaching: An Engaging Multi-Party CoWriter Activity</title>
+      <link>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Symmetry with Tangible Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-learning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?</title>
+      <link>https://CHRI-Lab.github.io/publication/nasir-2019-robot/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/nasir-2019-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning-R4L: Adaptive Learning</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-robots/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
+      <link>https://CHRI-Lab.github.io/publication/yadollahi-studying-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/yadollahi-studying-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2019-tip/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2019-tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
     </item>
     
   </channel>
