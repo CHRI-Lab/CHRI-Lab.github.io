@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tangible-interfaces | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/tangible-interfaces/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/tangible-interfaces/index.xml" rel="self" type="application/rss+xml" />
+    <description>tangible-interfaces</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>tangible-interfaces</title>
+      <link>https://CHRI-Lab.github.io/tag/tangible-interfaces/</link>
+    </image>
+    
+    <item>
+      <title>Tangible e-Ink Paper Interfaces for Learners</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/tip_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/tip_2020/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/tip.png&#34; alt=&#34;FYV&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;While digital tools are more and more used in classrooms, teachers&#39; common practice remains to use photocopied paper documents to share and collect learning exercises from their students.
+With the Tangible e-Ink Paper (TIP) system, we aim to explore the use of tangible manipulatives interacting with paper sheets as a bridge between digital and paper traces of learning.
+Featuring an e-Ink display, a paper-based localisation system and a wireless connection, TIPs are envisioned to be used as a versatile tool across various curriculum activities.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Literature Review on Tangible UI (TUI) in Education&lt;/li&gt;
+&lt;li&gt;Implement and test a proof of concept of TIPs for learning&lt;/li&gt;
+&lt;li&gt;Assemble 3 TIPs (3D printing of parts, soldering, etc.)&lt;/li&gt;
+&lt;li&gt;Install libraries on Rasberry PI ( e.g. libdots - used for self-paper-based localisation, bluetooth communication)&lt;/li&gt;
+&lt;li&gt;Develop two demo applications using TIPs for
+&lt;ul&gt;
+&lt;li&gt;individual work (on A4 sheet of paper)&lt;/li&gt;
+&lt;li&gt;collaborative work (on min A2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Tangible User Interfaces, HCI&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites-and-learning-outcomes&#34;&gt;Prerequisites and Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Javascript, Python or C++. Git.&lt;/li&gt;
+&lt;li&gt;Qt, Rasberry Pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/271833/files/paper.pdf&#34;&gt;https://infoscience.epfl.ch/record/271833/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/224129/files/paper.pdf&#34;&gt;https://infoscience.epfl.ch/record/224129/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&#34;&gt;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

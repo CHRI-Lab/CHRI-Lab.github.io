@@ -1,0 +1,2234 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Wafa Johal">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Tangible Haptic-Enabled Swarm for Learners">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/project/cellulo/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.1b009c1db8937cbc8dcbb39852f5839a.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://CHRI-Lab.github.io/project/cellulo/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="computational human-robot interaction lab">
+  <meta property="og:url" content="https://CHRI-Lab.github.io/project/cellulo/">
+  <meta property="og:title" content="Cellulo | computational human-robot interaction lab">
+  <meta property="og:description" content="Tangible Haptic-Enabled Swarm for Learners"><meta property="og:image" content="https://CHRI-Lab.github.io/project/cellulo/featured.jpg">
+  <meta property="twitter:image" content="https://CHRI-Lab.github.io/project/cellulo/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-04T09:41:50&#43;11:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://CHRI-Lab.github.io/project/cellulo/"
+  },
+  "headline": "Cellulo",
+  
+  "image": [
+    "https://CHRI-Lab.github.io/project/cellulo/featured.jpg"
+  ],
+  
+  "datePublished": "2016-04-27T00:00:00Z",
+  "dateModified": "2021-01-04T09:41:50+11:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Wafa Johal"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "UNSW",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Tangible Haptic-Enabled Swarm for Learners"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Cellulo | computational human-robot interaction lab</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/prospective"><span>Prospective Collaborators</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Cellulo</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://ayberkozgur.com" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Ayberk Ozgur
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/hala.khodr?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Hala Khodr
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/arzu.guneysu?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Arzu Guneysu
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/francesco.mondada?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Francesco Mondada
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/pierre.dillenbourg?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Pierre Dillenbourg
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 421px;">
+  <div style="position: relative">
+    <img src="/project/cellulo/featured_hucaaa80ec4b520baa6d2da9176561fc8e_3058760_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by Dinesh Dillenbourg</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/zv6nDMQCWCo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/g_7glQmTIVo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/s3KAoQNUPZs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/cellulo/">cellulo</a>
+  
+  <a class="badge badge-light" href="/tag/tangible-robot/">tangible robot</a>
+  
+  <a class="badge badge-light" href="/tag/swarm/">swarm</a>
+  
+  <a class="badge badge-light" href="/tag/haptic/">haptic</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://CHRI-Lab.github.io/project/cellulo/&amp;text=Cellulo" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://CHRI-Lab.github.io/project/cellulo/&amp;t=Cellulo" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Cellulo&amp;body=https://CHRI-Lab.github.io/project/cellulo/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://CHRI-Lab.github.io/project/cellulo/&amp;title=Cellulo" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Cellulo%20https://CHRI-Lab.github.io/project/cellulo/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://CHRI-Lab.github.io/project/cellulo/&amp;title=Cellulo" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/wafa-johal/"><img class="avatar mr-3 avatar-circle" src="/author/wafa-johal/avatar_hu8404763777c2f6efbc3dc935d7fb67b4_5412_270x270_fill_q75_lanczos_center.jpg" alt="Wafa Johal"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/wafa-johal/">Wafa Johal</a></h5>
+      <h6 class="card-subtitle">Lecturer at the School of Computer Science and Engineering</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:wafa.johal@unsw.edu.au" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/WafaJohal" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.fr/citations?user=GR9bAl0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/wafajohal" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/prospective/undergrad/h-swarm_2020/">Tangible Human Swarm Interaction</a></li>
+      
+      <li><a href="/publication/neto-using-2020/">Using Tabletop Robots to promote Inclusive Classroom Experiences</a></li>
+      
+      <li><a href="/prospective/undergrad/tangible_online/">Tangible Robots for Collaborative Online Learning</a></li>
+      
+      <li><a href="/prospective/undergrad/voice-robot/">Voice for ROS</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/neto-using-2020/" >Using Tabletop Robots to promote Inclusive Classroom Experiences</a>
+    </h3>
+
+    
+    <a href="/publication/neto-using-2020/"  class="summary-link">
+      <div class="article-style">
+        Geometry and handwriting rely heavily on the visual representation of basic shapes. It can become challenging for students with visual …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/isabel-neto/">Isabel Neto</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/marta-couto/">Marta Couto</a></span>, <span >
+      <a href="/author/hugo-nicolau/">Hugo Nicolau</a></span>, <span >
+      <a href="/author/ana-paiva/">Ana Paiva</a></span>, <span >
+      <a href="/author/arzu-guneysu/">Arzu Guneysu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://wafa.johal.org/files/papers/cellulo_IDC20_inclusiveLearning.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/neto-using-2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/neto-using-2020/" >
+      <img src="/publication/neto-using-2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_b5c835540b11b3ce7c852dbdc8056aa4.jpg" data-src="/publication/neto-using-2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_150x0_resize_q75_lanczos.jpg" alt="Using Tabletop Robots to promote Inclusive Classroom Experiences" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/guneysu-ozgur-gamified-2020/" >Gamified Motor Training with Tangible Robots in Older Adults: a Feasibility Study and Comparison with Young</a>
+    </h3>
+
+    
+    <a href="/publication/guneysu-ozgur-gamified-2020/"  class="summary-link">
+      <div class="article-style">
+        Background: The increasing lifespan and the resulting change of our expectations in later life stages are dependent on a good health …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/arzu-guneysu-ozgur/">Arzu Guneysu Ozgur</a></span>, <span >
+      <a href="/author/maximilian-jonas-wessel/">Maximilian Jonas Wessel</a></span>, <span >
+      <a href="/author/jennifer-kaitlyn-olsen/">Jennifer Kaitlyn Olsen</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/ayberk-ozgur/">Ayberk Özgür</a></span>, <span >
+      <a href="/author/friedhelm-c.-hummel/">Friedhelm C. Hummel</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/fnagi.2020.00059/abstract" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/guneysu-ozgur-gamified-2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fnagi.2020.00059" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/guneysu-ozgur-iterative-2020/" >Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</a>
+    </h3>
+
+    
+    <a href="/publication/guneysu-ozgur-iterative-2020/"  class="summary-link">
+      <div class="article-style">
+        In this article, we investigate the role of interactive haptic-enabled tangible robots in supporting the learning of cursive letter …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/arzu-guneysu-ozgur/">Arzu Guneysu Ozgur</a></span>, <span >
+      <a href="/author/ayberk-ozgur/">Ayberk Özgür</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/elmira-yadollahi/">Elmira Yadollahi</a></span>, <span >
+      <a href="/author/barbara-bruno/">Barbara Bruno</a></span>, <span >
+      <a href="/author/melissa-skweres/">Melissa Skweres</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/frobt.2020.00029/full?utm_source=FRN&amp;utm_medium=EMAIL_IRIS&amp;utm_campaign=EMI_FRN_ARTICLEPUBLISHED_FOLLOWERS&amp;utm_content=ARTICLE_TITLE" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/guneysu-ozgur-iterative-2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3389/frobt.2020.00029" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/johal-2019-learning/" >Learning Symmetry with Tangible Robots</a>
+    </h3>
+
+    
+    <a href="/publication/johal-2019-learning/"  class="summary-link">
+      <div class="article-style">
+        Robots bring a new potential for embodied learning in classrooms. With our project, we aim to ease the task for teachers and to show …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/sonia-andersen/">Sonia Andersen</a></span>, <span >
+      <a href="/author/morgane-chevalier/">Morgane Chevalier</a></span>, <span >
+      <a href="/author/ayberk-ozgur/">Ayberk Özgür</a></span>, <span >
+      <a href="/author/francesco-mondada/">Francesco Mondada</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/cellulo_RiE19_symmetry.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/johal-2019-learning/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/johal-2019-learning/" >
+      <img src="/publication/johal-2019-learning/featured_huf6c222509c2661815d23d01715615ce8_44111_a5e67e9c1b203174760d012ce09421b2.jpg" data-src="/publication/johal-2019-learning/featured_huf6c222509c2661815d23d01715615ce8_44111_150x0_resize_q75_lanczos.jpg" alt="Learning Symmetry with Tangible Robots" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/ozgur-2019-magnet/" >Magnet-assisted ball drive</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/ayberk-ozgur/">Ayberk Özgür</a></span>, <span >
+      <a href="/author/severin-lemaignan/">Séverin Lemaignan</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/francesco-mondada/">Francesco Mondada</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ozgur-2019-magnet/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/nasir-2019-robot/" >Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?</a>
+    </h3>
+
+    
+    <a href="/publication/nasir-2019-robot/"  class="summary-link">
+      <div class="article-style">
+        In this paper, we propose that the data generated by educational robots can be better used by applying learning analytics methods and …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/jauwairia-nasir/">Jauwairia Nasir</a></span>, <span >
+      <a href="/author/utku-norman/">Utku Norman</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/jennifer-kaitlyn-olsen/">Jennifer Kaitlyn Olsen</a></span>, <span >
+      <a href="/author/sina-shahmoradi/">Sina Shahmoradi</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/robot-analytics.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/nasir-2019-robot/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/nasir-2019-robot/" >
+      <img src="/publication/nasir-2019-robot/featured_hu9bab20f25902bd9db884ac39e82121a8_268847_169869ee27d6594bc200a56c9676f271.png" data-src="/publication/nasir-2019-robot/featured_hu9bab20f25902bd9db884ac39e82121a8_268847_150x0_resize_lanczos_2.png" alt="Robot Analytics: What Do Human-Robot Interaction Traces Tell Us About Learning?" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/johal-2019-tip/" >TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration</a>
+    </h3>
+
+    
+    <a href="/publication/johal-2019-tip/"  class="summary-link">
+      <div class="article-style">
+        While digital tools are more and more used in classrooms, teachers’ common practice remain to use photocopied documents to share and …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/alex-tran/">Alex Tran</a></span>, <span >
+      <a href="/author/hala-khodr/">Hala Khodr</a></span>, <span >
+      <a href="/author/aykerk-ozgur/">Aykerk Ozgur</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/tip.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/johal-2019-tip/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/johal-2019-tip/" >
+      <img src="/publication/johal-2019-tip/featured_hu680e8b89a0cb3f2ccfb91ee60b3b8bb1_52221_1032a72fa7e902cb45bbe73e6049cb93.png" data-src="/publication/johal-2019-tip/featured_hu680e8b89a0cb3f2ccfb91ee60b3b8bb1_52221_150x0_resize_lanczos_2.png" alt="TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/ozgur-2019-towards/" >Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</a>
+    </h3>
+
+    
+    <a href="/publication/ozgur-2019-towards/"  class="summary-link">
+      <div class="article-style">
+        A key feature of a successful game is its ability to provide the player with an adequate level of challenge. However, the objective of …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/arzu-guneysu-ozgur/">Arzu Guneysu Ozgur</a></span>, <span >
+      <a href="/author/louis-p-faucon/">Louis P Faucon</a></span>, <span >
+      <a href="/author/pablo-maceira-elvira/">Pablo Maceira-Elvira</a></span>, <span >
+      <a href="/author/maximilian-j-wessel/">Maximilian J Wessel</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/ayberk-ozgur/">Ayberk Özgür</a></span>, <span >
+      <a href="/author/andeol-cadic-melchior/">Andéol Cadic-Melchior</a></span>, <span >
+      <a href="/author/friedhelm-c-hummel/">Friedhelm C Hummel</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/papers/cellulo_icorr2019.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/ozgur-2019-towards/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/ICORR.2019.8779429" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/ozgur-2019-towards/" >
+      <img src="/publication/ozgur-2019-towards/featured_hu9e6541a18f63cdf9d72267f0ac5b9783_31890_e0eff3a851934fa9b106c3c6db817f19.png" data-src="/publication/ozgur-2019-towards/featured_hu9e6541a18f63cdf9d72267f0ac5b9783_31890_150x0_resize_lanczos_2.png" alt="Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © Research Group in HRI at CSE UNSW
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.1521bbf8c12bfed32e2e1938f0a7fc26.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

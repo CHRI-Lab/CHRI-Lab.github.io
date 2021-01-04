@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>caio | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/caio/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/caio/index.xml" rel="self" type="application/rss+xml" />
+    <description>caio</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>caio</title>
+      <link>https://CHRI-Lab.github.io/tag/caio/</link>
+    </image>
+    
+    <item>
+      <title>CAIO</title>
+      <link>https://CHRI-Lab.github.io/project/caio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/caio/</guid>
+      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
+so, they have to be able to reason about the users’ and their environment. During my PhD, I have
+been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
+Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
+showed promising results in modeling cognitive processes and specifically allowing decision making
+based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
+reflexes.&lt;/p&gt;
+&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
+CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
+learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
+between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
+understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
+correct them; or the robot could even create misunderstandings to enhance learning (by fostering
+questioning).
+Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
+via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
+been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
+path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

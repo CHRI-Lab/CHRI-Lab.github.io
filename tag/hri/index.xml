@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hri | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/hri/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/hri/index.xml" rel="self" type="application/rss+xml" />
+    <description>hri</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>hri</title>
+      <link>https://CHRI-Lab.github.io/tag/hri/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Social Interaction Modelling</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;The field of social human-robot interaction is growing.
+Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
+Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which multi-modal features can be transferable from HH to HR setups?&lt;/li&gt;
+&lt;li&gt;Are there common features that discriminate human behaviour in HH or HR scenarios (e.g. &amp;lsquo;Do people speak less or slower with robots?&amp;rsquo; &amp;hellip; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore datasets (PinSoRo, MHHRI and P2PSTORY): type of data (video; audio, point cloud), available labels and annotation &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Extract relevant features multimodal on each dataset&lt;/li&gt;
+&lt;li&gt;Evaluate predictive models for each dataset (i.e. engagement)&lt;/li&gt;
+&lt;li&gt;Explore transfer learning from one dataset to another&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also potential to use UNSW’s National Facility for Human-Robot Interaction Research to create a new dataset.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Machine Learning, Human-Robot Interaction&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

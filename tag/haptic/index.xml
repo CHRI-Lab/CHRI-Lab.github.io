@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haptic | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/haptic/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/haptic/index.xml" rel="self" type="application/rss+xml" />
+    <description>haptic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>haptic</title>
+      <link>https://CHRI-Lab.github.io/tag/haptic/</link>
+    </image>
+    
+    <item>
+      <title>Cellulo</title>
+      <link>https://CHRI-Lab.github.io/project/cellulo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/cellulo/</guid>
+      <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zv6nDMQCWCo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/g_7glQmTIVo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s3KAoQNUPZs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

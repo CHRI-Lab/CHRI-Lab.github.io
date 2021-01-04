@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaborative learning | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/collaborative-learning/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/collaborative-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>collaborative learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>collaborative learning</title>
+      <link>https://CHRI-Lab.github.io/tag/collaborative-learning/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tangible Robots for Collaborative Online Learning</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/tangible_online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/tangible_online/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/cellulo.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
+&lt;p&gt;Online learning  presents several advantages: decreasing cost, allowing more flexibility and access to far away training resources. However, studies have found that it also limits communications between peers and teachers, limits physical interactions and that it requires a big commitment on the student&amp;rsquo;s part to plan and stay assiduous in their learning.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;In this project, we aim to design and test a novel way to engage students in collaborative online learning by using haptic enabled tangible robots.
+The project will consist in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;developing a tool allowing the design of online activities for two or more robots to be connected&lt;/li&gt;
+&lt;li&gt;implementing a demonstrator for this new library that will embed a series of small exercises hilightling the new capability of remote haptic-assisted collaboration&lt;/li&gt;
+&lt;li&gt;evaluating the demonstrator with a user experiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;HCI, Haptics, Robot, Collaborative Work (Training/Gaminig)&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: C++, Js,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/JXBHFMBC&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/JXBHFMBC&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Schneider, B., Jermann, P., Zufferey, G., &amp;amp; Dillenbourg, P. (2011). Benefits of a Tangible Interface for Collaborative Learning and Interaction. IEEE Transactions on Learning Technologies, 4(3), 222–232. &lt;a href=&#34;https://doi.org/10.1109/TLT.2010.36&#34;&gt;https://doi.org/10.1109/TLT.2010.36&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Asselborn, T., Guneysu, A., Mrini, K., Yadollahi, E., Ozgur, A., Johal, W., &amp;amp; Dillenbourg, P. (2018). Bringing letters to life: Handwriting with haptic-enabled tangible robots. Proceedings of the 17th ACM Conference on Interaction Design and Children, 219–230.&lt;/li&gt;
+&lt;li&gt;East, B., DeLong, S., Manshaei, R., Arif, A., &amp;amp; Mazalek, A. (2016). Actibles: Open Source Active Tangibles. Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces, 469–472. &lt;a href=&#34;https://doi.org/10.1145/2992154.2996874&#34;&gt;https://doi.org/10.1145/2992154.2996874&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2019a). RoboGraphics: Dynamic Tactile Graphics Powered by Mobile Robots. The 21st International ACM SIGACCESS Conference on Computers and Accessibility, 318–328. &lt;a href=&#34;https://doi.org/10.1145/3308561.3353804&#34;&gt;https://doi.org/10.1145/3308561.3353804&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2019b). RoboGraphics: Using Mobile Robots to Create Dynamic Tactile Graphics. The 21st International ACM SIGACCESS Conference on Computers and Accessibility, 673–675. &lt;a href=&#34;https://doi.org/10.1145/3308561.3354597&#34;&gt;https://doi.org/10.1145/3308561.3354597&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guinness, D., Muehlbradt, A., Szafir, D., &amp;amp; Kane, S. K. (2018). The Haptic Video Player: Using Mobile Robots to Create Tangible Video Annotations. Proceedings of the 2018 ACM International Conference on Interactive Surfaces and Spaces, 203–211. &lt;a href=&#34;https://doi.org/10.1145/3279778.3279805&#34;&gt;https://doi.org/10.1145/3279778.3279805&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Guneysu, A., Johal, W., Ozgur, A., &amp;amp; Dillenbourg, P. (2018). Tangible Robots Mediated Collaborative Rehabilitation Design: Can we Find Inspiration from Scripting Collaborative Learning? Workshop on Robots for Learning R4L HRI2018.&lt;/li&gt;
+&lt;li&gt;Guneysu Ozgur, A., Wessel, M. J., Johal, W., Sharma, K., Ozgur, A., Vuadens, P., Mondada, F., Hummel, F. C., &amp;amp; Dillenbourg, P. (2018). Iterative design of an upper limb rehabilitation game with tangible robots. Proceedings of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, 241–250.&lt;/li&gt;
+&lt;li&gt;Guneysu Ozgur, A., Wessel, M. J., Olsen, J. K., Johal, W., Özgür, A., Hummel, F. C., &amp;amp; Dillenbourg, P. (2020). Gamified Motor Training with Tangible Robots in Older Adults: A Feasibility Study and Comparison with Young. Frontiers in Aging Neuroscience, 12. &lt;a href=&#34;https://doi.org/10.3389/fnagi.2020.00059&#34;&gt;https://doi.org/10.3389/fnagi.2020.00059&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ishii, H., &amp;amp; Ullmer, B. (1997). Tangible Bits: Towards Seamless Interfaces Between People, Bits and Atoms. Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems, 234–241. &lt;a href=&#34;https://doi.org/10.1145/258549.258715&#34;&gt;https://doi.org/10.1145/258549.258715&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Johal, W., Tran, A., Khodr, H., Özgür, A., &amp;amp; Dillenbourg, P. (2019). TIP: Tangible e-Ink Paper Manipulatives for Classroom Orchestration. Proceedings of the 31st Australian Conference on Human-Computer-Interaction, 595–598. &lt;a href=&#34;https://doi.org/10.1145/3369457.3369539&#34;&gt;https://doi.org/10.1145/3369457.3369539&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Loparev, A., Westendorf, L., Flemings, M., Cho, J., Littrell, R., Scholze, A., &amp;amp; Shaer, O. (2017). BacPack: Exploring the Role of Tangibles in a Museum Exhibit for Bio-Design. Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction, 111–120. &lt;a href=&#34;https://doi.org/10.1145/3024969.3025000&#34;&gt;https://doi.org/10.1145/3024969.3025000&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Okerlund, J., Shaer, O., &amp;amp; Latulipe, C. (2016). Teaching Computational Thinking Through Bio-Design (Abstract Only). Proceedings of the 47th ACM Technical Symposium on Computing Science Education, 698. &lt;a href=&#34;https://doi.org/10.1145/2839509.2850569&#34;&gt;https://doi.org/10.1145/2839509.2850569&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;O’Malley, C., &amp;amp; Fraser, D. S. (2004). Literature review in learning with tangible technologies.&lt;/li&gt;
+&lt;li&gt;Ozgur, A. G., Wessel, M. J., Asselborn, T., Olsen, J. K., Johal, W., Özgür, A., Hummel, F. C., &amp;amp; Dillenbourg, P. (2019). Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories? 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 5326–5330. &lt;a href=&#34;https://doi.org/10.1109/EMBC.2019.8857508&#34;&gt;https://doi.org/10.1109/EMBC.2019.8857508&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ozgur, A., Johal, W., Mondada, F., &amp;amp; Dillenbourg, P. (2017). Haptic-enabled handheld mobile robots: Design and analysis. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems, 2449–2461.&lt;/li&gt;
+&lt;li&gt;Ozgur, A., Lemaignan, S., Johal, W., Beltran, M., Briod, M., Pereyre, L., Mondada, F., &amp;amp; Dillenbourg, P. (2017). Cellulo: Versatile handheld robots for education. 2017 12th ACM/IEEE International Conference on Human-Robot Interaction (HRI, 119–127.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

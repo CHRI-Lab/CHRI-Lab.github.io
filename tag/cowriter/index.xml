@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cowriter | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/cowriter/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/cowriter/index.xml" rel="self" type="application/rss+xml" />
+    <description>cowriter</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>cowriter</title>
+      <link>https://CHRI-Lab.github.io/tag/cowriter/</link>
+    </image>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>https://CHRI-Lab.github.io/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behavioural Analysis in HRI</title>
+      <link>https://CHRI-Lab.github.io/project/engagement/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/engagement/</guid>
+      <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
+metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
+&lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
+research domain, is starting to seek for reproducibility [10]; a consensus begins to appear concerning
+common measures that can be used across a wide range of studies. In social HRI, the evaluation of
+the quality of an interaction is complex because it is very task dependent. However, certain metrics
+such as engagement seem to well reflect the quality of interactions between a robot agent and the
+human.&lt;/p&gt;
+&lt;p&gt;One aspect of acceptability of a robot is the home environment in which it is to be able to perceive when it will be
+solicited. The goal for the robot is to not disturb the user and to be able to predict that it will be solicited. This is
+something we do all the time as humans (we can see a street vendor approaching us and we know they will talk
+to us). The process for us human relies on proxemics (speed and angle of approach) but not only.&lt;/p&gt;
+&lt;p&gt;In my work on modeling engagement [11, 12], I used multi-modal data to train a SVM to detect engagement. We&lt;/p&gt;
+&lt;p&gt;collected data from various sensors embedded in the Kompai robot and reduced the number of crucial features
+from 32 to 7. Interestingly shoulder orientation and position of the face in the image are among these crucial
+features. If we transpose these features to what humans do, these features seem coherent with behavioral
+analysis.
+The previous model aimed to predict the engagement, but once the user is engaged, it is important to evaluate its
+attitude and mood. Using the COST and HAART dataset, we trained a model to detect social touch. Together with
+colleagues, we won the Social Touch Challenge at ICMI 2015 improving the gestures recognition from 60% accuracy
+to 70% training a Random Forest Model. [13]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh</title>
+      <link>https://CHRI-Lab.github.io/project/cowriting_kazakh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/cowriting_kazakh/</guid>
+      <description>&lt;p&gt;Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.&lt;/p&gt;
+&lt;p&gt;Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.&lt;/p&gt;
+&lt;p&gt;The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.&lt;/p&gt;
+&lt;p&gt;With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &amp;ldquo;CoWriting Kazakh&amp;rdquo; child-robot interaction activity.&lt;/p&gt;
+&lt;p&gt;The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Pens</title>
+      <link>https://CHRI-Lab.github.io/project/handwriting/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/handwriting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

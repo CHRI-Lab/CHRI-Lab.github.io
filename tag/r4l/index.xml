@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r4l | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/r4l/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/r4l/index.xml" rel="self" type="application/rss+xml" />
+    <description>r4l</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>r4l</title>
+      <link>https://CHRI-Lab.github.io/tag/r4l/</link>
+    </image>
+    
+    <item>
+      <title>Robots for Learning (R4L)</title>
+      <link>https://CHRI-Lab.github.io/project/robots4learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/robots4learning/</guid>
+      <description>&lt;p&gt;With the increasing number of engineering jobs, politics have more recently turned towards introduction of
+engineering subjects in early stages of curricula. More and more countries have started to introduce programming
+(and even robotics) to young children. However, this constitutes a real challenge for the teaching
+professionals, who are not trained for that, and are often skeptical to use new technologies in classrooms.
+Hence, the challenge is to introduce robots as tools to be used not only in programming or robotics
+based courses, but in the whole curricula in order to make them attractive to teachers as a pedagogical
+tool.
+”Educational robotics” does not really constitute a research community per say. On one hand, there are scholars
+working on ”how to teach robotics” using robotics platforms such as Thymio and Mindstorms. Some scholars
+perform research in this domain (for example, measuring which learning activities produce faster learning), but
+their numbers are scarce, they typically meet in half-day workshops before ed’tech conferences (CSCL, AI&amp;amp;Ed, ….).
+On the other hand, one finds scholars who mainly do research on HRI and consider education as an interesting
+place for testing child-robot interactions.
+I launched in 2016 a series of workshops to build a Robots for Learning (R4L) research community. The first event
+was a workshop, along with the RoMan 2016 conference. The event gathered 30 participants from all around the
+world. The second event was a workshop along the HRI 2017 conference in Vienna, Austria, with 60 participants
+and 10 presentations. This fall, we hosted the first stand alone event, in Switzerland, for which we invited main
+actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
+mix scientists from field of robotics with those from digital education and learning technologies (See
+&lt;a href=&#34;http://robots4learning.wordpress.com&#34;&gt;http://robots4learning.wordpress.com&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>active | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/active/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/active/index.xml" rel="self" type="application/rss+xml" />
+    <description>active</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>active</title>
+      <link>https://CHRI-Lab.github.io/tag/active/</link>
+    </image>
+    
+    <item>
+      <title>Robot Writing</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
+&lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to control the Fetch Robot arm given a series of handwriting strokes&lt;/li&gt;
+&lt;li&gt;Explore the use of different methods for the robot to learn letter writing from demonstrations&lt;/li&gt;
+&lt;li&gt;Evaluate the implemented method compare to other state of the art methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;ROS, Learning by Demonstration, Robotics, Handwriting&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

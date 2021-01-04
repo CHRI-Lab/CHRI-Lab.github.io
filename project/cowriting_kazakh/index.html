@@ -1,0 +1,1617 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Wafa Johal">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A social robot to help the transition from Cyrillic to Latin alphabet in Kazakhstan">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/project/cowriting_kazakh/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.1b009c1db8937cbc8dcbb39852f5839a.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://CHRI-Lab.github.io/project/cowriting_kazakh/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="computational human-robot interaction lab">
+  <meta property="og:url" content="https://CHRI-Lab.github.io/project/cowriting_kazakh/">
+  <meta property="og:title" content="CoWriting Kazakh | computational human-robot interaction lab">
+  <meta property="og:description" content="A social robot to help the transition from Cyrillic to Latin alphabet in Kazakhstan"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-04T09:41:50&#43;11:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://CHRI-Lab.github.io/project/cowriting_kazakh/"
+  },
+  "headline": "CoWriting Kazakh",
+  
+  "datePublished": "2016-04-27T00:00:00Z",
+  "dateModified": "2021-01-04T09:41:50+11:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Wafa Johal"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "UNSW",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "A social robot to help the transition from Cyrillic to Latin alphabet in Kazakhstan"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>CoWriting Kazakh | computational human-robot interaction lab</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/prospective"><span>Prospective Collaborators</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>CoWriting Kazakh</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://research.nu.edu.kz/en/persons/anara-sandygulova" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Anara Sandygulova
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/thibault.asselborn?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Thibault Asselborn
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://people.epfl.ch/pierre.dillenbourg?lang=en" target="_blank" rel="noopener">
+    <i class="fas fa-user mr-1"></i>
+    Pierre Dillenbourg
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://unige-leadinghouse.ch/projetsarchives/cowriting-kazakh/" target="_blank" rel="noopener">
+    <i class="fas fa-hand-holding-usd mr-1"></i>
+    Funding Agency
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.</p>
+<p>Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.</p>
+<p>The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.</p>
+<p>With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &ldquo;CoWriting Kazakh&rdquo; child-robot interaction activity.</p>
+<p>The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.</p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/cowriter/">cowriter</a>
+  
+  <a class="badge badge-light" href="/tag/handwriting/">handwriting</a>
+  
+  <a class="badge badge-light" href="/tag/cowriting_kazakh/">cowriting_kazakh</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://CHRI-Lab.github.io/project/cowriting_kazakh/&amp;text=CoWriting%20Kazakh" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://CHRI-Lab.github.io/project/cowriting_kazakh/&amp;t=CoWriting%20Kazakh" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=CoWriting%20Kazakh&amp;body=https://CHRI-Lab.github.io/project/cowriting_kazakh/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://CHRI-Lab.github.io/project/cowriting_kazakh/&amp;title=CoWriting%20Kazakh" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=CoWriting%20Kazakh%20https://CHRI-Lab.github.io/project/cowriting_kazakh/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://CHRI-Lab.github.io/project/cowriting_kazakh/&amp;title=CoWriting%20Kazakh" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/wafa-johal/"><img class="avatar mr-3 avatar-circle" src="/author/wafa-johal/avatar_hu8404763777c2f6efbc3dc935d7fb67b4_5412_270x270_fill_q75_lanczos_center.jpg" alt="Wafa Johal"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/wafa-johal/">Wafa Johal</a></h5>
+      <h6 class="card-subtitle">Lecturer at the School of Computer Science and Engineering</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:wafa.johal@unsw.edu.au" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/WafaJohal" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.fr/citations?user=GR9bAl0AAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/wafajohal" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/hri2020_accepted/">[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</a></li>
+      
+      <li><a href="/project/handwriting/">Digital Pens</a></li>
+      
+      <li><a href="/post/hri2020_demo_award/">Best Demo Award at HRI 2020!</a></li>
+      
+      <li><a href="/publication/sandygulova-hri-2020/">CoWriting Kazakh: Learning a New Script with a Robot</a></li>
+      
+      <li><a href="/publication/guneysu-ozgur-iterative-2020/">Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+        <h2>Posts</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/hri2020_demo_award/" >Best Demo Award at HRI 2020!</a>
+    </h3>
+
+    
+    <a href="/post/hri2020_demo_award/"  class="summary-link">
+      <div class="article-style">
+        Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz http://humanrobotinteraction.org/2020/best-paper-awards/
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/sandygulova-hri-2020/" >CoWriting Kazakh: Learning a New Script with a Robot</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/anara-sandygulova/">Anara Sandygulova</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/zhanel-zhexenova/">Zhanel Zhexenova</a></span>, <span >
+      <a href="/author/bolat-tleubayev/">Bolat Tleubayev</a></span>, <span >
+      <a href="/author/aida-zhanatkyzy/">Aida Zhanatkyzy</a></span>, <span >
+      <a href="/author/aizada-turarova/">Aizada Turarova</a></span>, <span >
+      <a href="/author/zhansaule-telisheva/">Zhansaule Telisheva</a></span>, <span >
+      <a href="/author/anna-cohenmiller/">Anna CohenMiller</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sandygulova-hri-2020/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cowriting_kazakh/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/zhanel-hri-2020-video/" >CoWriting Kazakh: Learning a New Script with a Robot - Video </a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/zhanel-zhexenova/">Zhanel Zhexenova</a></span>, <span >
+      <a href="/author/bolat-tleubayev/">Bolat Tleubayev</a></span>, <span >
+      <a href="/author/aida-zhanatkyzy/">Aida Zhanatkyzy</a></span>, <span >
+      <a href="/author/aizada-turarova/">Aizada Turarova</a></span>, <span >
+      <a href="/author/zhansaule-telisheva/">Zhansaule Telisheva</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>, <span >
+      <a href="/author/anara-sandygulova/">Anara Sandygulova</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/zhanel-hri-2020-video/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cowriting_kazakh/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/zhanel-hri-2020-video/" >
+      <img src="/publication/zhanel-hri-2020-video/featured_hu72ecd29901ce9d29049d2ea9aa6ad63b_599925_3248d1017b6f291605689c66b60a2487.png" data-src="/publication/zhanel-hri-2020-video/featured_hu72ecd29901ce9d29049d2ea9aa6ad63b_599925_150x0_resize_lanczos_2.png" alt="CoWriting Kazakh: Learning a New Script with a Robot - Video " class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/kim-cowriting-2019/" >CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/anton-kim/">Anton Kim</a></span>, <span >
+      <a href="/author/meruyert-omarova/">Meruyert Omarova</a></span>, <span >
+      <a href="/author/adil-zhaksylyk/">Adil Zhaksylyk</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>, <span >
+      <a href="/author/anara-sandygulova/">Anara Sandygulova</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/kim-cowriting-2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/cowriting_kazakh/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © Research Group in HRI at CSE UNSW
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.1521bbf8c12bfed32e2e1938f0a7fc26.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

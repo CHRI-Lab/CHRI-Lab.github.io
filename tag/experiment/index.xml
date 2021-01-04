@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experiment | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/experiment/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <description>experiment</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>experiment</title>
+      <link>https://CHRI-Lab.github.io/tag/experiment/</link>
+    </image>
+    
+    <item>
+      <title>Persuasive Robots - Exploring Behavioural Styles</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
+Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
+Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
+&lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement behavioural styles for the Nao robot (voice and behaviour) and for a voice assistant (voice only)&lt;/li&gt;
+&lt;li&gt;Design at least two behaviour styles based on human behaviour and personality styles&lt;/li&gt;
+&lt;li&gt;Evaluate and compare these styles via experimentation&lt;/li&gt;
+&lt;li&gt;Design a scenario similar to the one described in paper [3]&lt;/li&gt;
+&lt;li&gt;Setup a data collection environment (posture, video and audio) in the HRI Lab facility of UNSW&lt;/li&gt;
+&lt;li&gt;Select appropriate tasks and/or questionnaires to measure engagement, trust and/or persuasion&lt;/li&gt;
+&lt;li&gt;Evaluate the system via an experiment with users&lt;/li&gt;
+&lt;li&gt;Complete the data analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Robotics, HRI, Psychology&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS and Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[1]https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14081257/Robots_social_impact_eng.pdf&lt;/li&gt;
+&lt;li&gt;[2] &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.721.279&amp;amp;rep=rep1&amp;amp;type=pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johal, W., Pesty, S., &amp;amp; Calvary, G. (2014, August). Towards companion robots behaving with style. In The 23rd IEEE International Symposium on Robot and Human Interactive Communication (pp. 1063-1068). IEEE.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[3] Bainbridge, W. A., Hart, J. W., Kim, E. S., &amp;amp; Scassellati, B. (2011). The benefits
+of interactions with physically present robots over video-displayed agents.
+International Journal of Social Robotics, 3(1), 41-52.&lt;/li&gt;
+&lt;li&gt;[4] Peters, R., Broekens, J., Li, K., &amp;amp; Neerincx, M. A. (2019, July). Robot Dominance Expression Through Parameter-based Behaviour Modulation. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (pp. 224-226). ACM.&lt;/li&gt;
+&lt;li&gt;[5] Shane Saunderson et al. It Would Make Me Happy if You Used My Guess: Comparing Robot Persuasive Strategies in Social Human–Robot Interaction, IEEE Robotics and Automation Letters (2019). DOI: 10.1109/LRA.2019.2897143&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

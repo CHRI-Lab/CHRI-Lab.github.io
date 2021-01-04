@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>moca | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/moca/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/moca/index.xml" rel="self" type="application/rss+xml" />
+    <description>moca</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>moca</title>
+      <link>https://CHRI-Lab.github.io/tag/moca/</link>
+    </image>
+    
+    <item>
+      <title>Behavioural Styles</title>
+      <link>https://CHRI-Lab.github.io/project/stylebot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/stylebot/</guid>
+      <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
+communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
+and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
+that these styles were perceptible and could influence the attitude of the child interacting with the
+robot[15, 16].
+More recently, we showed that idle movements (movements that have no communicative intention) when
+displayed by a humanoid robot increases the anthropomorphic perception of the robot by the user
+[17].
+These findings help in designing more natural interaction with humanoid robots, making them more acceptable
+and socially intelligent.
+Research Perspectives: We will be continuing research in this area working within the ANIMATAS EU project
+(starting in January 2018) on synchrony and how alignment can keep learners engaged in a collaborative task with a
+robot.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YH4ywpgM1OU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Xg49gsWKMLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

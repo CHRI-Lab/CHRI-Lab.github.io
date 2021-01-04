@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>affective computing | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/affective-computing/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/affective-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>affective computing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>affective computing</title>
+      <link>https://CHRI-Lab.github.io/tag/affective-computing/</link>
+    </image>
+    
+    <item>
+      <title>Behavioural Analysis in HRI</title>
+      <link>https://CHRI-Lab.github.io/project/engagement/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/engagement/</guid>
+      <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
+metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
+&lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
+research domain, is starting to seek for reproducibility [10]; a consensus begins to appear concerning
+common measures that can be used across a wide range of studies. In social HRI, the evaluation of
+the quality of an interaction is complex because it is very task dependent. However, certain metrics
+such as engagement seem to well reflect the quality of interactions between a robot agent and the
+human.&lt;/p&gt;
+&lt;p&gt;One aspect of acceptability of a robot is the home environment in which it is to be able to perceive when it will be
+solicited. The goal for the robot is to not disturb the user and to be able to predict that it will be solicited. This is
+something we do all the time as humans (we can see a street vendor approaching us and we know they will talk
+to us). The process for us human relies on proxemics (speed and angle of approach) but not only.&lt;/p&gt;
+&lt;p&gt;In my work on modeling engagement [11, 12], I used multi-modal data to train a SVM to detect engagement. We&lt;/p&gt;
+&lt;p&gt;collected data from various sensors embedded in the Kompai robot and reduced the number of crucial features
+from 32 to 7. Interestingly shoulder orientation and position of the face in the image are among these crucial
+features. If we transpose these features to what humans do, these features seem coherent with behavioral
+analysis.
+The previous model aimed to predict the engagement, but once the user is engaged, it is important to evaluate its
+attitude and mood. Using the COST and HAART dataset, we trained a model to detect social touch. Together with
+colleagues, we won the Social Touch Challenge at ICMI 2015 improving the gestures recognition from 60% accuracy
+to 70% training a Random Forest Model. [13]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Find Your Voice</title>
+      <link>https://CHRI-Lab.github.io/project/fyv/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/fyv/</guid>
+      <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
+Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
+One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
+To help children develop the ability to tell jokes with their peers, we propose leveraging a new interactive technology – voice assistant robots (e.g., Alexa), which have become increasingly affordable and commonplace in homes. These robots, which are portable and have lifelike voices, can model how to tell a joke and using voice recognition software, respond to the jokes that children tell. Children thus have unlimited opportunities for scaffolded practice and can receive timely feedback in a non-threatening environment before telling their jokes to family and friends. In addition to the accessibility and human-like verbal responses of voice assistant robots, robots can be customized to tell jokes that are appropriate for each child’s age, language, and culture. The goal of our project therefore is to enable children to improve their ‘joke telling’ skills by learning the intonation, timing, through interacting with a virtual assistants such as Alexa.
+Our research project will explore the feasibility of coding Alexa and other voice assistants to be able to respond and engage with children telling a diversity of jokes. Several aspects need to be taken into account when delivering a joke that children can imitate and practice with. We will look into how the timing and intonation will need to be evaluated from the audio recording in order to provide an adaptive feedback to the child training to deliver jokes. This feedback could be from both sides, the voice assistant robot helping the child in how telling jokes, or the child helping the assistant to improve how telling jokes. The final goal is, once the child has learnt how to tell jokes, to understand when and how will he/she be able to share the joke with their peers, and how long might this process take and how would we be able to tell they have become more confident.
+Finally, an engaging joke-telling learning scenario will need to be designed in order to train children for a long-term impact. Our project will also consider how this might materialize.  In the future, virtual assistants will be able to be designed to give encouraging feedback to the child as they interact with it. This could be verbal, visual or both. This feedback could encourage children for finding their voice. Based on the initial findings from the pilot project  we would like to develop a more extensive project proposal with the goal of investigating how to develop new interventions using the next generation of interactive robots, such as Olly, whose developers, we are also collaborating with (&lt;a href=&#34;https://heyolly.com/),&#34;&gt;https://heyolly.com/),&lt;/a&gt; that have more scope for providing customized feedback can be used.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Social Interaction Modelling</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;The field of social human-robot interaction is growing.
+Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
+Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which multi-modal features can be transferable from HH to HR setups?&lt;/li&gt;
+&lt;li&gt;Are there common features that discriminate human behaviour in HH or HR scenarios (e.g. &amp;lsquo;Do people speak less or slower with robots?&amp;rsquo; &amp;hellip; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore datasets (PinSoRo, MHHRI and P2PSTORY): type of data (video; audio, point cloud), available labels and annotation &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Extract relevant features multimodal on each dataset&lt;/li&gt;
+&lt;li&gt;Evaluate predictive models for each dataset (i.e. engagement)&lt;/li&gt;
+&lt;li&gt;Explore transfer learning from one dataset to another&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also potential to use UNSW’s National Facility for Human-Robot Interaction Research to create a new dataset.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Machine Learning, Human-Robot Interaction&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

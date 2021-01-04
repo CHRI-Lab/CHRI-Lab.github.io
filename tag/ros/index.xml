@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/ros/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/ros/index.xml" rel="self" type="application/rss+xml" />
+    <description>ROS</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>ROS</title>
+      <link>https://CHRI-Lab.github.io/tag/ros/</link>
+    </image>
+    
+    <item>
+      <title>Robot Writing</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/writing_2020/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
+&lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to control the Fetch Robot arm given a series of handwriting strokes&lt;/li&gt;
+&lt;li&gt;Explore the use of different methods for the robot to learn letter writing from demonstrations&lt;/li&gt;
+&lt;li&gt;Evaluate the implemented method compare to other state of the art methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;ROS, Learning by Demonstration, Robotics, Handwriting&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Voice for ROS</title>
+      <link>https://CHRI-Lab.github.io/prospective/undergrad/voice-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/prospective/undergrad/voice-robot/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1066/1*OCuPx7AmWofWptQdPN-TPA.png&#34; alt=&#34;robot-va&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A scenario, using tangible robots (Cellulo) combined with voice assistant for upper-arm rehabilitation will be implemented to show the potential of this new ros-package.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about Google DialogFlow and ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to access and manipulates DialogFlow features&lt;/li&gt;
+&lt;li&gt;Develop a Cellulo Rehabilitation Game&lt;/li&gt;
+&lt;li&gt;Test the game with a pilot experiment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Voice-Assistant, Human-Robot Interaction, ROS&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dialogflow.com/&#34;&gt;https://dialogflow.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ros.org/&#34;&gt;https://www.ros.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://wafa.johal.org/project/cellulo/&#34;&gt;http://wafa.johal.org/project/cellulo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hudson, C., Bethel, C. L., Carruth, D. W., Pleva, M., Juhar, J., &amp;amp; Ondas, S. (2017, October). A training tool for speech driven human-robot interaction applications. In 2017 15th International Conference on Emerging eLearning Technologies and Applications (ICETA) (pp. 1-6). IEEE.&lt;/li&gt;
+&lt;li&gt;Moore, R. K. (2017). Is spoken language all-or-nothing? Implications for future speech-based human-machine interaction. In Dialogues with Social Robots (pp. 281-291). Springer, Singapore.&lt;/li&gt;
+&lt;li&gt;Beirl, D., Yuill, N., &amp;amp; Rogers, Y. (2019). Using Voice Assistant Skills in Family Life. In Lund, K., Niccolai, G. P., Lavoué, E., Gweon, C. H., &amp;amp; Baker, M. (Eds.), A Wide Lens: Combining Embodied, Enactive, Extended, and Embedded Learning in Collaborative Settings, 13th International Conference on Computer Supported Collaborative Learning (CSCL) 2019, Volume 1 (pp. 96-103). Lyon, France: International Society of the Learning Sciences.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
