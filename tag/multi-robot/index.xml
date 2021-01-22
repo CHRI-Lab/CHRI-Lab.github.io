@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;multi-robot&#34; | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/multi-robot/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/multi-robot/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;multi-robot&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>&#34;multi-robot&#34;</title>
+      <link>https://CHRI-Lab.github.io/tag/multi-robot/</link>
+    </image>
+    
+    <item>
+      <title>Swarm Robots in Education: A Review of Challenges and Opportunities</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2020-swarm/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2020-swarm/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQZcoqR-wwo6cZBj55T4ZyLd5FPTBXon6Hsljqr3ytAA5nFJ7LSmlpq-O3_SVFwPVqqwO64yi3mk2eI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

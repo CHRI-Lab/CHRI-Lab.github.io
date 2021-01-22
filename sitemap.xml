@@ -9,7 +9,7 @@
   
   <url>
     <loc>https://CHRI-Lab.github.io/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url>
   
   <url>
@@ -18,13 +18,63 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/tag/anthropomorphism/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/human-likeness/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/perception-load/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robot-design/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/publication-type/1/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/authors/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/daisy-ingle/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/nadine-marcus/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication_types/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tags/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ingle-2021/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/wafa-johal/</loc>
+    <lastmod>2021-01-19T16:36:09+11:00</lastmod>
   </url>
   
   <url>
@@ -38,32 +88,12 @@
   </url>
   
   <url>
-    <loc>https://CHRI-Lab.github.io/tag/education/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://CHRI-Lab.github.io/author/mohammad-obaid/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/author/omar-mubin/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/publication_types/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/tags/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://CHRI-Lab.github.io/author/wafa-johal/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
@@ -123,8 +153,83 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/tag/3d-model/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/educational-tool/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/game/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/haptics/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/learning/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/literature-review/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/maps/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/multi-robot/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/non-visual-interaction/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/robots/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/spatial-cognition/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/swarm-robots/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/wayfinding/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/publication-type/2/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/chibaudel-2020/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/zhanel-2020/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -135,6 +240,11 @@
   <url>
     <loc>https://CHRI-Lab.github.io/tag/aging/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/aida-amirova/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -149,12 +259,12 @@
   
   <url>
     <loc>https://CHRI-Lab.github.io/author/anara-sandygulova/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/author/anna-cohenmiller/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -173,13 +283,23 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/bernard-oriola/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/bolat-tleubayev/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/author/caroline-jolly/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/christophe-jouffrais/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -190,6 +310,16 @@
   <url>
     <loc>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/d-archambault/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/d-cohen/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -220,6 +350,11 @@
   <url>
     <loc>https://CHRI-Lab.github.io/publication/guneysu-ozgur-gamified-2020/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/haipeng-mi/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -268,8 +403,28 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/kuanysh-kudaibergenov/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/laurence-casteran/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/m-chetouani/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/manshuk-abdikarimova/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/marc-j-m-mace/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -288,13 +443,28 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/nurakhmet-baimakhan/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/tag/occupational-thearpy/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/publication/gargot-2020-p/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/pierre-dillenbourg/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/quentin-chibaudel/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -318,6 +488,21 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/sm-anzalone/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2020-swarm/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/t-gargot/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/tag/tangible-robots/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
@@ -329,7 +514,7 @@
   
   <url>
     <loc>https://CHRI-Lab.github.io/author/thibault-asselborn/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -343,8 +528,23 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/valerie-tartas/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/w-johal/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/yu-peng/</loc>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/zhanel-zhexenova/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+    <lastmod>2021-01-16T20:38:54+11:00</lastmod>
   </url>
   
   <url>
@@ -439,6 +639,11 @@
   
   <url>
     <loc>https://CHRI-Lab.github.io/tag/control-group/</loc>
+    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/tag/education/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
   
@@ -793,8 +998,28 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/alyssa-m-alcorn/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/asselborn-2018-automated/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/carole-adam/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/chronis-kynigos/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -803,8 +1028,58 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2018-declarative/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/friedhelm-christoph-hummel/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/ginevra-castellano/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/hae-won-park/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/author/humbert-fiorino/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/guneysu-2018-iterative/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/james-kennedy/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/khalil-mrini/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/paul-baxter/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/philippe-vuadens/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2018-robots/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -813,8 +1088,103 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/publication/charisi-2018-near/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/vicky-charisi/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/yadollahi-2018-deictic/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication-type/4/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/alexis-david-jacq/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2017-cellulo/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/jacq-2017-expressing/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/fumihide-tanaka/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2017-haptic/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/asselborn-2017-keep/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/lea-pereyre/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/manon-briod/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/maria-beltran/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/paul-vogt/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/sandra-okita/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/tony-belpaeme/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2017-windfielddemo/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2017-windfield/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2017-workshop/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -873,11 +1243,6 @@
   </url>
   
   <url>
-    <loc>https://CHRI-Lab.github.io/project/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://CHRI-Lab.github.io/tag/r4l/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url>
@@ -908,13 +1273,198 @@
   </url>
   
   <url>
+    <loc>https://CHRI-Lab.github.io/author/alexis-jacq/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2016-child/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/claudine-combe/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/jacq-2016-cognitive/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/dominique-vaufreydaz/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/evgeniia-bonnet/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ozgur-2016-permanent/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/mondada-2016-r-2-t-2/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/riaan-stopforth/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/shaniel-davrajh/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/adam-2016-social/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/vaufreydaz-2016-starting/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication-type/7/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2015-cognitive/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2015-companion/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/eric-castelli/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/gaelle-calvary/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/maxime-portaz/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2015-non/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2015-robots/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/ta-2015-grenoble/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/viet-cuong-ta/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/wafa-benkaouar-johal/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2014-robot/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2014-acceptability/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/celine-jost/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2014-styles/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/dominique-duhaut/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2014-expressing/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2014-towards/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/adam-2013-acceptabilite/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/humbert-fiorono/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/ilef-ben-farhat/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/julie-dugdale/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/johal-2013-modelling/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/publication/benkaouar-2012-multi/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/author/wafa-benkaouar/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://CHRI-Lab.github.io/contact/</loc>
-    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
+    <lastmod>2020-12-16T13:17:36+11:00</lastmod>
   </url>
   
   <url>
     <loc>https://CHRI-Lab.github.io/people/</loc>
-    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
+    <lastmod>2020-12-16T13:17:36+11:00</lastmod>
   </url>
   
   <url>
@@ -983,7 +1533,7 @@
   
   <url>
     <loc>https://CHRI-Lab.github.io/post/</loc>
-    <lastmod>2020-12-02T19:26:55+00:00</lastmod>
+    <lastmod>2020-12-16T13:17:36+11:00</lastmod>
   </url>
   
   <url>
@@ -1019,6 +1569,11 @@
   <url>
     <loc>https://CHRI-Lab.github.io/tag/position/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://CHRI-Lab.github.io/project/</loc>
+    <lastmod>2021-01-04T11:53:57+11:00</lastmod>
   </url>
   
   <url>

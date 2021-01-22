@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khalil Mrini | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/author/khalil-mrini/</link>
+      <atom:link href="https://CHRI-Lab.github.io/author/khalil-mrini/index.xml" rel="self" type="application/rss+xml" />
+    <description>Khalil Mrini</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>Khalil Mrini</title>
+      <link>https://CHRI-Lab.github.io/author/khalil-mrini/</link>
+    </image>
+    
+    <item>
+      <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

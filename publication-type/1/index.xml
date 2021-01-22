@@ -5,7 +5,7 @@
     <link>https://CHRI-Lab.github.io/publication-type/1/</link>
       <atom:link href="https://CHRI-Lab.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -13,11 +13,23 @@
     </image>
     
     <item>
+      <title>The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load</title>
+      <link>https://CHRI-Lab.github.io/publication/ingle-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ingle-2021/</guid>
+      <description>&lt;a href=&#34;https://CHRI-Lab.github.io/files/papers/LBR_HRI2021_Anthropo_Load.pdf&#34; target=&#34;_blank&#34;&gt; PDF &lt;/a&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Domestic Drones: Context of Use in Research Literature</title>
       <link>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/obaid_hai_2020/</guid>
-      <description></description>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSn43ovcyD-23eboGn2c_2ss1gy5gCN2pac5N6QUUsxH10Br3WYeTBmYBvNqDZTS8sam8XaoxpIbHjB/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -25,6 +37,14 @@
       <link>https://CHRI-Lab.github.io/publication/neto-using-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>\&#34;If You&#39;ve Gone Straight, Now, You Must Turn Left\&#34; - Exploring the Use of a Tangible Interface in a Collaborative Treasure Hunt for People with Visual Impairments</title>
+      <link>https://CHRI-Lab.github.io/publication/chibaudel-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/chibaudel-2020/</guid>
       <description></description>
     </item>
     
@@ -53,6 +73,17 @@
     </item>
     
     <item>
+      <title>Swarm Robots in Education: A Review of Challenges and Opportunities</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2020-swarm/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2020-swarm/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vQZcoqR-wwo6cZBj55T4ZyLd5FPTBXon6Hsljqr3ytAA5nFJ7LSmlpq-O3_SVFwPVqqwO64yi3mk2eI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
       <link>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
@@ -65,7 +96,12 @@
       <link>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</guid>
-      <description></description>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/CmRBnVcBluo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -89,7 +125,10 @@
       <link>https://CHRI-Lab.github.io/publication/johal-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/johal-2019-learning/</guid>
-      <description></description>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS7LTYFCBHDmQzuvNjSAjuOjZKcJchxHyecVMc4wkikeL7Z3ffiHfuzX9SQChHHBhLl_nmRUE5hLR3F/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -121,7 +160,10 @@
       <link>https://CHRI-Lab.github.io/publication/johal-2019-tip/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/johal-2019-tip/</guid>
-      <description></description>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSAbsZww1VUF4gDexQLD7Goez5ApAkyU85mnNXrNaPgeiHIzSs9Aeo1RNkZWp3WaAK-aT4gjm0zMDID/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -129,6 +171,217 @@
       <link>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Declarative Physicomimetics for Tangible Swarm Application Development</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2018-declarative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2018-declarative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative design of an upper limb rehabilitation game with tangible robots</title>
+      <link>https://CHRI-Lab.github.io/publication/guneysu-2018-iterative/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/guneysu-2018-iterative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning-R4L: Inclusive Learning</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2018-robots/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2018-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The near future of children&#39;s robotics</title>
+      <link>https://CHRI-Lab.github.io/publication/charisi-2018-near/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/charisi-2018-near/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When deictic gestures in a robot can harm child-robot collaboration</title>
+      <link>https://CHRI-Lab.github.io/publication/yadollahi-2018-deictic/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/yadollahi-2018-deictic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cellulo: Versatile handheld robots for education</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-cellulo/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-cellulo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haptic-enabled handheld mobile robots: Design and analysis</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-haptic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-haptic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep on moving! Exploring anthropomorphic effects of motion during idle moments</title>
+      <link>https://CHRI-Lab.github.io/publication/asselborn-2017-keep/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/asselborn-2017-keep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windfield: demonstrating wind meteorology with handheld haptic robots</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-windfielddemo/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-windfielddemo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windfield: learning wind meteorology with handheld haptic robots</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-windfield/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-windfield/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on Robots for Learning: R4L</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2017-workshop/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Child-robot spatial arrangement in a learning by teaching activity</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2016-child/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2016-child/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSqJ_JQtZQ8C9jo5IomgDuCi7wAK4d8asJYW3UnFRr4fmh_uOrXdX5rfc949x8fqaruRFhLYdePjLfG/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Permanent magnet-assisted omnidirectional ball drive</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2016-permanent/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2016-permanent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social human-robot interaction: A new cognitive and affective interaction-oriented architecture</title>
+      <link>https://CHRI-Lab.github.io/publication/adam-2016-social/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/adam-2016-social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A cognitive and affective architecture for social human-robot interaction</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2015-cognitive/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2015-cognitive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-verbal Signals in HRI: Interference in Human Perception</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2015-non/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2015-non/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robots Interacting with Style</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2015-robots/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2015-robots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Grenoble system for the social touch challenge at ICMI 2015</title>
+      <link>https://CHRI-Lab.github.io/publication/ta-2015-grenoble/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ta-2015-grenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Robot with Style, because you are Worth it!</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2014-robot/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2014-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acceptability of a companion robot for children in daily life situations</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2014-acceptability/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2014-acceptability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing Parenting Styles with Companion Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2014-expressing/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2014-expressing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards companion robots behaving with style</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2014-towards/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2014-towards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acceptabilité d&#39;un robot compagnon dans des situations de la vie quotidienne.</title>
+      <link>https://CHRI-Lab.github.io/publication/adam-2013-acceptabilite/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/adam-2013-acceptabilite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling interactions in a mixed agent world.</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2013-modelling/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2013-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-sensors engagement detection with a robot companion in a home environment</title>
+      <link>https://CHRI-Lab.github.io/publication/benkaouar-2012-multi/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/benkaouar-2012-multi/</guid>
       <description></description>
     </item>
     

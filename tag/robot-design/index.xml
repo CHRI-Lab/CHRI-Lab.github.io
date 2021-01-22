@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#34;robot design&#34; | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/tag/robot-design/</link>
+      <atom:link href="https://CHRI-Lab.github.io/tag/robot-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>&#34;robot design&#34;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>&#34;robot design&#34;</title>
+      <link>https://CHRI-Lab.github.io/tag/robot-design/</link>
+    </image>
+    
+    <item>
+      <title>The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load</title>
+      <link>https://CHRI-Lab.github.io/publication/ingle-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ingle-2021/</guid>
+      <description>&lt;a href=&#34;https://CHRI-Lab.github.io/files/papers/LBR_HRI2021_Anthropo_Load.pdf&#34; target=&#34;_blank&#34;&gt; PDF &lt;/a&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

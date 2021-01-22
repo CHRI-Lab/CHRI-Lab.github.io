@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dominique Vaufreydaz | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/author/dominique-vaufreydaz/</link>
+      <atom:link href="https://CHRI-Lab.github.io/author/dominique-vaufreydaz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dominique Vaufreydaz</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>Dominique Vaufreydaz</title>
+      <link>https://CHRI-Lab.github.io/author/dominique-vaufreydaz/</link>
+    </image>
+    
+    <item>
+      <title>Starting engagement detection towards a companion robot using multimodal features</title>
+      <link>https://CHRI-Lab.github.io/publication/vaufreydaz-2016-starting/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/vaufreydaz-2016-starting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Grenoble system for the social touch challenge at ICMI 2015</title>
+      <link>https://CHRI-Lab.github.io/publication/ta-2015-grenoble/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ta-2015-grenoble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-sensors engagement detection with a robot companion in a home environment</title>
+      <link>https://CHRI-Lab.github.io/publication/benkaouar-2012-multi/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/benkaouar-2012-multi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
