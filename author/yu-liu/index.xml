@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yu Liu | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/yu-liu/</link>
+      <atom:link href="https://chri-lab.github.io/author/yu-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yu Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Yu Liu</title>
+      <link>https://chri-lab.github.io/author/yu-liu/</link>
+    </image>
+    
+    <item>
+      <title>Speech-Based Gesture Generation for Robots and Embodied Agents: A Scoping Review</title>
+      <link>https://chri-lab.github.io/publication/liu-2021-speech/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/liu-2021-speech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carole Adam | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/author/carole-adam/</link>
-      <atom:link href="https://CHRI-Lab.github.io/author/carole-adam/index.xml" rel="self" type="application/rss+xml" />
+    <title>Carole Adam | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/carole-adam/</link>
+      <atom:link href="https://chri-lab.github.io/author/carole-adam/index.xml" rel="self" type="application/rss+xml" />
     <description>Carole Adam</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Carole Adam</title>
-      <link>https://CHRI-Lab.github.io/author/carole-adam/</link>
+      <link>https://chri-lab.github.io/author/carole-adam/</link>
     </image>
     
     <item>
       <title>Une architecture cognitive et affective orientée interaction</title>
-      <link>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</link>
+      <link>https://chri-lab.github.io/publication/pellier-2018-architecture/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/pellier-2018-architecture/</guid>
+      <guid>https://chri-lab.github.io/publication/pellier-2018-architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social human-robot interaction: A new cognitive and affective interaction-oriented architecture</title>
-      <link>https://CHRI-Lab.github.io/publication/adam-2016-social/</link>
+      <link>https://chri-lab.github.io/publication/adam-2016-social/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/adam-2016-social/</guid>
+      <guid>https://chri-lab.github.io/publication/adam-2016-social/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A cognitive and affective architecture for social human-robot interaction</title>
-      <link>https://CHRI-Lab.github.io/publication/johal-2015-cognitive/</link>
+      <link>https://chri-lab.github.io/publication/johal-2015-cognitive/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/johal-2015-cognitive/</guid>
+      <guid>https://chri-lab.github.io/publication/johal-2015-cognitive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acceptability of a companion robot for children in daily life situations</title>
-      <link>https://CHRI-Lab.github.io/publication/johal-2014-acceptability/</link>
+      <link>https://chri-lab.github.io/publication/johal-2014-acceptability/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/johal-2014-acceptability/</guid>
+      <guid>https://chri-lab.github.io/publication/johal-2014-acceptability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acceptabilité d&#39;un robot compagnon dans des situations de la vie quotidienne.</title>
-      <link>https://CHRI-Lab.github.io/publication/adam-2013-acceptabilite/</link>
+      <link>https://chri-lab.github.io/publication/adam-2013-acceptabilite/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/adam-2013-acceptabilite/</guid>
+      <guid>https://chri-lab.github.io/publication/adam-2013-acceptabilite/</guid>
       <description></description>
     </item>
     

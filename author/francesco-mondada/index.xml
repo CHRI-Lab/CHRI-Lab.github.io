@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Francesco Mondada | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/author/francesco-mondada/</link>
-      <atom:link href="https://CHRI-Lab.github.io/author/francesco-mondada/index.xml" rel="self" type="application/rss+xml" />
+    <title>Francesco Mondada | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/francesco-mondada/</link>
+      <atom:link href="https://chri-lab.github.io/author/francesco-mondada/index.xml" rel="self" type="application/rss+xml" />
     <description>Francesco Mondada</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Francesco Mondada</title>
-      <link>https://CHRI-Lab.github.io/author/francesco-mondada/</link>
+      <link>https://chri-lab.github.io/author/francesco-mondada/</link>
     </image>
     
     <item>
       <title>Augmented Robotics for Learners: A Case Study on Optics</title>
-      <link>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</link>
+      <link>https://chri-lab.github.io/publication/johal-augmented-2019/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/johal-augmented-2019/</guid>
+      <guid>https://chri-lab.github.io/publication/johal-augmented-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Symmetry with Tangible Robots</title>
-      <link>https://CHRI-Lab.github.io/publication/johal-2019-learning/</link>
+      <link>https://chri-lab.github.io/publication/johal-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/johal-2019-learning/</guid>
+      <guid>https://chri-lab.github.io/publication/johal-2019-learning/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS7LTYFCBHDmQzuvNjSAjuOjZKcJchxHyecVMc4wkikeL7Z3ffiHfuzX9SQChHHBhLl_nmRUE5hLR3F/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -33,65 +33,65 @@
     
     <item>
       <title>Magnet-assisted ball drive</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2019-magnet/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2019-magnet/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-magnet/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2019-magnet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Declarative Physicomimetics for Tangible Swarm Application Development</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2018-declarative/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2018-declarative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2018-declarative/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2018-declarative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iterative design of an upper limb rehabilitation game with tangible robots</title>
-      <link>https://CHRI-Lab.github.io/publication/guneysu-2018-iterative/</link>
+      <link>https://chri-lab.github.io/publication/guneysu-2018-iterative/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/guneysu-2018-iterative/</guid>
+      <guid>https://chri-lab.github.io/publication/guneysu-2018-iterative/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cellulo: Versatile handheld robots for education</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-cellulo/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2017-cellulo/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-cellulo/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2017-cellulo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Haptic-enabled handheld mobile robots: Design and analysis</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-haptic/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2017-haptic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-haptic/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2017-haptic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windfield: demonstrating wind meteorology with handheld haptic robots</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-windfielddemo/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2017-windfielddemo/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-windfielddemo/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2017-windfielddemo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windfield: learning wind meteorology with handheld haptic robots</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-2017-windfield/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-2017-windfield/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-2017-windfield/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-2017-windfield/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R2T2: Robotics to integrate educational efforts in South Africa and Europe</title>
-      <link>https://CHRI-Lab.github.io/publication/mondada-2016-r-2-t-2/</link>
+      <link>https://chri-lab.github.io/publication/mondada-2016-r-2-t-2/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/mondada-2016-r-2-t-2/</guid>
+      <guid>https://chri-lab.github.io/publication/mondada-2016-r-2-t-2/</guid>
       <description></description>
     </item>
     

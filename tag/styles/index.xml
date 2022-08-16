@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>styles | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/styles/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/styles/index.xml" rel="self" type="application/rss+xml" />
+    <title>styles | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/styles/</link>
+      <atom:link href="https://chri-lab.github.io/tag/styles/index.xml" rel="self" type="application/rss+xml" />
     <description>styles</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>styles</title>
-      <link>https://CHRI-Lab.github.io/tag/styles/</link>
+      <link>https://chri-lab.github.io/tag/styles/</link>
     </image>
     
     <item>
       <title>Behavioural Styles</title>
-      <link>https://CHRI-Lab.github.io/project/stylebot/</link>
+      <link>https://chri-lab.github.io/project/stylebot/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/project/stylebot/</guid>
+      <guid>https://chri-lab.github.io/project/stylebot/</guid>
       <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
 communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
 and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed

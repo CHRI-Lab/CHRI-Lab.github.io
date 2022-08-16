@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robots | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/wiki/robots/</link>
+      <atom:link href="https://chri-lab.github.io/wiki/robots/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robots</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Robots</title>
+      <link>https://chri-lab.github.io/wiki/robots/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://chri-lab.github.io/wiki/robots/cellulo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/wiki/robots/cellulo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://chri-lab.github.io/wiki/robots/miro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/wiki/robots/miro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://chri-lab.github.io/wiki/robots/nao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/wiki/robots/nao/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

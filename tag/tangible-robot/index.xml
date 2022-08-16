@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tangible robot | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/tangible-robot/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/tangible-robot/index.xml" rel="self" type="application/rss+xml" />
+    <title>tangible robot | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/tangible-robot/</link>
+      <atom:link href="https://chri-lab.github.io/tag/tangible-robot/index.xml" rel="self" type="application/rss+xml" />
     <description>tangible robot</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>tangible robot</title>
-      <link>https://CHRI-Lab.github.io/tag/tangible-robot/</link>
+      <link>https://chri-lab.github.io/tag/tangible-robot/</link>
     </image>
     
     <item>
       <title>Cellulo</title>
-      <link>https://CHRI-Lab.github.io/project/cellulo/</link>
+      <link>https://chri-lab.github.io/project/cellulo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/project/cellulo/</guid>
+      <guid>https://chri-lab.github.io/project/cellulo/</guid>
       <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
 new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
 Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new

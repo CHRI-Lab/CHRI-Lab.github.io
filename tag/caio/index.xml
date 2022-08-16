@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>caio | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/caio/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/caio/index.xml" rel="self" type="application/rss+xml" />
+    <title>caio | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/caio/</link>
+      <atom:link href="https://chri-lab.github.io/tag/caio/index.xml" rel="self" type="application/rss+xml" />
     <description>caio</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>caio</title>
-      <link>https://CHRI-Lab.github.io/tag/caio/</link>
+      <link>https://chri-lab.github.io/tag/caio/</link>
     </image>
     
     <item>
       <title>CAIO</title>
-      <link>https://CHRI-Lab.github.io/project/caio/</link>
+      <link>https://chri-lab.github.io/project/caio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/project/caio/</guid>
+      <guid>https://chri-lab.github.io/project/caio/</guid>
       <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
 so, they have to be able to reason about the users’ and their environment. During my PhD, I have
 been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and

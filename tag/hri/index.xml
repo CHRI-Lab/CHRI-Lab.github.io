@@ -1,27 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hri | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/hri/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/hri/index.xml" rel="self" type="application/rss+xml" />
+    <title>hri | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/hri/</link>
+      <atom:link href="https://chri-lab.github.io/tag/hri/index.xml" rel="self" type="application/rss+xml" />
     <description>hri</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>hri</title>
-      <link>https://CHRI-Lab.github.io/tag/hri/</link>
+      <link>https://chri-lab.github.io/tag/hri/</link>
     </image>
     
     <item>
+      <title>List of Typical Questionnaires used in HRI</title>
+      <link>https://chri-lab.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/teaching/human-robot-interaction/questionnaires/questionnaires/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Machine Learning for Social Interaction Modelling</title>
-      <link>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
+      <link>https://chri-lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
+      <guid>https://chri-lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;The field of social human-robot interaction is growing.
 Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
 Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Which multi-modal features can be transferable from HH to HR setups?&lt;/li&gt;
@@ -44,9 +72,9 @@ Everyday, more datasets that feature social interaction between humans and betwe
 &lt;/ul&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

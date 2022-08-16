@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhanel Zhexenova | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/author/zhanel-zhexenova/</link>
-      <atom:link href="https://CHRI-Lab.github.io/author/zhanel-zhexenova/index.xml" rel="self" type="application/rss+xml" />
+    <title>Zhanel Zhexenova | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/zhanel-zhexenova/</link>
+      <atom:link href="https://chri-lab.github.io/author/zhanel-zhexenova/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhanel Zhexenova</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Zhanel Zhexenova</title>
-      <link>https://CHRI-Lab.github.io/author/zhanel-zhexenova/</link>
+      <link>https://chri-lab.github.io/author/zhanel-zhexenova/</link>
     </image>
     
     <item>
+      <title>The transferability of handwriting skills: from the Cyrillic to the Latin alphabet</title>
+      <link>https://chri-lab.github.io/publication/asselborn-2021-transferability/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/asselborn-2021-transferability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Comparison of Social Robot to Tablet and Teacher in a New Script Learning Context</title>
-      <link>https://CHRI-Lab.github.io/publication/zhanel-2020/</link>
+      <link>https://chri-lab.github.io/publication/zhanel-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zhanel-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/zhanel-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
-      <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
+      <link>https://chri-lab.github.io/publication/sandygulova-hri-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Demonstration</title>
+      <link>https://chri-lab.github.io/publication/bolat-hri-2020-demo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/bolat-hri-2020-demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
-      <link>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</link>
+      <link>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</guid>
+      <guid>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</guid>
       <description></description>
     </item>
     

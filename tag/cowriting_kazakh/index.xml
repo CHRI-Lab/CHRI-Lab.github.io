@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cowriting_kazakh | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/cowriting_kazakh/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/cowriting_kazakh/index.xml" rel="self" type="application/rss+xml" />
+    <title>cowriting_kazakh | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/cowriting_kazakh/</link>
+      <atom:link href="https://chri-lab.github.io/tag/cowriting_kazakh/index.xml" rel="self" type="application/rss+xml" />
     <description>cowriting_kazakh</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>cowriting_kazakh</title>
-      <link>https://CHRI-Lab.github.io/tag/cowriting_kazakh/</link>
+      <link>https://chri-lab.github.io/tag/cowriting_kazakh/</link>
     </image>
     
     <item>
       <title>Best Demo Award at HRI 2020!</title>
-      <link>https://CHRI-Lab.github.io/post/hri2020_demo_award/</link>
+      <link>https://chri-lab.github.io/post/hri2020_demo_award/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/post/hri2020_demo_award/</guid>
+      <guid>https://chri-lab.github.io/post/hri2020_demo_award/</guid>
       <description>&lt;p&gt;Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz
-&lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
-      <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
+      <link>https://chri-lab.github.io/publication/sandygulova-hri-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/sandygulova-hri-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
-      <link>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</link>
+      <link>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</guid>
+      <guid>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</title>
-      <link>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</link>
+      <link>https://chri-lab.github.io/publication/kim-cowriting-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</guid>
+      <guid>https://chri-lab.github.io/publication/kim-cowriting-2019/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/CmRBnVcBluo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -53,9 +53,9 @@
     
     <item>
       <title>CoWriting Kazakh</title>
-      <link>https://CHRI-Lab.github.io/project/cowriting_kazakh/</link>
+      <link>https://chri-lab.github.io/project/cowriting_kazakh/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/project/cowriting_kazakh/</guid>
+      <guid>https://chri-lab.github.io/project/cowriting_kazakh/</guid>
       <description>&lt;p&gt;Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.&lt;/p&gt;
 &lt;p&gt;Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.&lt;/p&gt;
 &lt;p&gt;The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.&lt;/p&gt;

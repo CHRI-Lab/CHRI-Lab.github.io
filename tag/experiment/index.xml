@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>experiment | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/tag/experiment/</link>
-      <atom:link href="https://CHRI-Lab.github.io/tag/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <title>experiment | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/experiment/</link>
+      <atom:link href="https://chri-lab.github.io/tag/experiment/index.xml" rel="self" type="application/rss+xml" />
     <description>experiment</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>experiment</title>
-      <link>https://CHRI-Lab.github.io/tag/experiment/</link>
+      <link>https://chri-lab.github.io/tag/experiment/</link>
     </image>
     
     <item>
       <title>Persuasive Robots - Exploring Behavioural Styles</title>
-      <link>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</link>
+      <link>https://chri-lab.github.io/prospective/undergrad/behavioural-styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/prospective/undergrad/behavioural-styles/</guid>
+      <guid>https://chri-lab.github.io/prospective/undergrad/behavioural-styles/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few).
 Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://CHRI-Lab.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://chri-lab.github.io/img/student-projects/styles.png&#34; alt=&#34;graph&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;Behavioural styles  allow  robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture.
 Behavioural styles have been studied in the past to improve robot&amp;rsquo;s behaviour during human-robot interaction [2].&lt;/p&gt;
 &lt;p&gt;In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.&lt;/p&gt;

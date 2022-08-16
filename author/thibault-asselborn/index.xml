@@ -1,70 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thibault Asselborn | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/author/thibault-asselborn/</link>
-      <atom:link href="https://CHRI-Lab.github.io/author/thibault-asselborn/index.xml" rel="self" type="application/rss+xml" />
+    <title>Thibault Asselborn | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/thibault-asselborn/</link>
+      <atom:link href="https://chri-lab.github.io/author/thibault-asselborn/index.xml" rel="self" type="application/rss+xml" />
     <description>Thibault Asselborn</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Thibault Asselborn</title>
-      <link>https://CHRI-Lab.github.io/author/thibault-asselborn/</link>
+      <link>https://chri-lab.github.io/author/thibault-asselborn/</link>
     </image>
     
     <item>
+      <title>The transferability of handwriting skills: from the Cyrillic to the Latin alphabet</title>
+      <link>https://chri-lab.github.io/publication/asselborn-2021-transferability/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/asselborn-2021-transferability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Comparison of Social Robot to Tablet and Teacher in a New Script Learning Context</title>
-      <link>https://CHRI-Lab.github.io/publication/zhanel-2020/</link>
+      <link>https://chri-lab.github.io/publication/zhanel-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zhanel-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/zhanel-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Acquisition of handwriting in children with and without dysgraphia: A computational approach</title>
-      <link>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</link>
+      <link>https://chri-lab.github.io/publication/gargot-2020-acquisition/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/gargot-2020-acquisition/</guid>
+      <guid>https://chri-lab.github.io/publication/gargot-2020-acquisition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot</title>
-      <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
+      <link>https://chri-lab.github.io/publication/sandygulova-hri-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Demonstration</title>
+      <link>https://chri-lab.github.io/publication/bolat-hri-2020-demo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/bolat-hri-2020-demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Learning a New Script with a Robot - Video </title>
-      <link>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</link>
+      <link>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zhanel-hri-2020-video/</guid>
+      <guid>https://chri-lab.github.io/publication/zhanel-hri-2020-video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
-      <link>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <link>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <guid>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bridging Multilevel Time Scales in HRI: An Analysis Framework</title>
-      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</link>
+      <link>https://chri-lab.github.io/publication/asselborn-2019-bridging/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-bridging/</guid>
+      <guid>https://chri-lab.github.io/publication/asselborn-2019-bridging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CoWriting Kazakh: Transitioning to a New Latin Script using Social Robots</title>
-      <link>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</link>
+      <link>https://chri-lab.github.io/publication/kim-cowriting-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/kim-cowriting-2019/</guid>
+      <guid>https://chri-lab.github.io/publication/kim-cowriting-2019/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/CmRBnVcBluo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -75,57 +91,57 @@
     
     <item>
       <title>Designing Configurable Arm Rehabilitation Games: How Do Different Game Elements Affect User Motion Trajectories?</title>
-      <link>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</link>
+      <link>https://chri-lab.github.io/publication/ozgur-designing-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/ozgur-designing-2019/</guid>
+      <guid>https://chri-lab.github.io/publication/ozgur-designing-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning By Collaborative Teaching: An Engaging Multi-Party CoWriter Activity</title>
-      <link>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</link>
+      <link>https://chri-lab.github.io/publication/el-hamamsy-learning-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/el-hamamsy-learning-2019/</guid>
+      <guid>https://chri-lab.github.io/publication/el-hamamsy-learning-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reply: Limitations in the creation of an automatic diagnosis tool for dysgraphia</title>
-      <link>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</link>
+      <link>https://chri-lab.github.io/publication/asselborn-2019-reply/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/asselborn-2019-reply/</guid>
+      <guid>https://chri-lab.github.io/publication/asselborn-2019-reply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Dynamics of Handwriting Improves the Automated Diagnosis of Dysgraphia</title>
-      <link>https://CHRI-Lab.github.io/publication/zolna-2019-dynamics/</link>
+      <link>https://chri-lab.github.io/publication/zolna-2019-dynamics/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/zolna-2019-dynamics/</guid>
+      <guid>https://chri-lab.github.io/publication/zolna-2019-dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automated human-level diagnosis of dysgraphia using a consumer tablet</title>
-      <link>https://CHRI-Lab.github.io/publication/asselborn-2018-automated/</link>
+      <link>https://chri-lab.github.io/publication/asselborn-2018-automated/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/asselborn-2018-automated/</guid>
+      <guid>https://chri-lab.github.io/publication/asselborn-2018-automated/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
-      <link>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</link>
+      <link>https://chri-lab.github.io/publication/asselborn-2018-bringing/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/asselborn-2018-bringing/</guid>
+      <guid>https://chri-lab.github.io/publication/asselborn-2018-bringing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keep on moving! Exploring anthropomorphic effects of motion during idle moments</title>
-      <link>https://CHRI-Lab.github.io/publication/asselborn-2017-keep/</link>
+      <link>https://chri-lab.github.io/publication/asselborn-2017-keep/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/asselborn-2017-keep/</guid>
+      <guid>https://chri-lab.github.io/publication/asselborn-2017-keep/</guid>
       <description></description>
     </item>
     

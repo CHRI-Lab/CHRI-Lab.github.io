@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morgane Chevalier | computational human-robot interaction lab</title>
-    <link>https://CHRI-Lab.github.io/author/morgane-chevalier/</link>
-      <atom:link href="https://CHRI-Lab.github.io/author/morgane-chevalier/index.xml" rel="self" type="application/rss+xml" />
+    <title>Morgane Chevalier | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/morgane-chevalier/</link>
+      <atom:link href="https://chri-lab.github.io/author/morgane-chevalier/index.xml" rel="self" type="application/rss+xml" />
     <description>Morgane Chevalier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Morgane Chevalier</title>
-      <link>https://CHRI-Lab.github.io/author/morgane-chevalier/</link>
+      <link>https://chri-lab.github.io/author/morgane-chevalier/</link>
     </image>
     
     <item>
       <title>Learning Symmetry with Tangible Robots</title>
-      <link>https://CHRI-Lab.github.io/publication/johal-2019-learning/</link>
+      <link>https://chri-lab.github.io/publication/johal-2019-learning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/publication/johal-2019-learning/</guid>
+      <guid>https://chri-lab.github.io/publication/johal-2019-learning/</guid>
       <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
   &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vS7LTYFCBHDmQzuvNjSAjuOjZKcJchxHyecVMc4wkikeL7Z3ffiHfuzX9SQChHHBhLl_nmRUE5hLR3F/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
