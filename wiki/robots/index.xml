@@ -13,18 +13,22 @@
     </image>
     
     <item>
-      <title></title>
-      <link>https://chri-lab.github.io/wiki/robots/cellulo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chri-lab.github.io/wiki/robots/cellulo/</guid>
-      <description></description>
+      <title>Miro-B</title>
+      <link>https://chri-lab.github.io/wiki/robots/miro/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/wiki/robots/miro/</guid>
+      <description>&lt;p&gt;One need to install the MDK - Miro Developpment Kit:
+&lt;a href=&#34;https://consequentialrobotics.com/miro-beta&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://consequentialrobotics.com/miro-beta&lt;/a&gt;
+&lt;a href=&#34;https://consequential.bitbucket.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://consequential.bitbucket.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The MiRO B seems to not be supported by MiROCODE or MIROCLOUD.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://chri-lab.github.io/wiki/robots/miro/</link>
+      <link>https://chri-lab.github.io/wiki/robots/cellulo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chri-lab.github.io/wiki/robots/miro/</guid>
+      <guid>https://chri-lab.github.io/wiki/robots/cellulo/</guid>
       <description></description>
     </item>
     
