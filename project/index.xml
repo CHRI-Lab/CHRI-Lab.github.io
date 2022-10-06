@@ -5,12 +5,20 @@
     <link>https://chri-lab.github.io/project/</link>
       <atom:link href="https://chri-lab.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2022 11:49:57 +1000</lastBuildDate>
     <image>
       <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://chri-lab.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Hurl</title>
+      <link>https://chri-lab.github.io/project/hurl/</link>
+      <pubDate>Tue, 30 Aug 2022 11:49:57 +1000</pubDate>
+      <guid>https://chri-lab.github.io/project/hurl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Behavioural Analysis in HRI</title>
@@ -69,6 +77,32 @@ robot.&lt;/p&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Xg49gsWKMLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CAIO</title>
+      <link>https://chri-lab.github.io/project/caio/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/caio/</guid>
+      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
+so, they have to be able to reason about the users’ and their environment. During my PhD, I have
+been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
+Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
+showed promising results in modeling cognitive processes and specifically allowing decision making
+based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
+reflexes.&lt;/p&gt;
+&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
+CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
+learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
+between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
+understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
+correct them; or the robot could even create misunderstandings to enhance learning (by fostering
+questioning).
+Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
+via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
+been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
+path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
 </description>
     </item>
     
@@ -172,32 +206,6 @@ and 10 presentations. This fall, we hosted the first stand alone event, in Switz
 actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
 mix scientists from field of robotics with those from digital education and learning technologies (See
 &lt;a href=&#34;http://robots4learning.wordpress.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://robots4learning.wordpress.com&lt;/a&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CAIO</title>
-      <link>https://chri-lab.github.io/project/caio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chri-lab.github.io/project/caio/</guid>
-      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
-so, they have to be able to reason about the users’ and their environment. During my PhD, I have
-been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
-Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
-showed promising results in modeling cognitive processes and specifically allowing decision making
-based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
-reflexes.&lt;/p&gt;
-&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
-CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
-learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
-between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
-understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
-correct them; or the robot could even create misunderstandings to enhance learning (by fostering
-questioning).
-Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
-via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
-been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
-path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
 </description>
     </item>
     

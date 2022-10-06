@@ -5,7 +5,7 @@
     <link>https://chri-lab.github.io/tag/caio/</link>
       <atom:link href="https://chri-lab.github.io/tag/caio/index.xml" rel="self" type="application/rss+xml" />
     <description>caio</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
       <title>caio</title>
@@ -15,7 +15,7 @@
     <item>
       <title>CAIO</title>
       <link>https://chri-lab.github.io/project/caio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://chri-lab.github.io/project/caio/</guid>
       <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
 so, they have to be able to reason about the users’ and their environment. During my PhD, I have

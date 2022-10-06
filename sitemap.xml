@@ -66,7 +66,11 @@
   <url>
     <loc>https://chri-lab.github.io/home/tags/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://chri-lab.github.io/</loc><lastmod>2022-08-09T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://chri-lab.github.io/</loc><lastmod>2022-08-30T11:49:57+10:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chri-lab.github.io/project/hurl/</loc><lastmod>2022-08-30T11:49:57+10:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chri-lab.github.io/project/</loc><lastmod>2022-08-30T11:49:57+10:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/publication-type/6/</loc><lastmod>2021-11-29T09:40:08+11:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -638,6 +642,10 @@
   <url>
     <loc>https://chri-lab.github.io/project/stylebot/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://chri-lab.github.io/tag/caio/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chri-lab.github.io/project/caio/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://chri-lab.github.io/project/cellulo/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/project/cowriting_kazakh/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -652,11 +660,11 @@
   <url>
     <loc>https://chri-lab.github.io/tag/moca/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://chri-lab.github.io/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://chri-lab.github.io/prospective/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/tag/r4l/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chri-lab.github.io/tag/reasoning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/project/robots4learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -766,10 +774,6 @@
   <url>
     <loc>https://chri-lab.github.io/tag/applied-machine-learning/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://chri-lab.github.io/tag/caio/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://chri-lab.github.io/project/caio/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://chri-lab.github.io/tag/co-writer/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/tag/cse-honours/</loc><changefreq>weekly</changefreq></url>
@@ -806,11 +810,11 @@
   <url>
     <loc>https://chri-lab.github.io/tag/position/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://chri-lab.github.io/tag/reasoning/</loc><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://chri-lab.github.io/prospective/undergrad/writing_2020/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/tag/robot4learning/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://chri-lab.github.io/teaching/robotics_software_interaction/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://chri-lab.github.io/tag/ros/</loc><changefreq>weekly</changefreq></url>
   <url>
