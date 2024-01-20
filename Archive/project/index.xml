@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/project/</link>
+      <atom:link href="https://chri-lab.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2022 11:49:57 +1000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://chri-lab.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Hurl</title>
+      <link>https://chri-lab.github.io/project/hurl/</link>
+      <pubDate>Tue, 30 Aug 2022 11:49:57 +1000</pubDate>
+      <guid>https://chri-lab.github.io/project/hurl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behavioural Analysis in HRI</title>
+      <link>https://chri-lab.github.io/project/engagement/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/engagement/</guid>
+      <description>&lt;p&gt;In the field of human-robot interaction (HRI) as in many other technical fields, an innumerable number of different
+metrics to analyze the interaction can be found in as many studies. Even-though many of these metrics are not&lt;/p&gt;
+&lt;p&gt;comparable between studies, we observe that the research community in HRI, but also in many other
+research domain, is starting to seek for reproducibility [10]; a consensus begins to appear concerning
+common measures that can be used across a wide range of studies. In social HRI, the evaluation of
+the quality of an interaction is complex because it is very task dependent. However, certain metrics
+such as engagement seem to well reflect the quality of interactions between a robot agent and the
+human.&lt;/p&gt;
+&lt;p&gt;One aspect of acceptability of a robot is the home environment in which it is to be able to perceive when it will be
+solicited. The goal for the robot is to not disturb the user and to be able to predict that it will be solicited. This is
+something we do all the time as humans (we can see a street vendor approaching us and we know they will talk
+to us). The process for us human relies on proxemics (speed and angle of approach) but not only.&lt;/p&gt;
+&lt;p&gt;In my work on modeling engagement [11, 12], I used multi-modal data to train a SVM to detect engagement. We&lt;/p&gt;
+&lt;p&gt;collected data from various sensors embedded in the Kompai robot and reduced the number of crucial features
+from 32 to 7. Interestingly shoulder orientation and position of the face in the image are among these crucial
+features. If we transpose these features to what humans do, these features seem coherent with behavioral
+analysis.
+The previous model aimed to predict the engagement, but once the user is engaged, it is important to evaluate its
+attitude and mood. Using the COST and HAART dataset, we trained a model to detect social touch. Together with
+colleagues, we won the Social Touch Challenge at ICMI 2015 improving the gestures recognition from 60% accuracy
+to 70% training a Random Forest Model. [13]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioural Styles</title>
+      <link>https://chri-lab.github.io/project/stylebot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/stylebot/</guid>
+      <description>&lt;p&gt;I have been developing a model of the so called behavioral styles. These styles act like a filter over
+communicative gestures to transpose a way of performing an action. We used multiple platforms (Nao – humanoid,
+and Reeti – facial expression) to test this rendering on facial and bodily communication [14]. We showed
+that these styles were perceptible and could influence the attitude of the child interacting with the
+robot[15, 16].
+More recently, we showed that idle movements (movements that have no communicative intention) when
+displayed by a humanoid robot increases the anthropomorphic perception of the robot by the user
+[17].
+These findings help in designing more natural interaction with humanoid robots, making them more acceptable
+and socially intelligent.
+Research Perspectives: We will be continuing research in this area working within the ANIMATAS EU project
+(starting in January 2018) on synchrony and how alignment can keep learners engaged in a collaborative task with a
+robot.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/YH4ywpgM1OU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Xg49gsWKMLY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CAIO</title>
+      <link>https://chri-lab.github.io/project/caio/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/caio/</guid>
+      <description>&lt;p&gt;One of my interests is to make robots able to autonomously sustain interactions with users, and in order to do
+so, they have to be able to reason about the users’ and their environment. During my PhD, I have
+been working on a Cognitive Architecture able to reason on Emotion, named CAIO (Cognitive and
+Affective Interaction-Oriented) Architecture [3, 4]. This architecture, based on symbolic reasoning,
+showed promising results in modeling cognitive processes and specifically allowing decision making
+based on emotions. As shown in the figure, this architecture works as a two loops process, similar to the Dual-Process Theory - a deliberative loop generating intentions and a sensorimotor loop handling
+reflexes.&lt;/p&gt;
+&lt;p&gt;More recently, we have been working on second order reasoning in the context of the
+CoWriter project [5]. In the CoWriter project, the child’s teaches a Nao robot how to write. We use the
+learning by teaching paradigm to enhance motivation and engagement. In a collaborative learning task
+between a robot and a child, the idea is to model the child’s understanding and the child’s believes of the
+understanding of the co-learner robot. This way the robot could detect misunderstandings in view to
+correct them; or the robot could even create misunderstandings to enhance learning (by fostering
+questioning).
+Since my arrival on the CoWriter project, we initiated a project on diagnosis of dysgraphia using data collected
+via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
+been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
+path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cellulo</title>
+      <link>https://chri-lab.github.io/project/cellulo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/cellulo/</guid>
+      <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zv6nDMQCWCo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/g_7glQmTIVo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s3KAoQNUPZs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh</title>
+      <link>https://chri-lab.github.io/project/cowriting_kazakh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/cowriting_kazakh/</guid>
+      <description>&lt;p&gt;Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.&lt;/p&gt;
+&lt;p&gt;Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.&lt;/p&gt;
+&lt;p&gt;The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.&lt;/p&gt;
+&lt;p&gt;With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &amp;ldquo;CoWriting Kazakh&amp;rdquo; child-robot interaction activity.&lt;/p&gt;
+&lt;p&gt;The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Find Your Voice</title>
+      <link>https://chri-lab.github.io/project/fyv/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/fyv/</guid>
+      <description>&lt;p&gt;Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.&lt;br&gt;
+Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
+One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
+To help children develop the ability to tell jokes with their peers, we propose leveraging a new interactive technology – voice assistant robots (e.g., Alexa), which have become increasingly affordable and commonplace in homes. These robots, which are portable and have lifelike voices, can model how to tell a joke and using voice recognition software, respond to the jokes that children tell. Children thus have unlimited opportunities for scaffolded practice and can receive timely feedback in a non-threatening environment before telling their jokes to family and friends. In addition to the accessibility and human-like verbal responses of voice assistant robots, robots can be customized to tell jokes that are appropriate for each child’s age, language, and culture. The goal of our project therefore is to enable children to improve their ‘joke telling’ skills by learning the intonation, timing, through interacting with a virtual assistants such as Alexa.
+Our research project will explore the feasibility of coding Alexa and other voice assistants to be able to respond and engage with children telling a diversity of jokes. Several aspects need to be taken into account when delivering a joke that children can imitate and practice with. We will look into how the timing and intonation will need to be evaluated from the audio recording in order to provide an adaptive feedback to the child training to deliver jokes. This feedback could be from both sides, the voice assistant robot helping the child in how telling jokes, or the child helping the assistant to improve how telling jokes. The final goal is, once the child has learnt how to tell jokes, to understand when and how will he/she be able to share the joke with their peers, and how long might this process take and how would we be able to tell they have become more confident.
+Finally, an engaging joke-telling learning scenario will need to be designed in order to train children for a long-term impact. Our project will also consider how this might materialize.  In the future, virtual assistants will be able to be designed to give encouraging feedback to the child as they interact with it. This could be verbal, visual or both. This feedback could encourage children for finding their voice. Based on the initial findings from the pilot project  we would like to develop a more extensive project proposal with the goal of investigating how to develop new interventions using the next generation of interactive robots, such as Olly, whose developers, we are also collaborating with (&lt;a href=&#34;https://heyolly.com/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://heyolly.com/)&lt;/a&gt;, that have more scope for providing customized feedback can be used.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robots for Learning (R4L)</title>
+      <link>https://chri-lab.github.io/project/robots4learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/robots4learning/</guid>
+      <description>&lt;p&gt;With the increasing number of engineering jobs, politics have more recently turned towards introduction of
+engineering subjects in early stages of curricula. More and more countries have started to introduce programming
+(and even robotics) to young children. However, this constitutes a real challenge for the teaching
+professionals, who are not trained for that, and are often skeptical to use new technologies in classrooms.
+Hence, the challenge is to introduce robots as tools to be used not only in programming or robotics
+based courses, but in the whole curricula in order to make them attractive to teachers as a pedagogical
+tool.
+”Educational robotics” does not really constitute a research community per say. On one hand, there are scholars
+working on ”how to teach robotics” using robotics platforms such as Thymio and Mindstorms. Some scholars
+perform research in this domain (for example, measuring which learning activities produce faster learning), but
+their numbers are scarce, they typically meet in half-day workshops before ed’tech conferences (CSCL, AI&amp;amp;Ed, ….).
+On the other hand, one finds scholars who mainly do research on HRI and consider education as an interesting
+place for testing child-robot interactions.
+I launched in 2016 a series of workshops to build a Robots for Learning (R4L) research community. The first event
+was a workshop, along with the RoMan 2016 conference. The event gathered 30 participants from all around the
+world. The second event was a workshop along the HRI 2017 conference in Vienna, Austria, with 60 participants
+and 10 presentations. This fall, we hosted the first stand alone event, in Switzerland, for which we invited main
+actors of research in HRI for Learning. A new workshop is planned for HRI 2018. These workshops aim to
+mix scientists from field of robotics with those from digital education and learning technologies (See
+&lt;a href=&#34;http://robots4learning.wordpress.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://robots4learning.wordpress.com&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rosona - Robot&#39;s Social Navigation</title>
+      <link>https://chri-lab.github.io/project/social_navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/social_navigation/</guid>
+      <description>&lt;h1 id=&#34;join-the-group&#34;&gt;Join the group&lt;/h1&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;
+&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
+Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to record a novel dataset with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the model will be tested empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_56bbfbf89cd9d6e6aa5bade7e607b014.webp 400w,
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_6c4904e881855f94f96810a5c0dc01ba.webp 760w,
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chri-lab.github.io/project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_56bbfbf89cd9d6e6aa5bade7e607b014.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;472&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A dataset featuring different scenarios of groups and spatial interactions will be recorded at the HRI facility in Paddington. After anonymization, the dataset will be made open.&lt;/li&gt;
+&lt;li&gt;Development of a novel socially aware module allowing the robot to approach and leave groups using a hybrid method (rule-based and data-driven)
+&lt;ul&gt;
+&lt;li&gt;Empirical evaluation with end-users in the National Facility for HRI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Report or conference publication at CoRL (Conference on Robot Learning – July 2021) or at the Robotics and Automation-Letters (RA-L)&lt;/li&gt;
+&lt;li&gt;The code implemented during this project must be fully documented&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Therapist</title>
+      <link>https://chri-lab.github.io/project/the_therapist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/the_therapist/</guid>
+      <description>&lt;h1 id=&#34;the-therapist&#34;&gt;The Therapist&lt;/h1&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;
+&lt;p&gt;Serious games have been applied in many fields, and mental health is no exception.
+Studies suggest that there are benefits for psychological and behavioural changes
+(Fleming et al., 2017), with some serious games even outperforming traditional
+methods of treatment. Not only that, but they have also helped to encourage players
+to apply the therapeutic methods that they have learnt (Eichenberg and Schott,
+2017).
+Developing and refining these game-based approaches is important due to their
+wider reach of audiences - A study of Australian households in 2015 revealed that
+68% of Australians play interactive games. Of these, 78% were 18 or older and 47%
+were female (Parliament of Australia Environment and Communications Committee,
+2016). Clearly, the appeal of video games are indiscriminate of age, gender or
+background. For those who are unwilling or unable to access the mental health
+services they require, serious games can help bridge the gap as a more
+approachable medium.
+However, these games are still in their early years (Fleming et al., 2017) and more
+studies need to be carried out before we can draw any definitive conclusions about
+their effectiveness (Lau, Smit, Fleming and Riper, 2017). Nevertheless, with the
+rapid improvement of technology, along with our growing understanding of how to
+best impact our players through game design techniques, these preliminary results
+show great promise.&lt;/p&gt;
+&lt;p&gt;This project proposes to build a serious game, that unlike other does not intend to present itself as an alternate
+form of treatment but simply a mode of teaching. Hence our goal is to educate the
+users about mental health, and strategies to cope with stress and anxiety.&lt;/p&gt;
+&lt;h2 id=&#34;outcomes&#34;&gt;Outcomes&lt;/h2&gt;
+&lt;p&gt;Bachelor Thesis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estella Arabi&lt;/li&gt;
+&lt;li&gt;Duc Luong Ong&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link to demo:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andéol Cadic-Melchior | computational human-robot interaction lab</title>
+    <link>https://CHRI-Lab.github.io/author/andeol-cadic-melchior/</link>
+      <atom:link href="https://CHRI-Lab.github.io/author/andeol-cadic-melchior/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andéol Cadic-Melchior</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
+      <title>Andéol Cadic-Melchior</title>
+      <link>https://CHRI-Lab.github.io/author/andeol-cadic-melchior/</link>
+    </image>
+    
+    <item>
+      <title>Towards an Adaptive Upper Limb Rehabilitation Game with Tangible Robots</title>
+      <link>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/ozgur-2019-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

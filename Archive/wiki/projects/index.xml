@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/wiki/projects/</link>
+      <atom:link href="https://chri-lab.github.io/wiki/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://chri-lab.github.io/wiki/projects/</link>
+    </image>
+    
+    <item>
+      <title>Hurl</title>
+      <link>https://chri-lab.github.io/wiki/projects/hurl/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/wiki/projects/hurl/</guid>
+      <description>&lt;h2 id=&#34;project-proposal&#34;&gt;Project Proposal&lt;/h2&gt;
+&lt;h2 id=&#34;project-objectives&#34;&gt;Project Objectives&lt;/h2&gt;
+&lt;p&gt;Objective1 To develop a general training framework for novices to teach robots procedural tasks, which will be adaptable to various types of skills;&lt;/p&gt;
+&lt;p&gt;Objective2 To integrate instructional awareness support considering what (robot status and instructional plan) and how (nonverbal, dashboard, or AR) information can be made accessible to the trainer in a timely and adequate manner without increasing cognitive load&lt;/p&gt;
+&lt;p&gt;Objective3 To integrate instructional preparations via (1) a scripting tool for the trainer to prepare the instructional sequence and (2) a simulation framework allowing the human to test their lessons on simulated robots&lt;/p&gt;
+&lt;p&gt;Objective4 To investigate how gamification can leverage human engagement and robot skill transfer&lt;/p&gt;
+&lt;p&gt;Objective5 To explore gamified interaction in which the trainer gains to be adversarial (competitive scenario) or gains to be assistive (collaborative scenario)&lt;/p&gt;
+&lt;p&gt;Objective6 To evaluate the different approaches in two real-world scenarios (i.e. sorting groceries and cleaning table) with novice users, advancing knowledge, and providing guidelines for the design of human-centered robot training tools.&lt;/p&gt;
+&lt;h2 id=&#34;project-schedule&#34;&gt;Project Schedule&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://quire.io/w/HURL/9/O1_-_General_Training_Framework_for_Novices?view=timeline&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://quire.io/w/HURL/9/O1_-_General_Training_Framework_for_Novices?view=timeline&lt;/a&gt;&lt;/p&gt;
+&lt;div style=&#34;width: 640px; height: 480px; margin: 10px; position: relative;&#34;&gt;&lt;iframe allowfullscreen frameborder=&#34;0&#34; style=&#34;width:640px; height:480px&#34; src=&#34;https://lucid.app/documents/embedded/6f6945d6-59fb-485e-80ee-564bd2c7e543&#34; id=&#34;G1jIX7BEV7ii&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

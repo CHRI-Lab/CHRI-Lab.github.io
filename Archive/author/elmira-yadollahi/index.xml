@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elmira Yadollahi | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/elmira-yadollahi/</link>
+      <atom:link href="https://chri-lab.github.io/author/elmira-yadollahi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Elmira Yadollahi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Elmira Yadollahi</title>
+      <link>https://chri-lab.github.io/author/elmira-yadollahi/</link>
+    </image>
+    
+    <item>
+      <title>10 Years of Human-NAO Interaction Research: A Scoping Review</title>
+      <link>https://chri-lab.github.io/publication/amirova-2021-nao/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/amirova-2021-nao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-2020-exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-2020-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
+      <link>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-studying-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-studying-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bringing letters to life: handwriting with haptic-enabled tangible robots</title>
+      <link>https://chri-lab.github.io/publication/asselborn-2018-bringing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/asselborn-2018-bringing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When deictic gestures in a robot can harm child-robot collaboration</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-2018-deictic/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-2018-deictic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/post/</link>
+      <atom:link href="https://chri-lab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://chri-lab.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://chri-lab.github.io/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://chri-lab.github.io/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+&lt;script src=&#34;https://chri-lab.github.io/post/2020-12-01-r-rmarkdown/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://chri-lab.github.io/post/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The SydCHI Local Chapter just got accepted</title>
+      <link>https://chri-lab.github.io/post/sydchi_accepted/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/sydchi_accepted/</guid>
+      <description>&lt;p&gt;Super excited about the new SydCHI local chapter.
+Stay tune!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Best Demo Award at HRI 2020!</title>
+      <link>https://chri-lab.github.io/post/hri2020_demo_award/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/hri2020_demo_award/</guid>
+      <description>&lt;p&gt;Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz
+&lt;a href=&#34;http://humanrobotinteraction.org/2020/best-paper-awards/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://humanrobotinteraction.org/2020/best-paper-awards/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>https://chri-lab.github.io/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Reviewer Award for ICCE</title>
+      <link>https://chri-lab.github.io/post/best_reviewer_icce2019/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/best_reviewer_icce2019/</guid>
+      <description>&lt;p&gt;I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4 Full Papers Presented @RoMan 2019, New Delhi!</title>
+      <link>https://chri-lab.github.io/post/roman2019/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/roman2019/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends at RoMan.
+We presented four papers and enjoyed a day off in Jaipur.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paper accepted! Allohaptic</title>
+      <link>https://chri-lab.github.io/post/allohaptic2020/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/allohaptic2020/</guid>
+      <description>&lt;p&gt;I was very glad to meet my colleagues and friends virtually at RoMan2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The iReCheck project accepted!</title>
+      <link>https://chri-lab.github.io/post/irechech-accepted/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/irechech-accepted/</guid>
+      <description>&lt;p&gt;The iReCheck project submitted last April will be funded by the French ANR and the Swiss NSF.
+The goal of the project is to explore the learning by teaching sceanrio proposed in the cowriter project in with both performance and social adaptation, and with TD learners and learners with NDD.
+The project brings educational expertise of the EPFL team with the NDD expertise of the French partners to build a system that can suit all types of learners.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First day at UNSW as Lecturer (Assistant Prof)</title>
+      <link>https://chri-lab.github.io/post/unsw-start/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/unsw-start/</guid>
+      <description>&lt;p&gt;Officially starting at  @UNSWEngineering today. Looking forward to this exciting adventure! Stay tuned, Phd job offers coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demos at NCCR Robotics Industry Days</title>
+      <link>https://chri-lab.github.io/post/nccr_id2019/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/nccr_id2019/</guid>
+      <description>&lt;p&gt;The CHILI Lab presented several demo at the Swiss Converntion Center.
+Always a great opportunity to meet with colleagues from the NCCR and robotics actor of the reagion.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

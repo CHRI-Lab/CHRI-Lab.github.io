@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/publication-type/7/</link>
+      <atom:link href="https://chri-lab.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>https://chri-lab.github.io/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Companion Robots Behaving with Style: Towards Plasticity in Social Human-Robot Interaction</title>
+      <link>https://chri-lab.github.io/publication/johal-2015-companion/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-2015-companion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of non-verbal communication cues using multi-modal sensors : engagement detection </title>
+      <link>https://chri-lab.github.io/publication/benkaouar-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/benkaouar-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

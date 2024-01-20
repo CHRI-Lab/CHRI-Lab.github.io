@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/education/</link>
+      <atom:link href="https://chri-lab.github.io/tag/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>education</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>education</title>
+      <link>https://chri-lab.github.io/tag/education/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Robotics for Learners: A Case Study on Optics</title>
+      <link>https://chri-lab.github.io/publication/johal-augmented-2019/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-augmented-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tangible e-Ink Paper Interfaces for Learners</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/tip_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/tip_2020/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://chri-lab.github.io/img/student-projects/tip.png&#34; alt=&#34;FYV&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;While digital tools are more and more used in classrooms, teachers&amp;rsquo; common practice remains to use photocopied paper documents to share and collect learning exercises from their students.
+With the Tangible e-Ink Paper (TIP) system, we aim to explore the use of tangible manipulatives interacting with paper sheets as a bridge between digital and paper traces of learning.
+Featuring an e-Ink display, a paper-based localisation system and a wireless connection, TIPs are envisioned to be used as a versatile tool across various curriculum activities.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Literature Review on Tangible UI (TUI) in Education&lt;/li&gt;
+&lt;li&gt;Implement and test a proof of concept of TIPs for learning&lt;/li&gt;
+&lt;li&gt;Assemble 3 TIPs (3D printing of parts, soldering, etc.)&lt;/li&gt;
+&lt;li&gt;Install libraries on Rasberry PI ( e.g. libdots - used for self-paper-based localisation, bluetooth communication)&lt;/li&gt;
+&lt;li&gt;Develop two demo applications using TIPs for
+&lt;ul&gt;
+&lt;li&gt;individual work (on A4 sheet of paper)&lt;/li&gt;
+&lt;li&gt;collaborative work (on min A2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Tangible User Interfaces, HCI&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites-and-learning-outcomes&#34;&gt;Prerequisites and Learning Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Javascript, Python or C++. Git.&lt;/li&gt;
+&lt;li&gt;Qt, Rasberry Pi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/271833/files/paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://infoscience.epfl.ch/record/271833/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/224129/files/paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://infoscience.epfl.ch/record/224129/files/paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://infoscience.epfl.ch/record/270077/files/Robot_Analytics.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-030-29736-7_57&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Therapist</title>
+      <link>https://chri-lab.github.io/project/the_therapist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/the_therapist/</guid>
+      <description>&lt;h1 id=&#34;the-therapist&#34;&gt;The Therapist&lt;/h1&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;
+&lt;p&gt;Serious games have been applied in many fields, and mental health is no exception.
+Studies suggest that there are benefits for psychological and behavioural changes
+(Fleming et al., 2017), with some serious games even outperforming traditional
+methods of treatment. Not only that, but they have also helped to encourage players
+to apply the therapeutic methods that they have learnt (Eichenberg and Schott,
+2017).
+Developing and refining these game-based approaches is important due to their
+wider reach of audiences - A study of Australian households in 2015 revealed that
+68% of Australians play interactive games. Of these, 78% were 18 or older and 47%
+were female (Parliament of Australia Environment and Communications Committee,
+2016). Clearly, the appeal of video games are indiscriminate of age, gender or
+background. For those who are unwilling or unable to access the mental health
+services they require, serious games can help bridge the gap as a more
+approachable medium.
+However, these games are still in their early years (Fleming et al., 2017) and more
+studies need to be carried out before we can draw any definitive conclusions about
+their effectiveness (Lau, Smit, Fleming and Riper, 2017). Nevertheless, with the
+rapid improvement of technology, along with our growing understanding of how to
+best impact our players through game design techniques, these preliminary results
+show great promise.&lt;/p&gt;
+&lt;p&gt;This project proposes to build a serious game, that unlike other does not intend to present itself as an alternate
+form of treatment but simply a mode of teaching. Hence our goal is to educate the
+users about mental health, and strategies to cope with stress and anxiety.&lt;/p&gt;
+&lt;h2 id=&#34;outcomes&#34;&gt;Outcomes&lt;/h2&gt;
+&lt;p&gt;Bachelor Thesis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Estella Arabi&lt;/li&gt;
+&lt;li&gt;Duc Luong Ong&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link to demo:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

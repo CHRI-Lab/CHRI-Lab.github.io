@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/machine-learning/</link>
+      <atom:link href="https://chri-lab.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine-learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>machine-learning</title>
+      <link>https://chri-lab.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Digital Pen</title>
+      <link>https://chri-lab.github.io/project/handwriting/digital_pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/handwriting/digital_pen/</guid>
+      <description>&lt;h1 id=&#34;call-for-participants&#34;&gt;Call for Participants&lt;/h1&gt;
+&lt;p&gt;We are currently conducting a research project on whether we can determine handwriting legibility solely from a person&amp;rsquo;s handwriting without the need for specialised tests. Right now, we are in the process of collecting digital handwriting using a tablet-based web application.&lt;/p&gt;
+&lt;p&gt;So if you have a tablet with a digital stylus and would like to contribute your handwriting to this project, please click on the following link -&amp;gt; &lt;a href=&#34;https://digital-pen-746a6.web.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://digital-pen-746a6.web.app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The task will take less than 5 minutes and all responses are totally anonymous.&lt;/p&gt;
+&lt;p&gt;Thanks in advance for your support!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Human Action Recognition from AD Movies</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/human_action_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/human_action_recognition/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Action Recognition is curcial for robots to perfoma around humans.
+Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.&lt;/p&gt;
+&lt;p&gt;The field of action recognition has  aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing.
+Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset.
+In this project we propose to use audio desription movies to label actions.
+AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen.
+This information often deals with action actually depicted on the scene.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a pipeline to collect and crop clip of AD movies for at home actions.
+This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject+ Action + Object] type of data.&lt;/li&gt;
+&lt;li&gt;Investigate methods for HAR&lt;/li&gt;
+&lt;li&gt;Implement a tree model combaning HAR with YOLO to identify agent and objects&lt;/li&gt;
+&lt;li&gt;Evaluate the HAR pipeline with the Toyota Robot HSR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Human Action Recognition,&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prior.allenai.org/projects/charades&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://prior.allenai.org/projects/charades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1708.02696.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1708.02696.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1806.11230.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1806.11230.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Social Interaction Modelling</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/hri-dataset-mine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/hri-dataset-mine/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;The field of social human-robot interaction is growing.
+Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots.
+Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://d3i71xaburhd42.cloudfront.net/37c0bc28388902869d904b002fe789083b610ee1/4-Figure1-1.png&#34; alt=&#34;MHHRI&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which multi-modal features can be transferable from HH to HR setups?&lt;/li&gt;
+&lt;li&gt;Are there common features that discriminate human behaviour in HH or HR scenarios (e.g. &amp;lsquo;Do people speak less or slower with robots?&amp;rsquo; &amp;hellip; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore datasets (PinSoRo, MHHRI and P2PSTORY): type of data (video; audio, point cloud), available labels and annotation &amp;hellip;&lt;/li&gt;
+&lt;li&gt;Extract relevant features multimodal on each dataset&lt;/li&gt;
+&lt;li&gt;Evaluate predictive models for each dataset (i.e. engagement)&lt;/li&gt;
+&lt;li&gt;Explore transfer learning from one dataset to another&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is also potential to use UNSW’s National Facility for Human-Robot Interaction Research to create a new dataset.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Machine Learning, Human-Robot Interaction&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.media.mit.edu/projects/p2pstory/overview/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.media.mit.edu/projects/p2pstory/overview/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

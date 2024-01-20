@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>group | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/group/</link>
+      <atom:link href="https://chri-lab.github.io/tag/group/index.xml" rel="self" type="application/rss+xml" />
+    <description>group</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>group</title>
+      <link>https://chri-lab.github.io/tag/group/</link>
+    </image>
+    
+    <item>
+      <title>Rosona - Robot&#39;s Social Navigation</title>
+      <link>https://chri-lab.github.io/project/social_navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/social_navigation/</guid>
+      <description>&lt;h1 id=&#34;join-the-group&#34;&gt;Join the group&lt;/h1&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;
+&lt;p&gt;Enabling robots to navigate in indoors environments in a safe and socially acceptable manner around groups of humans is still an open research area. Socially aware navigation considers the multi-modal assessment of the group dynamics, group formation inferring, path planning, real-time path adaptation, and human-robot communication.
+Up to now the research in the field has considered a couple of classical scenarios such as crossing a group in a corridor or passing a door. Limitations in terms of lack of realistic datasets is often mentioned in the field. In this research project, we will aim to design several scenarios involving groups of humans in realistic settings. Our work will focus on three main tasks for the robot:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;approach and join a group, 2) passing by a group and 3) greeting a group. A first step of the project will be to record a novel dataset with rich interactions between the humans (H-H scenarios) and between humans and a teleoperated robot (H-R scenarios). The dataset will be collected at the HRI facility allowing multimodal synchronous recording. After that, a new model for path planning} will be developed. For the model, we will explore rule-based constraints (i.e. not passing between two persons speaking together) and learned constrained using the dataset recorded to infer implicit social norms. Finally, the model will be tested empirically with new users in which the robot will have to take real-time path planning decisions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_56bbfbf89cd9d6e6aa5bade7e607b014.webp 400w,
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_6c4904e881855f94f96810a5c0dc01ba.webp 760w,
+               /project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://chri-lab.github.io/project/social_navigation/schedule_huc88246b7b3883c0270f1e3cb63f3db19_136677_56bbfbf89cd9d6e6aa5bade7e607b014.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;472&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;expected-outcomes&#34;&gt;Expected Outcomes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A dataset featuring different scenarios of groups and spatial interactions will be recorded at the HRI facility in Paddington. After anonymization, the dataset will be made open.&lt;/li&gt;
+&lt;li&gt;Development of a novel socially aware module allowing the robot to approach and leave groups using a hybrid method (rule-based and data-driven)
+&lt;ul&gt;
+&lt;li&gt;Empirical evaluation with end-users in the National Facility for HRI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Report or conference publication at CoRL (Conference on Robot Learning – July 2021) or at the Robotics and Automation-Letters (RA-L)&lt;/li&gt;
+&lt;li&gt;The code implemented during this project must be fully documented&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

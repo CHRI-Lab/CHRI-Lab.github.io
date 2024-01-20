@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ana Paiva | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/ana-paiva/</link>
+      <atom:link href="https://chri-lab.github.io/author/ana-paiva/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ana Paiva</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Ana Paiva</title>
+      <link>https://chri-lab.github.io/author/ana-paiva/</link>
+    </image>
+    
+    <item>
+      <title>Using Tabletop Robots to promote Inclusive Classroom Experiences</title>
+      <link>https://chri-lab.github.io/publication/neto-using-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/neto-using-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the Role of Perspective Taking in Educational Child-Robot Interaction</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-2020-exploring/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-2020-exploring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studying the Effect of Robot Frustration on Children&#39;s Change of Perspective</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-studying-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-studying-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When deictic gestures in a robot can harm child-robot collaboration</title>
+      <link>https://chri-lab.github.io/publication/yadollahi-2018-deictic/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/yadollahi-2018-deictic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressing Motivations By Facilitating Other’s Inverse Reinforcement Learning</title>
+      <link>https://chri-lab.github.io/publication/jacq-2017-expressing/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/jacq-2017-expressing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop on Robots for Learning: R4L</title>
+      <link>https://chri-lab.github.io/publication/johal-2017-workshop/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Child-robot spatial arrangement in a learning by teaching activity</title>
+      <link>https://chri-lab.github.io/publication/johal-2016-child/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-2016-child/</guid>
+      <description>&lt;div class=&#34;responsive-wrap&#34;&gt;
+  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSqJ_JQtZQ8C9jo5IomgDuCi7wAK4d8asJYW3UnFRr4fmh_uOrXdX5rfc949x8fqaruRFhLYdePjLfG/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;960&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cognitive architecture for mutual modelling</title>
+      <link>https://chri-lab.github.io/publication/jacq-2016-cognitive/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/jacq-2016-cognitive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

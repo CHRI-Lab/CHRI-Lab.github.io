@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaelle Calvary | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/author/gaelle-calvary/</link>
+      <atom:link href="https://chri-lab.github.io/author/gaelle-calvary/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gaelle Calvary</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Gaelle Calvary</title>
+      <link>https://chri-lab.github.io/author/gaelle-calvary/</link>
+    </image>
+    
+    <item>
+      <title>A Robot with Style, because you are Worth it!</title>
+      <link>https://chri-lab.github.io/publication/johal-2014-robot/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-2014-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards companion robots behaving with style</title>
+      <link>https://chri-lab.github.io/publication/johal-2014-towards/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/johal-2014-towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
