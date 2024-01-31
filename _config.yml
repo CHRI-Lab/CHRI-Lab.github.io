@@ -87,8 +87,8 @@ nav_pages:
   - name: posts
 
 # Site Author
-author:
-  name             : "Wafa Johal"
+owner:
+  name             : "Jo "
   avatar           : "wafa.jpeg"
   bio              : "Senior Lecturer at the School of Computing & Information Systems, Faculty of Engineering and Information Technology, University of Melbourne. ARC DECRA Fellow"
   location         : "Melbourne, Australia"
