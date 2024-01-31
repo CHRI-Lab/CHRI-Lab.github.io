@@ -78,6 +78,14 @@ analytics:
     tracking_id          :
 
 
+# Pages shown in navbar
+nav_pages:
+  - name: about
+  - name: publications
+  - name: projects
+  - name: team
+  - name: posts
+
 # Site Author
 author:
   name             : "Wafa Johal"
