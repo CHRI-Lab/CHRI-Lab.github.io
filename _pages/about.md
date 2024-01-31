@@ -2,7 +2,7 @@
 permalink: /
 title: "Computational Human-Robot Interaction @ University of Melbourne"
 excerpt: "About us"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
