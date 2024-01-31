@@ -1,0 +1,1362 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Lina Phaijit" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Helping children&#39;s language understanding through joke telling with home assistant" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://chri-lab.github.io/project/fyv/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.a074f8926e9277c8e398bfdd2ada6a1a.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://chri-lab.github.io/project/fyv/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="CHRI Research Group" />
+  <meta property="og:url" content="https://chri-lab.github.io/project/fyv/" />
+  <meta property="og:title" content="Find Your Voice | CHRI Research Group" />
+  <meta property="og:description" content="Helping children&#39;s language understanding through joke telling with home assistant" /><meta property="og:image" content="https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2016-04-27T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chri-lab.github.io/project/fyv/"
+  },
+  "headline": "Find Your Voice",
+  
+  "datePublished": "2016-04-27T00:00:00Z",
+  "dateModified": "2016-04-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Lina Phaijit"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "CHRI Research Group",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Helping children's language understanding through joke telling with home assistant"
+}
+</script>
+
+  
+
+  
+
+  
+
+
+  <title>Find Your Voice | CHRI Research Group</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="45f8841eb64aea3141bafd94c1162fff" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.1ee5462d74c6c0de1f8881b384ecc58d.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">CHRI Research Group</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">CHRI Research Group</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/home"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/people"><span>Members</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/project"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post"><span>News</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Find Your Voice</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 27, 2016
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Franceli</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Nicola Yuill</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Yvonne Rogers</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Dago Curz</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Janette Johnson</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/" >
+    <i class="fas fa-user mr-1"></i>Monica Tentori</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Many children struggle to find their voice in social situations. They may be shy, suffer from social anxiety, not speak the native language as their first language, be new to a culture (migrants), or have a special need involving communication impairments (e.g., autism, speech, and hearing) [1]. Their voices often go unheard as they find it hard to contribute to conversations and group work, in both face to face and online settings, which puts them at risk for poor socio-emotional and achievement outcomes.<br>
+Various interventions have been proposed in an effort to help these children integrate better into social settings, including ice-breaking activities, support groups, [2][3]. Another promising alternative is to teach children how to interpret and use humor effectively to facilitate social interaction [4]. Having a sense of humour might help children to reduce stress [5] and ease social interactions, enabling them to overcome their social inhibitions and make friends more easily. Also, humour could promotes children’s language, literacy, and inference skills, since understanding jokes require a mastery of language ambiguity, and comprehension [6].
+One manner to use humor effectively is by ‘joke telling’. A joke is the shortest clearly-structured conversation one can have with one or more peers. Telling jokes can help children improve their confidence, socialization, [4], literacy [8], and cultural learning [7]. For example, a child could start a ‘joke’ that implies a question. He/she knows the answer, but not his/her peers. Then, he/she has the advantage of knowing what the answer is. This helps him/her to gain confidence. In terms of literacy, telling a joke requires the reinterpretation of the syntax underlying the question, then, understanding the ambiguity in a joke might help them in the comprehension of language [8]. Regarding socialization, this dynamic allows children to take part in role-taking, and understanding what other people needs to know to get it. Also, it can create a positive environment where children can laugh together and share their understanding. In terms of learning, a jokes encapsulate cultural assumptions, for example, differences between pronunciation, a dual meaning of a word, and the structural and ambiguity of sentences [7].  The question this raises is: how can we help children from all walks of life learn the art of telling jokes and importantly feel comfortable, and in doing so, increase their confidence, social skills and even literacy?
+To help children develop the ability to tell jokes with their peers, we propose leveraging a new interactive technology – voice assistant robots (e.g., Alexa), which have become increasingly affordable and commonplace in homes. These robots, which are portable and have lifelike voices, can model how to tell a joke and using voice recognition software, respond to the jokes that children tell. Children thus have unlimited opportunities for scaffolded practice and can receive timely feedback in a non-threatening environment before telling their jokes to family and friends. In addition to the accessibility and human-like verbal responses of voice assistant robots, robots can be customized to tell jokes that are appropriate for each child’s age, language, and culture. The goal of our project therefore is to enable children to improve their ‘joke telling’ skills by learning the intonation, timing, through interacting with a virtual assistants such as Alexa.
+Our research project will explore the feasibility of coding Alexa and other voice assistants to be able to respond and engage with children telling a diversity of jokes. Several aspects need to be taken into account when delivering a joke that children can imitate and practice with. We will look into how the timing and intonation will need to be evaluated from the audio recording in order to provide an adaptive feedback to the child training to deliver jokes. This feedback could be from both sides, the voice assistant robot helping the child in how telling jokes, or the child helping the assistant to improve how telling jokes. The final goal is, once the child has learnt how to tell jokes, to understand when and how will he/she be able to share the joke with their peers, and how long might this process take and how would we be able to tell they have become more confident.
+Finally, an engaging joke-telling learning scenario will need to be designed in order to train children for a long-term impact. Our project will also consider how this might materialize.  In the future, virtual assistants will be able to be designed to give encouraging feedback to the child as they interact with it. This could be verbal, visual or both. This feedback could encourage children for finding their voice. Based on the initial findings from the pilot project  we would like to develop a more extensive project proposal with the goal of investigating how to develop new interventions using the next generation of interactive robots, such as Olly, whose developers, we are also collaborating with (<a href="https://heyolly.com/%29" target="_blank" rel="noopener">https://heyolly.com/)</a>, that have more scope for providing customized feedback can be used.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/affective-computing/">affective computing</a>
+  
+  <a class="badge badge-light" href="/tag/learning-companion/">learning companion</a>
+  
+  <a class="badge badge-light" href="/tag/home-assistant/">home assistant</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F&amp;text=Find&#43;Your&#43;Voice" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F&amp;t=Find&#43;Your&#43;Voice" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Find%20Your%20Voice&amp;body=https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F&amp;title=Find&#43;Your&#43;Voice" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Find&#43;Your&#43;Voice%20https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fchri-lab.github.io%2Fproject%2Ffyv%2F&amp;title=Find&#43;Your&#43;Voice" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/lina-phaijit/"><img class="avatar mr-3 avatar-circle" src="/author/lina-phaijit/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Lina Phaijit"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/lina-phaijit/">Lina Phaijit</a></h5>
+      <h6 class="card-subtitle">PhD Student</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.a6238d5886fa4a2f7cf92df25709326f.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

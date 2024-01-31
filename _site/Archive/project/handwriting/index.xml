@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technologies for Handwriting | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/project/handwriting/</link>
+      <atom:link href="https://chri-lab.github.io/project/handwriting/index.xml" rel="self" type="application/rss+xml" />
+    <description>Technologies for Handwriting</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>Technologies for Handwriting</title>
+      <link>https://chri-lab.github.io/project/handwriting/</link>
+    </image>
+    
+    <item>
+      <title>Digital Pen</title>
+      <link>https://chri-lab.github.io/project/handwriting/digital_pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/handwriting/digital_pen/</guid>
+      <description>&lt;h1 id=&#34;call-for-participants&#34;&gt;Call for Participants&lt;/h1&gt;
+&lt;p&gt;We are currently conducting a research project on whether we can determine handwriting legibility solely from a person&amp;rsquo;s handwriting without the need for specialised tests. Right now, we are in the process of collecting digital handwriting using a tablet-based web application.&lt;/p&gt;
+&lt;p&gt;So if you have a tablet with a digital stylus and would like to contribute your handwriting to this project, please click on the following link -&amp;gt; &lt;a href=&#34;https://digital-pen-746a6.web.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://digital-pen-746a6.web.app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The task will take less than 5 minutes and all responses are totally anonymous.&lt;/p&gt;
+&lt;p&gt;Thanks in advance for your support!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

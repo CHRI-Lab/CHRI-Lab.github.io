@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>handwriting | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/handwriting/</link>
+      <atom:link href="https://chri-lab.github.io/tag/handwriting/index.xml" rel="self" type="application/rss+xml" />
+    <description>handwriting</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>handwriting</title>
+      <link>https://chri-lab.github.io/tag/handwriting/</link>
+    </image>
+    
+    <item>
+      <title>Iterative Design and Evaluation of a Tangible Robot-Assisted Handwriting Activity for Special Education</title>
+      <link>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/publication/guneysu-ozgur-iterative-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</title>
+      <link>https://chri-lab.github.io/post/hri2020_accepted/</link>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/post/hri2020_accepted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh</title>
+      <link>https://chri-lab.github.io/project/cowriting_kazakh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/cowriting_kazakh/</guid>
+      <description>&lt;p&gt;Kazakhstan has recently adopted a state program for the development and functioning of languages for 2011-2020. This new trilingual education policy aimed at development among the Kazakhs of fluency in three languages: Kazakh, Russian and English. Additionally, a recent decision on the transfer of Kazakh language from Cyrillic into the Latin alphabet was approved by the Kazakh authorities in October 2017 [1]   While there are clear reasons for these reforms, there are numerous risks facing the transfer, including risks to increase inequalities in education services (e.g. preference for schools with teachers better trained in English or for Russian-speaking schools), to cause illiteracy in adults in their native language, and to cause disinterest and lack of motivation to write and read Kazakh among Kazakh and non-Kazakh children and adults.  Beyond familiarity with local conditions, assessing and managing these risks requires understanding the effects they can have on a variety of those affected including children, teachers, and adults, who on the one hand are comfortably able to read the basic Latin script (e.g. English), but on the other, will not recognize crucial distinctions projected onto familiar graphemes.&lt;/p&gt;
+&lt;p&gt;Since 2014, the CoWriter project has explored how robotic technologies can help children with the training of handwriting via an original paradigm known as learning by teaching (LbT) [2,3,4]. Since the children act as the teachers who help the robot to learn handwriting, the children practice their handwriting even without noticing it and stay committed to the success of the robot via the Protege effect. Previous research have shown the motivational aspect of the LbT with a robot for handwriting [3]. However, a long-term effect on learning handwriting skill has still to be demonstrated. Nevertheless, we believe that the CoWriter activity has the required innovative aspect to it and, hence, it can boost the children’s self-esteem and motivation to learn the Latin-based Kazakh alphabet and its handwriting.&lt;/p&gt;
+&lt;p&gt;The proposed collaboration aims to benefit from the new Language Planning in Kazakhstan in order to address 1) challenges of training and motivating children to learn and use a new alphabet, 2) cross-cultural differences between Switzerland and Kazakhstan in the context of robots for learning, 3) to develop a novel approach for training teachers and the adult population e.g. a CoWriter’s smartphone version.&lt;/p&gt;
+&lt;p&gt;With this Seed Funding Grant, we propose to initiate this collaboration via two main phases: 1) data collection required for adapting Kazakh language in both alphabets into the CoWriter and 2) implementation of the &amp;ldquo;CoWriting Kazakh&amp;rdquo; child-robot interaction activity.&lt;/p&gt;
+&lt;p&gt;The data collection phase includes collecting children’s handwriting data using a Wacom tablet. This data is required for training the CoWriter’s learning algorithm. Then we propose to adapt the CoWriter to the Kazakh alphabet and to explore whether it is the best approach to start the switch from the first graders in comparison to children who already know some English as the Latin alphabet might be easier for them. The implementation phase also includes the CoWriter’s deployment by conducting a series of experiments with children and teachers investigating cross-cultural differences in the classrooms.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Pen</title>
+      <link>https://chri-lab.github.io/project/handwriting/digital_pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/handwriting/digital_pen/</guid>
+      <description>&lt;h1 id=&#34;call-for-participants&#34;&gt;Call for Participants&lt;/h1&gt;
+&lt;p&gt;We are currently conducting a research project on whether we can determine handwriting legibility solely from a person&amp;rsquo;s handwriting without the need for specialised tests. Right now, we are in the process of collecting digital handwriting using a tablet-based web application.&lt;/p&gt;
+&lt;p&gt;So if you have a tablet with a digital stylus and would like to contribute your handwriting to this project, please click on the following link -&amp;gt; &lt;a href=&#34;https://digital-pen-746a6.web.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://digital-pen-746a6.web.app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The task will take less than 5 minutes and all responses are totally anonymous.&lt;/p&gt;
+&lt;p&gt;Thanks in advance for your support!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>E-Pen</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/e-pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/e-pen/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school. It is even more true for people having to learn different handwriting scripts (i.e. latin, chinese, arabic)&lt;/p&gt;
+&lt;p&gt;In this project we propose to explore new methods to assess and train people&amp;rsquo;s handwriting in a multiscript handwriting application. The project will aim to develop a new engaging handwriting analysis tool and integrate the analysis in agamified application.
+The backend of the application will be performing the analsysi of handwirting through a library taking into account various features of the handwriting logs (i.e. pen pressure, tilt, speed).&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a library able to analyse strokes and handwriting (backend)&lt;/li&gt;
+&lt;li&gt;Develop a JS app able to record handwriting data&lt;/li&gt;
+&lt;li&gt;Integrate gamification into the app to build a learning game&lt;/li&gt;
+&lt;li&gt;Evaluate the implemented application with end-users evaluating both usability and performances (learning outcomes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;Handwriting, JS, Algoritms,&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: JS, Python, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Collection &lt;a href=&#34;https://wafa.johal.org/tags/handwriting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://wafa.johal.org/tags/handwriting/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Writing</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/writing_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/writing_2020/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.&lt;/p&gt;
+&lt;p&gt;In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;p&gt;During this project, the student will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn about ROS&lt;/li&gt;
+&lt;li&gt;Develop a ROS package that enables to control the Fetch Robot arm given a series of handwriting strokes&lt;/li&gt;
+&lt;li&gt;Explore the use of different methods for the robot to learn letter writing from demonstrations&lt;/li&gt;
+&lt;li&gt;Evaluate the implemented method compare to other state of the art methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;ROS, Learning by Demonstration, Robotics, Handwriting&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++,  ROS, Git.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;p&gt;See Zotero Collection &lt;a href=&#34;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,20 +2,9 @@
 main:
   - title: "Publications"
     url: /publications/
-
   - title: "Team"
-     url: /team/
-
+    url: /team/
   - title: "Projects"
     url: /projects/    
-
-  #- title: "Teaching"
-  #  url: /teaching/    
-        
   - title: "News"
     url: /posts/
-    
-  #- title: "CV"
-  #  url: /cv/
-    
-

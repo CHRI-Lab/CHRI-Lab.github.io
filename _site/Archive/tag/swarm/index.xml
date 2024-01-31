@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swarm | CHRI Research Group</title>
+    <link>https://chri-lab.github.io/tag/swarm/</link>
+      <atom:link href="https://chri-lab.github.io/tag/swarm/index.xml" rel="self" type="application/rss+xml" />
+    <description>swarm</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://chri-lab.github.io/media/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_3.png</url>
+      <title>swarm</title>
+      <link>https://chri-lab.github.io/tag/swarm/</link>
+    </image>
+    
+    <item>
+      <title>Cellulo</title>
+      <link>https://chri-lab.github.io/project/cellulo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/project/cellulo/</guid>
+      <description>&lt;p&gt;With the Cellulo project [6], a part of the Transversal Educational Activities of the NCCR Robotics, we introduced a
+new robotic platform which is small and easily deployable. A dotted pattern printed on regular paper enables the
+Cellulo robots with absolute localization with a precision of 270 microns [7]. The robots also have a new
+locomotion system with a drive relying on a permanent magnet to actuate coated metal balls [8]. This new drive
+design allows backdrivability; i.e. it allows the robot to move and to be moved without damaging it. With this
+system, we also implemented a haptic feedback modality, allowing the user to feel forces when grasping the robot
+[9].
+The robots are connected via Bluetooth to a master (PC or tablet) that handles the logical and computation of the
+activity. The onboard PCB of the robots only allows for proceeding the localization (image capture and decoding of
+the pattern) and the control of the three wheels actuation.
+During two years, we developed several learning activities using the robots. The Figure for example shows the Feel
+the Wind activity, in which the learners were taught that the wind was formed by air moving from with high to low
+pressure points.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/zv6nDMQCWCo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Cellulo project, we also started to explore the use of haptic feedback for learners. Haptic feedback enables us to
+render forces, but also borders, angles, or points. We developed a series of haptic capabilities and small interaction
+tasks that can be included in learning activities to inform the learner [9]. We tested the haptic feedback with
+children for instance in the symmetry activity, in which the child is able to formulate hypothesis on the placement
+of the symmetrical shape and to verify their claims by feel haptically the shape on paper (left Figure). We also tested
+with some pilot with visually impaired children who were able to explore a map of their classroom using the Cellulo
+robots.
+Research Perspectives for Tangible Swarm Interaction and Haptic for Learners: We are now exploring the
+dynamics of the group of learners in manipulating the robots. The collaboration among learner is not always
+optimal, and a challenge would be to use the swarm robots to analyses and regulate the collaboration among
+learners. As these shared resource can be intelligent agents, they could rearrange themselves according to the
+collaborative state of the group.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/g_7glQmTIVo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s3KAoQNUPZs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Tangible Human Swarm Interaction</title>
+      <link>https://chri-lab.github.io/prospective/undergrad/h-swarm_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chri-lab.github.io/prospective/undergrad/h-swarm_2020/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://chri-lab.github.io/img/student-projects/swarm.png&#34; alt=&#34;graph&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context:&lt;/h2&gt;
+&lt;p&gt;Visuo-Motor coordination problems can impair children in  their academic achievements and in their everyday life.
+Gross visuo-motor skills, in particular, are required in a range of social and educational activities that contribute to children&amp;rsquo;s physical and cognitive development such as playing a musical instrument, ball-based sports or dancing.
+Children with visuo-motor coordination difficulties are typically diagnosed with developmental coordination disorder  or cerebral palsy and need undergo physical therapy.
+The therapy sessions are often not engaging for children and conducted individually.
+In this project, we aim to design new forms of interaction with a swarm for enhance visuo-motor coordination. We propose to develop a game that allows multiple children to play collaboratively on the same table.&lt;/p&gt;
+&lt;h2 id=&#34;goals--milestones&#34;&gt;Goals &amp;amp; Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement the set of basic swarm behaviour using 4 Cellulo robots&lt;/li&gt;
+&lt;li&gt;Integrate collaorative and tangible interactions&lt;/li&gt;
+&lt;li&gt;Test the system with a participants. We plan ti integrate a measure of cognitive load using eye tracking data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;p&gt;HCI, Health, Game, Swarm Robotics&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Skills: Python, C++, Js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.epfl.ch/labs/chili/index-html/research/cellulo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.epfl.ch/labs/chili/index-html/research/cellulo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
