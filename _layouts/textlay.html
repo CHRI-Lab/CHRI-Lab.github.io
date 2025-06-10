@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-# News
 
 <div id="textid" class="col-sm-12">
   {% for article in site.data.news %}
@@ -9,8 +8,8 @@ layout: default
       {%- if article.img %}
         <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left; margin-right: 10px;" />
       {%- endif %}
-      <p>{{ article.date }}<br/>
-      {{ article.headline }}<br/>
+      <p><strong>{{ article.date }}</strong><br/>
+      <strong>{{ article.headline }}</strong><br/></p>
       </p>
       <hr> <!-- Adds a line break between entries -->
     </div>
