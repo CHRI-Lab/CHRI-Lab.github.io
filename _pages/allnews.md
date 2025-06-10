@@ -18,6 +18,7 @@ permalink: /allnews.html
 <p>{{ article.date }}<br/>
 {{ article.headline}}<br/>
 </p>
+<hr>
 <!--</div>-->
 <!--</div>-->
 {%- else -%}
