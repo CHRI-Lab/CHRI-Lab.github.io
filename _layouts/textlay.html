@@ -5,10 +5,11 @@ layout: default
 <div id="textid" class="col-sm-12">
   <h1>News</h1> <!-- Add News as the title here -->
   {% for article in site.data.news %}
-    <div class="news-item" style="clear: both;"> <!-- Clear floats after each item -->
+    <div class="news-item" style="clear: both; display: flex; flex-wrap: wrap; align-items: flex-start; margin-bottom: 20px;"> 
       {%- if article.img %}
-        <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left; margin-right: 10px;" />
+        <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" style="width: 150px; margin-right: 20px;"/>
       {%- endif %}
+      <div>
       <p><strong>{{ article.date }}</strong><br/>
       {{ article.headline }}<br/></p>
       </p>
