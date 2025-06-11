@@ -15,17 +15,6 @@ faculty:
 
       
 current-students:
-  - name: <a href="https://chri-lab.github.io/people/ulan/">Ulan Kelesbekov</a>
-    lastname: "Kelesbekov"
-    photo: backup/Ulan-Kelesbekov.png
-    info: PhD Student
-    start: Aug 2022
-    advisor:
-      - Jarrod Knibbe
-      - Eduardo Velloso
-      - Wafa Johal
-    education:
-      - B.S. and M Eng. from Unimelb
 
   - name: <a href="https://chri-lab.github.io/people/jian/"> Jian Zhang </a>
     lastname: "Zhang"

@@ -1,7 +1,20 @@
 - name: <a href="https://www.researchgate.net/profile/Carson-Yu-Liu">Yu (Carson) Liu</a>
   role: PhD Student at UNSW
+
 - name: <a href="https://chri-lab.github.io/people/jiahe/">Jiahe (Michael) Pan </a>
   lastname: Pan
   role: Research Assistamt
   photo: backup/michael-pan.jpg
   
+- name: <a href="https://chri-lab.github.io/people/ulan/">Ulan Kelesbekov</a>
+  lastname: "Kelesbekov"
+  photo: backup/Ulan-Kelesbekov.png
+  info: MPhil Student
+  start: Aug 2022
+  end: June 2025
+  advisor:
+    - Jarrod Knibbe
+    - Eduardo Velloso
+    - Wafa Johal
+  education:
+    - B.S. and M Eng. from Unimelb
