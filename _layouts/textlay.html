@@ -7,13 +7,15 @@ layout: default
   {% for article in site.data.news %}
     {% if article.img %}
       <div style="display: table; width: 100%; margin-bottom: 20px;">
+        <!-- Image cell -->
         <div style="display: table-cell; width: 150px; vertical-align: top;">
           <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}"
-               style="width: 150px;" />
+               style="width: 150px; display: block;" />
         </div>
-        <div style="display: table-cell; vertical-align: top; padding-left: 15px;">
-          <div style="font-weight: bold; margin-bottom: 5px;">{{ article.date }}</div>
-          <div>{{ article.headline }}</div>
+        <!-- Text cell -->
+        <div style="display: table-cell; vertical-align: top; padding-left: 15px; padding-top: 2px;">
+          <div style="font-weight: bold; line-height: 1.2; margin-bottom: 5px;">{{ article.date }}</div>
+          <div style="line-height: 1.2;">{{ article.headline }}</div>
         </div>
       </div>
     {% else %}
