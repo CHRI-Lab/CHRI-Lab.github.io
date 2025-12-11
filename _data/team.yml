@@ -110,6 +110,15 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/farshad-haque-daryakenari
       google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
+  
+  - name: <a href="https://chri-lab.github.io/people/enjie/"Enjie Cao</a>
+    lastname: Cao
+    photo: backup/portrait_Enjie.jpg
+    info: PhD Student
+    start: Sept 2025
+    advisor:
+      - Denny Oetomo
+      - Wafa Johal
 
 
 postdoc:
