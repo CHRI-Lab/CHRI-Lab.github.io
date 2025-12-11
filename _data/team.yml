@@ -108,6 +108,17 @@ current-students:
       - Wafa Johal
       - Jon Eden
 
+    - name: <a href="https://chri-lab.github.io/people/enjie/">Enjie Cao</a>
+    lastname: Cao
+    photo: backup/portrait_Enjie.jpg
+    info: PhD Student
+    start: November 2024
+    advisor:
+      - Denny Oetomo
+      - Wafa Johal
+      - Alireza Mohammadi
+      - Jing Mu
+
 
 postdoc:
   - name: <a href="https://chri-lab.github.io/people/audrey/">Audrey Balaska</a>
