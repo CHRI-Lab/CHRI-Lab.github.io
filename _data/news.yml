@@ -5,12 +5,10 @@
 
 - date: Dec 02, 2025
   headline: "Congratulations to A/Prof. Wafa Johal on receiving funding from the ARC Centre of Excellence."
-  img: "LfD"
   description: "LfD" 
 
 - date: Dec 02, 2025
   headline: "Congratulations to Muhammad and co-authors on having their paper Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration accepted to HRI 2026."
-  img: "LfD"
   description: "LfD" 
 
 - date: Nov 28, 2025
@@ -20,13 +18,12 @@
 
 - date: Nov 21, 2025
   headline: "Muhammad and Ramtin demonstrated Franka and Tiago at CIS."
-  img: "LfD"
   description: "LfD" 
 
 - date: Nov 14, 2025
   headline: "Congratulations to Haoqi Li on completing his Master's degree and graduating."
-  img: "LfD"
-  description: "20251114_Haoqi_Li_Graduation.jpg" 
+  img: "20251114_Haoqi_Li_Graduation.jpg"
+  description: "LfD" 
 
 - date: Nov 12, 2025
   headline: "Yan presented at HAI 2025, sharing the paper From Conversation to Orchestration: HCI Challenges and Opportunities in Interactive Multi-Agentic Systems on behalf of co-authors Sarah Schömbs, Jorge Goncalves, and Wafa Johal. <a href=\"https://arxiv.org/abs/2506.20091\">[Read more]</a>"
