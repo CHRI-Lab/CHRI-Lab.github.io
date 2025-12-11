@@ -1,9 +1,47 @@
+- date: Dec 09, 2025
+  headline: "Congratulations to A/Prof. Wafa Johal on receiving the School of CIS 2025 Excellence in Research Award."
+  img: "20251209_CIS_2025_Excellence_in_Research_Award.jpg"
+  description: "LfD" 
 
+- date: Dec 02, 2025
+  headline: "Congratulations to A/Prof. Wafa Johal on receiving funding from the ARC Centre of Excellence."
+  img: "LfD"
+  description: "LfD" 
+
+- date: Dec 02, 2025
+  headline: "Congratulations to Muhammad and co-authors on having their paper Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration accepted to HRI 2026."
+  img: "LfD"
+  description: "LfD" 
+
+- date: Nov 28, 2025
+  headline: "Audrey's last YoCHI. Farewell, Audrey."
+  img: "20251128_Farewell_Audrey.jpg"
+  description: "LfD" 
+
+- date: Nov 21, 2025
+  headline: "Muhammad and Ramtin demonstrated Franka and Tiago at CIS."
+  img: "LfD"
+  description: "LfD" 
+
+- date: Nov 14, 2025
+  headline: "Congratulations to Haoqi Li on completing his Master's degree and graduating."
+  img: "LfD"
+  description: "20251114_Haoqi_Li_Graduation.jpg" 
+
+- date: Nov 12, 2025
+  headline: "Yan presented at HAI 2025, sharing the paper From Conversation to Orchestration: HCI Challenges and Opportunities in Interactive Multi-Agentic Systems on behalf of co-authors Sarah Schömbs, Jorge Goncalves, and Wafa Johal. <a href=\"https://arxiv.org/abs/2506.20091\">[Read more]</a>"
+  img: "20251112_yan_hai2025.jpg"
+  description: "LfD" 
+
+- date: Nov 05, 2025
+  headline: "Farshad successfully passed his PhD confirmation."
+  img: "20251105_Farshad_Confirmation.jpg"
+  description: "LfD" 
   
 - date: Oct 31, 2025
   headline: "When multi-agentic systems meet robots! During the launch event on Friday, we were finally able to share a really cool project. We collaborated with the National Communication Museum and are now exhibiting our project, A Robot of Many Minds 🤖 🧠 , over the coming weeks as part of FRIEND, an exhibition about the relationship between humans and machines. Shoutout to the incredible #team Alex Wang, Sarah Schömbs, Yan Zhang and of course Wafa Johal."
   img: 02112025_furhat_museum.gif
-  description: "Hi" 
+  description: "LfD" 
   
 - date: Oct 30, 2025
   headline: "Congratulations Jian Zhang,  for winning the Best HCI Poster Award at the CIS DC! :tada:"
@@ -13,6 +51,11 @@
 - date: Oct 20, 2025
   headline: "Jian presented 👍ThumbShift: Modulating Perceived Object Properties through Dynamic Thumb Repositioning, as a full paper at #ISMAR2025 in Korea."
   description: "LfD"
+  
+- date: Sept 15, 2025
+  headline: "Enji joined our group as a PhD student."
+  img: "portrait_Enjie.jpg"
+  description: "LfD" 
   
 - date: Aug 12, 2025
   headline: "Congratulations to Yan Zhang and Sarah Schoembs for the paper, From Conversation to Orchestration: HCI Challenges and Opportunities in Interactive Multi-Agentic Systems, accepted at HAI25!"
