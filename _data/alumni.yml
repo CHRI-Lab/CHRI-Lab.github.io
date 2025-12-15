@@ -21,22 +21,22 @@
 
 
 - name: <a href="https://chri-lab.github.io/people/lina/">Dr Lina Phaijit</a>
-    lastname: "Phaijit"
-    photo: backup/rock.jpg
-    info: PhD Graduate, UNSW
-    start: March 2021
-    end: January 2025
-    advisor:
+  lastname: "Phaijit"
+  photo: backup/rock.jpg
+  info: PhD Graduate, UNSW
+  start: March 2021
+  end: January 2025
+  advisor:
       - Claude Sammut
       - Wafa Johal
 
 
 - name: <a href="https://chri-lab.github.io/people/audrey/">Audrey Balaska</a>
-    lastname: Balaska
-    photo: backup/audrey.jpeg
-    info: Postdoctoral Research Fellow
-    start: June 2024
-    social:
+  lastname: Balaska
+  photo: backup/audrey.jpeg
+  info: Postdoctoral Research Fellow
+  start: June 2024
+  social:
       google-scholar: http://scholar.google.com/citations?user=bgij4b8AAAAJ
       website: https://sites.google.com/view/audrey-balaska-engineering/home
   
