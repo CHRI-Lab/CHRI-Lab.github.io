@@ -114,13 +114,4 @@ current-students:
       linkedin: https://www.linkedin.com/in/enjie-cao/
 
 
-postdoc:
-  - name: <a href="https://chri-lab.github.io/people/audrey/">Audrey Balaska</a>
-    lastname: Balaska
-    photo: backup/audrey.jpeg
-    info: Postdoctoral Research Fellow
-    start: June 2024
-    social:
-      google-scholar: http://scholar.google.com/citations?user=bgij4b8AAAAJ
-      website: https://sites.google.com/view/audrey-balaska-engineering/home
   
