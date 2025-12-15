@@ -19,6 +19,7 @@
   education:
     - B.S. and M Eng. from Unimelb
 
+
 - name: <a href="https://chri-lab.github.io/people/lina/">Dr Lina Phaijit</a>
     lastname: "Phaijit"
     photo: backup/rock.jpg
@@ -28,3 +29,14 @@
     advisor:
       - Claude Sammut
       - Wafa Johal
+
+
+- name: <a href="https://chri-lab.github.io/people/audrey/">Audrey Balaska</a>
+    lastname: Balaska
+    photo: backup/audrey.jpeg
+    info: Postdoctoral Research Fellow
+    start: June 2024
+    social:
+      google-scholar: http://scholar.google.com/citations?user=bgij4b8AAAAJ
+      website: https://sites.google.com/view/audrey-balaska-engineering/home
+  
