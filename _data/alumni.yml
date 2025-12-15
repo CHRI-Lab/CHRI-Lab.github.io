@@ -1,9 +1,7 @@
 - name: <a href="https://www.researchgate.net/profile/Carson-Yu-Liu">Yu (Carson) Liu</a>
-  role: PhD Student at UNSW
 
 - name: <a href="https://chri-lab.github.io/people/jiahe/">Jiahe (Michael) Pan </a>
   lastname: Pan
-  role: Research Assistamt
   photo: backup/michael-pan.jpg
   
 - name: <a href="https://chri-lab.github.io/people/ulan/">Ulan Kelesbekov</a>
@@ -31,7 +29,7 @@
       - Wafa Johal
 
 
-- name: <a href="https://chri-lab.github.io/people/audrey/">Audrey Balaska</a>
+- name: <a href="https://chri-lab.github.io/people/audrey/">Dr Audrey Balaska</a>
   lastname: Balaska
   photo: backup/audrey.jpeg
   info: Postdoctoral Research Fellow
