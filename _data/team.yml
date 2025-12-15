@@ -26,16 +26,6 @@ current-students:
       - Wafa Johal
 
 
-  - name: <a href="https://chri-lab.github.io/people/lina/">Lina Phaijit</a>
-    lastname: "Phaijit"
-    photo: backup/rock.jpg
-    info: PhD Student, UNSW
-    start: March 2021
-    advisor:
-      - Claude Sammut
-      - Wafa Johal
-      
-
   - name: <a href="https://chri-lab.github.io/people/yan/">Yan Zhang </a>
     lastname: "Zhang"
     photo: backup/Yan-Zhang.jpg
