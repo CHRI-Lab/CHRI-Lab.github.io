@@ -18,3 +18,13 @@
     - Wafa Johal
   education:
     - B.S. and M Eng. from Unimelb
+
+- name: <a href="https://chri-lab.github.io/people/lina/">Dr Lina Phaijit</a>
+    lastname: "Phaijit"
+    photo: backup/rock.jpg
+    info: PhD Graduate, UNSW
+    start: March 2021
+    end: January 2025
+    advisor:
+      - Claude Sammut
+      - Wafa Johal
