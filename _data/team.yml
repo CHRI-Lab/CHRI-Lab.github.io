@@ -1,18 +1,18 @@
-
-- name: <a href="https://chri-lab.github.io/people/wafa/">Wafa Johal </a>
-  lastname: Johal
-  photo: backup/WafaJ.jpg
-  info: Associate Professor
-  education:
-    - M.S. and Ph.D. from the University of Grenoble-Alps
-    - B.S, B.A. in CS and Applied Maths to Cog Sciences.
-  social:
-    website: https://wafa.johal.org/
-    email: wafa.johal@unimelb.edu.au
-    github: https://github.com/wafajohal
-    google-scholar: https://scholar.google.com/citations?user=GR9bAl0AAAAJ
-    linkedin: https://www.linkedin.com/in/wafa-johal/
-
+faculty:
+  - name: <a href="https://chri-lab.github.io/people/wafa/">Wafa Johal </a>
+    lastname: Johal
+    photo: backup/WafaJ.jpg
+    info: Associate Professor
+    education:
+      - M.S. and Ph.D. from the University of Grenoble-Alps
+      - B.S, B.A. in CS and Applied Maths to Cog Sciences.
+    social:
+      website: https://wafa.johal.org/
+      email: wafa.johal@unimelb.edu.au
+      github: https://github.com/wafajohal
+      google-scholar: https://scholar.google.com/citations?user=GR9bAl0AAAAJ
+      linkedin: https://www.linkedin.com/in/wafa-johal/
+  
       
 current-students:
 
