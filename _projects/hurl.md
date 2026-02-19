@@ -6,7 +6,6 @@ collection: portfolio
 highlight: 1
 category: current
 date: "2021-07-01T00:00:00Z"
-img: assets/img/projects/hurl/bilal1.png
 related_publications: true
 ---
 
