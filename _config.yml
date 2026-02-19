@@ -20,6 +20,8 @@ include:
 sass:
   sass_dir: _sass
 
+
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -85,3 +87,19 @@ scholar:
 
   sort by: year, month
   order by: descending, ascending
+
+  # -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_project_categories: true # enables categorization of projects into multiple categories
