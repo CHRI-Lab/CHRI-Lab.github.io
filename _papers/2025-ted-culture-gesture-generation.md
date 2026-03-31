@@ -12,6 +12,7 @@ authors:
   affiliation: University of Melbourne
   photo: /assets/authors/wafajohal.jpg
 venue: Frontiers in Robotics and AI
+teaser_image: /assets/papers/2025-ted-culture-gesture-generation/teaser.jpg
 year: '2025'
 abstract: Generating natural and expressive co-speech gestures for conversational virtual agents and social
   robots is crucial for enhancing their acceptability and usability in real-world contexts. However, this
