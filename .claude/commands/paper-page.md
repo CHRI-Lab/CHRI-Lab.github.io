@@ -66,7 +66,7 @@ For each author in the paper:
      - name: First Last
        affiliation: University Name
        url: https://their-website.com
-       photo: /assets/papers/<slug>/authors/firstlast.jpg  # or URL if found
+       photo: /assets/authors/firstlast.jpg  # or URL if found
      ```
   3. Show the user the new entries and ask: **accept, edit, or skip**.
 
@@ -151,7 +151,7 @@ authors:
   - name: First Author
     affiliation: University of Sydney
     url: https://author1.com
-    photo: /assets/papers/<slug>/authors/firstauthor.jpg
+    photo: /assets/authors/firstauthor.jpg
   - name: Second Author
     affiliation: University Name
     url: https://author2.com

@@ -67,7 +67,6 @@ jobs:
             requests \
             beautifulsoup4 \
             pypdf \
-            pymupdf \
             pyyaml \
             bibtexparser
 
