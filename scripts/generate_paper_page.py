@@ -31,11 +31,46 @@ except ImportError:
     HAS_PYPDF = False
 
 try:
+    import fitz  # PyMuPDF
+    HAS_PYMUPDF = True
+except ImportError:
+    HAS_PYMUPDF = False
+
+try:
     import bibtexparser
     from bibtexparser.bparser import BibTexParser
     HAS_BIBTEX = True
 except ImportError:
     HAS_BIBTEX = False
+
+# ── Venue logo lookup ─────────────────────────────────────────────────────────
+# Maps keywords found in venue names to a stable logo URL.
+# The PI can extend this list or override via the venue_logo front matter field.
+VENUE_LOGOS = {
+    "chi":     "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "cscw":    "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "uist":    "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "idc":     "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "assets":  "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "iui":     "https://sigchi.org/wp-content/uploads/2024/01/cropped-sigchi-icon-192x192.png",
+    "hri":     "https://humanrobotinteraction.org/wp-content/uploads/2022/09/cropped-hri-logo-192x192.png",
+    "ro-man":  "https://www.ieee-ras.org/images/logos/ieee-ras-logo.png",
+    "roman":   "https://www.ieee-ras.org/images/logos/ieee-ras-logo.png",
+    "iros":    "https://www.ieee-ras.org/images/logos/ieee-ras-logo.png",
+    "icra":    "https://www.ieee-ras.org/images/logos/ieee-ras-logo.png",
+    "ieee":    "https://www.ieee-ras.org/images/logos/ieee-ras-logo.png",
+    "acm":     "https://www.acm.org/binaries/content/gallery/acm/publications/acm-logo.png",
+}
+
+def lookup_venue_logo(venue_str):
+    """Return a logo URL for a known venue, or empty string."""
+    if not venue_str:
+        return ""
+    lower = venue_str.lower()
+    for keyword, url in VENUE_LOGOS.items():
+        if keyword in lower:
+            return url
+    return ""
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -170,6 +205,91 @@ def extract_pdf_text(pdf_path):
         return ""
 
 
+def extract_figures(pdf_path, slug):
+    """Extract figures and captions from a PDF using PyMuPDF.
+
+    Returns a list of dicts: {filename, asset_path, raw_caption}
+    and saves images to assets/papers/<slug>/.
+    """
+    if not HAS_PYMUPDF:
+        print("PyMuPDF not available — skipping figure extraction.")
+        return []
+
+    path = Path(pdf_path)
+    if not path.exists():
+        print(f"Warning: PDF not found at {pdf_path} — skipping figures.")
+        return []
+
+    print(f"Extracting figures from {pdf_path} …")
+    out_dir = Path(f"assets/papers/{slug}")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        doc = fitz.open(str(path))
+    except Exception as e:
+        print(f"Warning: could not open PDF for figure extraction — {e}")
+        return []
+
+    # Gather all text blocks from the whole doc for caption searching
+    all_text = ""
+    for page in doc:
+        all_text += page.get_text()
+
+    figures = []
+    seen_xrefs = set()
+    fig_num = 0
+
+    for page_num, page in enumerate(doc):
+        for img in page.get_images(full=True):
+            xref = img[0]
+            if xref in seen_xrefs:
+                continue
+            seen_xrefs.add(xref)
+
+            # Skip small images (decorations, icons, logos)
+            w, h = img[2], img[3]
+            if w < 150 or h < 150:
+                continue
+
+            try:
+                base = doc.extract_image(xref)
+            except Exception:
+                continue
+
+            fig_num += 1
+            ext = base.get("ext", "png")
+            filename = f"fig{fig_num}.{ext}"
+            dest = out_dir / filename
+            dest.write_bytes(base["image"])
+
+            # Find caption: look for "Figure N" or "Fig. N" in the full text
+            caption = _find_caption(all_text, fig_num)
+
+            figures.append({
+                "num": fig_num,
+                "filename": filename,
+                "asset_path": f"/assets/papers/{slug}/{filename}",
+                "raw_caption": caption,
+            })
+
+    doc.close()
+    print(f"  → Extracted {len(figures)} figure(s).")
+    return figures
+
+
+def _find_caption(text, fig_num):
+    """Search for 'Figure N' / 'Fig. N' captions in raw PDF text."""
+    patterns = [
+        rf"(?:Figure|FIGURE)\s+{fig_num}[:\.\s]([^\n]{{10,200}})",
+        rf"Fig\.\s*{fig_num}[:\.\s]([^\n]{{10,200}})",
+    ]
+    for pat in patterns:
+        m = re.search(pat, text)
+        if m:
+            return f"Figure {fig_num}: {m.group(1).strip()}"
+    return f"Figure {fig_num}."
+
+
 def parse_bibtex(bibtex_str):
     """Parse a BibTeX string into a dict."""
     if not bibtex_str:
@@ -216,7 +336,7 @@ Your output must be a single JSON object — no prose, no markdown fences, just 
 The reference aesthetic is cleo.kixlab.org: clean, confident, academic but approachable.
 """
 
-def build_user_prompt(info, inputs, existing_author_names):
+def build_user_prompt(info, inputs, existing_author_names, raw_figures=None):
     sections = []
 
     if info.get("title"):
@@ -239,6 +359,10 @@ def build_user_prompt(info, inputs, existing_author_names):
         sections.append(f"EXTRA NOTES FROM SUBMITTER:\n{inputs['notes']}")
     if existing_author_names:
         sections.append(f"AUTHORS ALREADY IN _data/authors.yml: {', '.join(existing_author_names)}")
+
+    if raw_figures:
+        fig_lines = [f"  Fig {f['num']}: {f['raw_caption']}" for f in raw_figures]
+        sections.append("EXTRACTED FIGURES (raw captions from PDF):\n" + "\n".join(fig_lines))
 
     paper_info_block = "\n\n".join(sections)
 
@@ -272,6 +396,10 @@ Please generate the paper page content as a JSON object with these exact keys:
   "results": "Plain-language summary of main findings. Include specific numbers where available.",
   "acknowledgements": "Verbatim acknowledgements from the paper, or empty string if not found.",
   "bibtex": "Clean, properly formatted BibTeX entry as a single string",
+  "figures": [
+    {{"num": 1, "caption": "Cleaned, standalone caption for figure 1. Fix any column-break artefacts or PDF hyphenation."}},
+    {{"num": 2, "caption": "Cleaned caption for figure 2."}}
+  ],
   "new_authors": ["Full Name of any author NOT already in _data/authors.yml"]
 }}
 
@@ -280,14 +408,15 @@ Rules:
 - If a field is unknown, use an empty string or empty list.
 - key_findings: 3–5 items.
 - keywords: 4–8 short phrases, title case.
-- The bibtex entry should include all standard fields. Add a website field pointing to /papers/<slug>/.
+- The bibtex entry should include all standard fields. Add a website field: website = {https://chri-lab.github.io/papers/<slug>/} (use the full URL).
+- figures: include only figures that were listed in EXTRACTED FIGURES. If none were extracted, return an empty list.
 - For authors already in _data/authors.yml, still include them in the authors array (their photo/URL will be looked up later).
 """
 
 
-def call_claude(client, info, inputs, existing_author_names):
+def call_claude(client, info, inputs, existing_author_names, raw_figures=None):
     print("Calling Claude API to generate page content …")
-    prompt = build_user_prompt(info, inputs, existing_author_names)
+    prompt = build_user_prompt(info, inputs, existing_author_names, raw_figures)
 
     message = client.messages.create(
         model="claude-sonnet-4-6",
@@ -324,7 +453,7 @@ def make_slug(title, year):
     return f"{year}-{slug}" if year else slug
 
 
-def build_frontmatter(page, inputs, existing_authors_map):
+def build_frontmatter(page, inputs, existing_authors_map, raw_figures=None):
     """Build the YAML front matter dict."""
 
     # Resolve author photos from existing authors map
@@ -376,14 +505,28 @@ def build_frontmatter(page, inputs, existing_authors_map):
     if inputs.get("teaser_path"):
         fm["teaser_image"] = f"/{inputs['teaser_path'].lstrip('/')}"
 
+    # Venue logo
+    venue_logo = lookup_venue_logo(page.get("venue", ""))
+    if venue_logo:
+        fm["venue_logo"] = venue_logo
+
+    # Figures list (for sidebar nav conditional)
+    if raw_figures:
+        fm["figures"] = True
+
     # Acknowledgements
     ack = page.get("acknowledgements", "").strip()
     if ack:
         fm["acknowledgements"] = ack
 
-    # BibTeX
+    # BibTeX — replace relative /papers/<slug>/ with full URL
     bibtex = page.get("bibtex", "").strip()
     if bibtex:
+        bibtex = re.sub(
+            r"website\s*=\s*\{/papers/([^}]+)/\}",
+            r"website     = {https://chri-lab.github.io/papers/\1/}",
+            bibtex
+        )
         fm["bibtex"] = bibtex
 
     return fm
@@ -395,9 +538,10 @@ def fm_to_yaml(fm):
                      sort_keys=False, width=100)
 
 
-def build_body(page):
+def build_body(page, raw_figures=None):
     """Build the Markdown body (everything below front matter)."""
     lines = []
+    slug = page.get("slug", "slug")
 
     # Key findings
     findings = page.get("key_findings", [])
@@ -420,21 +564,28 @@ def build_body(page):
         lines.append("## Results\n")
         lines.append(results + "\n")
 
-    # Figures placeholder
-    lines.append("## Figures\n")
-    lines.append("<!-- Add figures below using this pattern:")
-    lines.append('<div class="paper-figures">')
-    lines.append('  <figure class="paper-figure">')
-    lines.append(f'    <img src="{{{{ \'/assets/papers/{page.get("slug", "slug")}/fig1.png\' | relative_url }}}}" alt="Figure 1">')
-    lines.append("    <figcaption>Figure 1: Caption here.</figcaption>")
-    lines.append("  </figure>")
-    lines.append("</div>")
-    lines.append("-->")
+    # Figures — only include if figures were actually extracted
+    claude_figures = page.get("figures", [])
+    if raw_figures and claude_figures:
+        # Build a caption map from Claude's cleaned captions
+        caption_map = {f["num"]: f["caption"] for f in claude_figures}
+
+        lines.append("## Figures\n")
+        lines.append('<div class="paper-figures">')
+        for fig in raw_figures:
+            num = fig["num"]
+            caption = caption_map.get(num, fig["raw_caption"])
+            asset = fig["asset_path"]
+            lines.append('  <figure class="paper-figure">')
+            lines.append(f"    <img src=\"{{{{ '{asset}' | relative_url }}}}\" alt=\"Figure {num}\">")
+            lines.append(f"    <figcaption>{caption}</figcaption>")
+            lines.append("  </figure>")
+        lines.append("</div>\n")
 
     return "\n".join(lines)
 
 
-def write_paper_md(page, inputs, existing_authors_map, slug):
+def write_paper_md(page, inputs, existing_authors_map, slug, raw_figures=None):
     """Write _papers/<slug>.md"""
     out_path = Path("_papers") / f"{slug}.md"
     out_path.parent.mkdir(exist_ok=True)
@@ -443,8 +594,8 @@ def write_paper_md(page, inputs, existing_authors_map, slug):
         print(f"Warning: {out_path} already exists — skipping to avoid overwrite. Rename manually if needed.")
         return
 
-    fm = build_frontmatter(page, inputs, existing_authors_map)
-    body = build_body(page)
+    fm = build_frontmatter(page, inputs, existing_authors_map, raw_figures)
+    body = build_body(page, raw_figures)
 
     content = f"---\n{fm_to_yaml(fm)}---\n\n{body}\n"
     out_path.write_text(content, encoding="utf-8")
@@ -600,22 +751,39 @@ def main():
         if inputs.get(key):
             info[key] = inputs[key]
 
-    # ── 2. Existing authors ───────────────────────────────────────────────────
+    # ── 2. Extract figures from PDF (before calling Claude) ───────────────────
+    raw_figures = []
+    if inputs["pdf_path"]:
+        # We need the slug first — derive a temporary one from the title if available
+        tmp_slug = make_slug(info.get("title", "paper"), info.get("year", ""))
+        raw_figures = extract_figures(inputs["pdf_path"], tmp_slug)
+
+    # ── 3. Existing authors ───────────────────────────────────────────────────
     existing_authors = read_existing_authors()
     existing_authors_map = {a.get("name", "").lower(): a for a in existing_authors}
     existing_author_names = list(existing_authors_map.keys())
 
-    # ── 3. Call Claude ────────────────────────────────────────────────────────
+    # ── 4. Call Claude ────────────────────────────────────────────────────────
     client = anthropic.Anthropic(api_key=api_key)
-    page = call_claude(client, info, inputs, existing_author_names)
+    page = call_claude(client, info, inputs, existing_author_names, raw_figures)
 
-    # ── 4. Determine slug ─────────────────────────────────────────────────────
+    # ── 5. Determine final slug and rename figure assets if needed ────────────
     slug = page.get("slug") or make_slug(page.get("title", "paper"), page.get("year", ""))
     slug = re.sub(r"[^\w-]", "", slug).lower().strip("-")
     page["slug"] = slug
 
-    # ── 5. Write files ────────────────────────────────────────────────────────
-    write_paper_md(page, inputs, existing_authors_map, slug)
+    # Rename figure asset directory if the final slug differs from the temp one
+    if raw_figures:
+        tmp_dir = Path(f"assets/papers/{tmp_slug}")
+        final_dir = Path(f"assets/papers/{slug}")
+        if tmp_dir.exists() and tmp_dir != final_dir:
+            tmp_dir.rename(final_dir)
+        # Update asset paths in raw_figures to use the final slug
+        for fig in raw_figures:
+            fig["asset_path"] = f"/assets/papers/{slug}/{fig['filename']}"
+
+    # ── 6. Write files ────────────────────────────────────────────────────────
+    write_paper_md(page, inputs, existing_authors_map, slug, raw_figures)
     bibtex_entry = page.get("bibtex", "").strip()
     if bibtex_entry:
         update_bib_file(bibtex_entry, slug)

@@ -3,6 +3,15 @@ layout: default
 ---
 
 <style>
+/* ── Design tokens ──────────────────────────────────────── */
+:root {
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Fira Code", monospace;
+  --color-ink: #1a1a1a;
+  --color-muted: #666;
+  --color-border: #e8e8e8;
+}
+
 /* ── Reset / base ───────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -15,8 +24,8 @@ layout: default
   padding: 2.5rem 1.5rem 5rem;
   gap: 3rem;
   align-items: start;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #1a1a1a;
+  font-family: var(--font-base);
+  color: var(--color-ink);
   line-height: 1.7;
 }
 
@@ -72,9 +81,17 @@ layout: default
   margin-bottom: 2.5rem;
 }
 
+.paper-venue-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
 .paper-venue-badge {
   display: inline-block;
-  background: #1a1a1a;
+  background: var(--color-ink);
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -82,7 +99,15 @@ layout: default
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-bottom: 1rem;
+  font-family: var(--font-base);
+}
+
+.paper-venue-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.8;
+  vertical-align: middle;
 }
 
 .paper-hero h1 {
@@ -336,21 +361,22 @@ layout: default
 }
 .citation-panel.active { display: block; }
 
-.citation-panel pre,
-.citation-panel p {
+.citation-panel pre {
   margin: 0;
   font-size: 0.82rem;
   line-height: 1.65;
   white-space: pre-wrap;
   word-break: break-word;
-  font-family: ui-monospace, "SF Mono", "Fira Code", monospace;
+  font-family: var(--font-mono);
   color: #333;
 }
 
 .citation-panel p {
-  font-family: inherit;
+  margin: 0;
   font-size: 0.88rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+  font-family: var(--font-base);
+  color: #333;
 }
 
 .citation-copy-btn {
@@ -430,12 +456,11 @@ layout: default
       <div class="sidebar-nav-title">On this page</div>
       <a href="#abstract">Abstract</a>
       {% if page.keywords %}<a href="#keywords">Keywords</a>{% endif %}
-      {% if page.contributions %}<a href="#contributions">Key Findings</a>{% endif %}
+      <a href="#key-findings">Key Findings</a>
       <a href="#method">Method</a>
       <a href="#results">Results</a>
-      {% if page.teaser_image or page.teaser_video %}<a href="#teaser">Teaser</a>{% endif %}
+      {% if page.figures %}<a href="#figures">Figures</a>{% endif %}
       {% if page.video_url %}<a href="#video">Video</a>{% endif %}
-      {% if page.dataset_url or page.code_url %}<a href="#artifacts">Artifacts</a>{% endif %}
       <a href="#cite">Citation</a>
       {% if page.acknowledgements %}<a href="#acknowledgements">Acknowledgements</a>{% endif %}
     </nav>
@@ -450,7 +475,12 @@ layout: default
     <header class="paper-hero">
 
       {% if page.venue %}
-      <div class="paper-venue-badge">{{ page.venue }}{% if page.year %} · {{ page.year }}{% endif %}</div>
+      <div class="paper-venue-row">
+        <div class="paper-venue-badge">{{ page.venue }}{% if page.year %} · {{ page.year }}{% endif %}</div>
+        {% if page.venue_logo %}
+        <img class="paper-venue-logo" src="{{ page.venue_logo }}" alt="{{ page.venue }} logo">
+        {% endif %}
+      </div>
       {% endif %}
 
       <h1>{{ page.title }}</h1>
