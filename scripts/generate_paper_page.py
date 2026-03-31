@@ -408,7 +408,7 @@ Rules:
 - If a field is unknown, use an empty string or empty list.
 - key_findings: 3–5 items.
 - keywords: 4–8 short phrases, title case.
-- The bibtex entry should include all standard fields. Add a website field: website = {https://chri-lab.github.io/papers/<slug>/} (use the full URL).
+- The bibtex entry should include all standard fields. Add a website field pointing to the full URL: website = {{https://chri-lab.github.io/papers/<slug>/}}
 - figures: include only figures that were listed in EXTRACTED FIGURES. If none were extracted, return an empty list.
 - For authors already in _data/authors.yml, still include them in the authors array (their photo/URL will be looked up later).
 """
