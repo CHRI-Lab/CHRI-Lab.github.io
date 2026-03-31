@@ -469,7 +469,7 @@ def build_frontmatter(page, inputs, existing_authors_map, raw_figures=None):
         else:
             url = a.get("url", "")
             affiliation = a.get("affiliation", "")
-            photo = f"/assets/papers/{page['slug']}/authors/{re.sub(r'[^a-z]', '', name.lower())}.jpg"
+            photo = f"/assets/authors/{re.sub(r'[^a-z]', '', name.lower())}.jpg"
 
         entry = {"name": name}
         if affiliation:
@@ -685,12 +685,12 @@ def build_pr_body(page, new_authors, slug, inputs):
                 f"- name: {name}",
                 f"  affiliation: Their Institution",
                 f"  url: https://their-website.com",
-                f"  photo: /assets/papers/{slug}/authors/{safe}.jpg",
+                f"  photo: /assets/authors/{safe}.jpg",
                 f"```",
                 "",
             ]
         lines += [
-            f"Upload their photos to `assets/papers/{slug}/authors/`.",
+            f"Upload their photos to `assets/authors/`.",
         ]
 
     return "\n".join(lines)
