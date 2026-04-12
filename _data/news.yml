@@ -1,3 +1,27 @@
+- date: Apr 11, 2026
+  headline: "Muhammad Bilal submitted his Ph.D. thesis, marking a significant milestone in his academic journey. His thesis encompasses a comprehensive exploration of learning from demonstration (LfD) algorithms, the impact of robot redundancy on LfD, and the development of an XR system for human-robot collaboration. Congratulations to Muhammad on this remarkable achievement!"
+  description: "Lab Life" 
+
+- date: Apr 8, 2026
+  headline: "Melanie Baumgartner is joining our group for a research visit of 1 year as part of her PhD at ETHZ. Welcome, Melanie!"
+  description: "Lab Life" 
+
+- date: Mar 27, 2026
+  headline: "Booster Demo! We had a good time testing this new robot. "
+  description: "Lab Life" 
+
+- date: Mar 20, 2026
+  headline: "Canghai Wang, who did his bachelor thesis with us on the “A Robot of Many Minds” project, just got accepted to a Master program at CMU!"
+  description: "Lab Life"
+
+- date: Mar 20, 2026
+  headline: "Sarah Schoembs co-authored a paper which received an honourable mention at HRI26! https://humanrobotinteraction.org/2026/award-nominees/"
+  description: "Publication"
+
+- date: Mar 20, 2026
+  headline: "Muhammad Bilal's paper on the “Design and Evaluation of AR-Based Real-Time Feedback System for Kinaesthetic Robot Teaching” has been accepted to DIS26."
+  description: "Publication"
+
 - date: Feb 02, 2026
   headline: "Congratulations to Muhammad Bilal on successfully completing his Ph.D.! His presentation showcased an impressive range of contributions, from benchmarking LfD algorithms and learning from failed demonstrations to developing the XR system and conducting focus groups. Wishing him all the best in his future endeavors!"
   img: 02022026_01_Muhammad_Confirmation_Seminar.jpg
