@@ -1,25 +1,67 @@
-<div id="footer" class="panel">
-	<div class="panel-footer">
-	  <div class="container-fluid">
-		<div class="row">
-		  <div class="col-sm-5 footer">
-			  
-			<p>&copy; CHRI Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a></p>
-				<p>We are part of the <a href="https://cis.unimelb.edu.au/hci"> HCI Research Group at the School of Computing and Information Systems</a> at the <a href="https://unimelb.edu.au/">University of Melbourne Australia</a>.</p>
-		  </div>
-		  
-		  <div class="col-sm-5 footer">
-			<b>Location:</b><br />
-			Level 5, Melbourne Connect<br />
-			700 Swanston Street<br />
-			Carlton, VIC 3053 (<a href="https://maps.app.goo.gl/s9eD9mdr22DxyhqN9">Maps</a>)
-		  </div>
-		</div>
-	  </div>
-	</div>
+<footer class="chri-footer" role="contentinfo">
+  <div class="chri-footer-grid">
+    <div class="footer-brand">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/chri-logo.png" alt="CHRI Lab" onerror="this.style.display='none'">
+      <p>
+        Human-Robot Interaction Research at the University of Melbourne.
+        We create autonomous robots that act smoothly and safely with humans.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/">Lab Overview</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/people">Our Team</a></li>
+        <li><a href="https://cis.unimelb.edu.au/hci">HCI Group</a></li>
+        <li><a href="https://unimelb.edu.au/">University of Melbourne</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/people">Team Members</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/#news">News</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}/#join">Join Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="mailto:wafa.johal@unimelb.edu.au">Email</a></li>
+        <li><a href="https://scholar.google.com/citations?user=GR9bAl0AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://github.com/chri-lab" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://maps.app.goo.gl/s9eD9mdr22DxyhqN9" target="_blank" rel="noopener">Level 5, Melbourne Connect</a></li>
+      </ul>
+    </div>
   </div>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
-  
-  
+
+  <div class="chri-footer-bottom">
+    <p>&copy; {{ 'now' | date: "%Y" }} CHRI Lab &middot; University of Melbourne &middot; Site built with <a href="https://jekyllrb.com" style="color:rgba(255,255,255,.4)">Jekyll</a></p>
+    <p>700 Swanston St, Carlton VIC 3053, Australia</p>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+
+<!-- Scroll-reveal -->
+<script>
+(function () {
+  function revealOnScroll() {
+    var elements = document.querySelectorAll('.reveal, .reveal-children');
+    var windowHeight = window.innerHeight;
+    elements.forEach(function (el) {
+      var rect = el.getBoundingClientRect();
+      if (rect.top < windowHeight - 60) {
+        el.classList.add('revealed');
+      }
+    });
+  }
+  window.addEventListener('scroll', revealOnScroll, { passive: true });
+  revealOnScroll();
+})();
+</script>

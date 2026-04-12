@@ -1,13 +1,324 @@
 ---
-layout: default
+# Standalone layout – no parent layout, provides full HTML document
 ---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="chri-redesign">
 
-  <div id="homeid" class="col-sm-8">
-        <!-- <img class="mb-3" src="/images/chri-logo.png"> -->
+{% include header.html %}
 
-	{{ content }}
+<main>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-hero">
+  <div class="chri-hero-inner">
+    <p class="chri-hero-eyebrow">HRI @ University of Melbourne</p>
+    <h1>Robots that Work<br><em>With</em> People</h1>
+    <p class="chri-hero-lead">
+      We create autonomous robots that act smoothly and safely alongside humans —
+      advancing behavioural analytics, personalised learning, and human-centred robot design.
+    </p>
   </div>
 
-  <div id="newsid" class="col-sm-4" >
-	{% include news.html %}
+  <div class="chri-hero-inner">
+    <div class="chri-hero-photo reveal">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/1.png"
+           alt="CHRI Lab group photo"
+           onerror="this.src='{{ site.url }}{{ site.baseurl }}/images/carousel/2.png'">
+    </div>
   </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     STATS BAR
+══════════════════════════════════════════════════════════════════════════ -->
+<div class="chri-stats" aria-label="Lab statistics">
+  <div class="chri-stats-grid reveal-children">
+    {% assign faculty_count = site.data.team.faculty | size %}
+    {% assign student_count = site.data.team.current-students | size %}
+    {% assign total_members = faculty_count | plus: student_count %}
+    <div class="stat-item">
+      <span class="stat-number">{{ total_members }}</span>
+      <span class="stat-label">Team Members</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">{{ site.bibliography | size | default: "50+" }}</span>
+      <span class="stat-label">Publications</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">4</span>
+      <span class="stat-label">Research Areas</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">6+</span>
+      <span class="stat-label">Grants & Awards</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     RESEARCH THEMES
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-section" id="research">
+  <div class="chri-section-head">
+    <h2>Research Themes</h2>
+  </div>
+
+  <div class="chri-themes-grid reveal-children">
+
+    <!-- Theme 1 -->
+    <div class="chri-theme-card">
+      <div class="theme-icon">🤖</div>
+      <h3>Human-Robot Interaction</h3>
+      <p>Designing robots that collaborate naturally with people in real-world social and workplace environments, from crowded spaces to assistive care.</p>
+      <div class="theme-footer">
+        <div class="avatar-stack">
+          {% for member in site.data.team.faculty limit:1 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+          {% for member in site.data.team.current-students limit:3 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+        </div>
+        <span class="theme-pub-count">30+ papers</span>
+      </div>
+    </div>
+
+    <!-- Theme 2 -->
+    <div class="chri-theme-card">
+      <div class="theme-icon">🎓</div>
+      <h3>Learning from Demonstration</h3>
+      <p>Teaching robots through human demonstrations and failure cases, enabling adaptive skill acquisition without explicit programming.</p>
+      <div class="theme-footer">
+        <div class="avatar-stack">
+          {% for member in site.data.team.faculty limit:1 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+          {% for member in site.data.team.current-students limit:2 offset:1 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+          <span class="avatar-more">+2</span>
+        </div>
+        <span class="theme-pub-count">12+ papers</span>
+      </div>
+    </div>
+
+    <!-- Theme 3 -->
+    <div class="chri-theme-card">
+      <div class="theme-icon">🥽</div>
+      <h3>Augmented & Extended Reality</h3>
+      <p>Leveraging XR and haptic interfaces to enhance teleoperation, spatial understanding, and mixed-reality human-robot collaboration.</p>
+      <div class="theme-footer">
+        <div class="avatar-stack">
+          {% for member in site.data.team.faculty limit:1 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+          {% for member in site.data.team.current-students limit:2 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+        </div>
+        <span class="theme-pub-count">10+ papers</span>
+      </div>
+    </div>
+
+    <!-- Theme 4 -->
+    <div class="chri-theme-card">
+      <div class="theme-icon">🧠</div>
+      <h3>AI Agents & Multi-Agent Systems</h3>
+      <p>Exploring HCI challenges in interactive multi-agentic systems, including social robots orchestrated by large language models.</p>
+      <div class="theme-footer">
+        <div class="avatar-stack">
+          {% for member in site.data.team.faculty limit:1 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+          {% for member in site.data.team.current-students limit:2 offset:2 %}
+          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+          {% endfor %}
+        </div>
+        <span class="theme-pub-count">8+ papers</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     NEWS
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-section chri-section--alt" id="news">
+  <div class="chri-section-head">
+    <h2>Latest News</h2>
+  </div>
+
+  <div class="chri-news-layout">
+
+    <!-- News list -->
+    <div class="chri-news-list reveal">
+      {% assign news_items = site.data.news | slice: 1, 10 %}
+      {% for item in news_items %}
+      <div class="news-item">
+        <span class="chri-tag tag-blue news-tag">
+          {% if item.description %}{{ item.description }}{% else %}News{% endif %}
+        </span>
+        <span class="news-title">{{ item.headline }}</span>
+        <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Featured aside -->
+    {% assign featured = site.data.news | first %}
+    <aside class="chri-news-featured reveal">
+      {% if featured.img %}
+      <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ featured.img }}"
+           alt="Featured news"
+           onerror="this.style.display='none'">
+      {% endif %}
+      <div class="featured-body">
+        <div class="featured-label">⭐ Latest Highlight</div>
+        <h3>{{ featured.headline | strip_html | truncate: 120 }}</h3>
+        <p>{{ featured.date | date: "%B %d, %Y" }}</p>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     SELECTED PUBLICATIONS
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-section" id="publications">
+  <div class="chri-section-head">
+    <h2>Selected Publications</h2>
+    <a href="{{ site.url }}{{ site.baseurl }}/publications" class="see-all">All Publications →</a>
+  </div>
+
+  <!-- Topic filter buttons -->
+  <div class="chri-pub-filters reveal">
+    <button class="chri-filter-btn active" data-filter="all">All</button>
+    <button class="chri-filter-btn" data-filter="CHI">CHI</button>
+    <button class="chri-filter-btn" data-filter="HRI">HRI</button>
+    <button class="chri-filter-btn" data-filter="ISMAR">ISMAR</button>
+    <button class="chri-filter-btn" data-filter="HAI">HAI</button>
+  </div>
+
+  <div class="chri-pub-list reveal" id="pub-list">
+    {% bibliography -f papers -q @*[selected=yes]* --max 6 %}
+  </div>
+
+  <!-- Pub filter script -->
+  <script>
+  (function(){
+    var btns = document.querySelectorAll('.chri-filter-btn');
+    var rows = document.querySelectorAll('#pub-list li');
+    btns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        btns.forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        var filter = btn.getAttribute('data-filter');
+        rows.forEach(function(row){
+          if (filter === 'all') {
+            row.style.display = '';
+          } else {
+            var text = row.textContent || row.innerText;
+            row.style.display = text.indexOf(filter) > -1 ? '' : 'none';
+          }
+        });
+      });
+    });
+  })();
+  </script>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TEAM
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-section chri-section--alt" id="team">
+  <div class="chri-section-head">
+    <h2>Our Team</h2>
+    <a href="{{ site.url }}{{ site.baseurl }}/people" class="see-all">Full Team →</a>
+  </div>
+
+  <!-- Faculty -->
+  <div class="chri-team-group reveal">
+    <h3>Faculty</h3>
+    <div class="chri-team-grid">
+      {% assign fac_array = site.data.team.faculty | sort: "lastname" %}
+      {% for member in fac_array %}
+      <div class="chri-member-card">
+        <div class="member-photo-wrap">
+          {% if member.photo %}
+          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+               alt="{{ member.name | strip_html }}"
+               onerror="this.style.background='#85AD96'">
+          {% endif %}
+        </div>
+        <div class="member-name">{{ member.name | strip_html }}</div>
+        <div class="member-role">{{ member.info }}</div>
+        {% if member.social %}
+        <div class="member-links">
+          {% if member.social.website %}<a href="{{ member.social.website }}" target="_blank" rel="noopener" title="Website">🌐</a>{% endif %}
+          {% if member.social.google-scholar %}<a href="{{ member.social.google-scholar }}" target="_blank" rel="noopener" title="Scholar">📖</a>{% endif %}
+          {% if member.social.email %}<a href="mailto:{{ member.social.email }}" title="Email">✉️</a>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- PhD Students -->
+  <div class="chri-team-group reveal">
+    <h3>PhD Students</h3>
+    <div class="chri-team-grid">
+      {% assign students = site.data.team.current-students | sort: "lastname" %}
+      {% for member in students %}
+      {% if member.info contains 'PhD' %}
+      <div class="chri-member-card">
+        <div class="member-photo-wrap">
+          {% if member.photo %}
+          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+               alt="{{ member.name | strip_html }}"
+               onerror="this.style.background='#85AD96'">
+          {% endif %}
+        </div>
+        <div class="member-name">{{ member.name | strip_html }}</div>
+        <div class="member-role">{{ member.info }}</div>
+        {% if member.social %}
+        <div class="member-links">
+          {% if member.social.website %}<a href="{{ member.social.website }}" target="_blank" rel="noopener" title="Website">🌐</a>{% endif %}
+          {% if member.social.linkedin %}<a href="{{ member.social.linkedin }}" target="_blank" rel="noopener" title="LinkedIn">💼</a>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     JOIN BANNER
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="chri-join reveal" id="join">
+  <div class="chri-join-inner">
+    <h2>Join Our Lab</h2>
+    <p>
+      We are looking for motivated PhD students, Postdocs, and Research Assistants
+      passionate about human-robot interaction and intelligent systems.
+    </p>
+    <a href="mailto:wafa.johal@unimelb.edu.au" class="chri-join-btn">Get in Touch</a>
+  </div>
+</section>
+
+</main>
+
+{% include footer.html %}
+{% include misc.html %}
+
+</body>
+</html>
