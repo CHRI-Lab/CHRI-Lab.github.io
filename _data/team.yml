@@ -12,6 +12,13 @@ faculty:
       github: https://github.com/wafajohal
       google-scholar: https://scholar.google.com/citations?user=GR9bAl0AAAAJ
       linkedin: https://www.linkedin.com/in/wafa-johal/
+    research_themes:
+      - embodied-interaction
+      - failure-uncertainty
+      - human-robot-collaboration
+      - haptic-vr-wellbeing
+      - teleoperation
+      - controllable-autonomy
   
       
 current-students:
@@ -24,6 +31,9 @@ current-students:
     advisor:
       - Jarrod Knibbe
       - Wafa Johal
+    research_themes:
+      - embodied-interaction
+      - haptic-vr-wellbeing
 
 
   - name: <a href="https://chri-lab.github.io/people/yan/">Yan Zhang </a>
@@ -41,6 +51,11 @@ current-students:
        linkedin: https://www.linkedin.com/in/yan-zhang2332/
        google-scholar: https://scholar.google.com/citations?user=CyIEsPgAAAAJ&hl=zh-CN
        website: https://yzhang2332.github.io/yanzhang/
+    research_themes:
+      - embodied-interaction
+      - human-robot-collaboration
+      - teleoperation
+      - controllable-autonomy
     
     
 
@@ -52,6 +67,10 @@ current-students:
     advisor:
       - Vassilis Kostakos
       - Wafa Johal
+    research_themes:
+      - embodied-interaction
+      - failure-uncertainty
+      - human-robot-collaboration
 
 
   - name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
@@ -67,6 +86,11 @@ current-students:
       linkedin: https://www.linkedin.com/in/sarah-schoembs/
       google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
       website: "https://sites.google.com/view/sarahschombs/"
+    research_themes:
+      - embodied-interaction
+      - failure-uncertainty
+      - human-robot-collaboration
+
 
   - name: <a href="https://chri-lab.github.io/people/muhammad/">Muhammad Bilal </a>
     lastname: "Bilal"
@@ -87,6 +111,9 @@ current-students:
       - Denny Oetomo
       - Jon Eden
       - Wafa Johal
+    research_themes:
+      - embodied-interaction
+      - haptic-vr-wellbeing
 
   - name: <a href="https://chri-lab.github.io/people/farshad/">Farshad Haque Daryakenari</a>
     lastname: Haque Daryakenari
@@ -100,6 +127,9 @@ current-students:
     social:
       linkedin: https://www.linkedin.com/in/farshad-haque-daryakenari
       google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
+    research_themes:
+      - teleoperation
+      - controllable-autonomy
   
   - name: <a href="https://chri-lab.github.io/people/enjie/">Enjie Cao</a>
     lastname: Cao
@@ -112,6 +142,9 @@ current-students:
       - Jing Mu
     social:
       linkedin: https://www.linkedin.com/in/enjie-cao/
+    research_themes:
+      - embodied-interaction
+      - haptic-vr-wellbeing
 
 
   

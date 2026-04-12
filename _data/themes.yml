@@ -1,0 +1,37 @@
+- slug: embodied-interaction
+  title: "Embodied Interaction for Skill, Learning & Training"
+  short: "Robotic, haptic, and XR systems that support motor skill acquisition and hands-on learning through physical interaction — integrating learning from demonstration, tangible interfaces, and visuo-haptic feedback."
+  description: |
+    Designs embodied robotic, haptic, and virtual/mixed reality systems that support motor skill acquisition, rehabilitation, and hands-on learning through physical interaction. These approaches integrate learning from demonstration, tangible and wearable interfaces, and visuo-haptic feedback to make movement, effort, and technique directly observable and correctable.
+    Rather than relying solely on task completion, the work develops metrics that assess quality of execution, enabling personalised guidance, progressive difficulty, and measurable skill transfer. The resulting systems provide immersive, repeatable, and data-driven training environments for education, therapy, and skilled manual work.
+
+- slug: failure-uncertainty
+  title: "Failure, Uncertainty & Embodied Explainability"
+  short: "Treating failure and uncertainty as structural features of real-world HRI — using behavioural sensing, embodied cues, and AI risk communication strategies to maintain trust and support timely recovery."
+  description: |
+    Treats failure and uncertainty as inherent features of real-world human-robot and human-AI interaction rather than exceptional cases.
+    Behavioural sensing and embodied cues — such as gaze, timing, motion, and affective expression — enable early detection of breakdowns and support timely explanation and recovery. These mechanisms are complemented by AI risk and uncertainty communication strategies that make system confidence, limitations, and intent legible to users, helping maintain trust, safety, and coordinated action.
+
+- slug: human-robot-collaboration
+  title: "Human-Robot/Agent Collaboration"
+  short: "How people coordinate with robots and embodied agents in shared physical and cognitive tasks — using communication, gaze, language, and behavioural cues to enhance trust, team fluency, and joint performance."
+  description: |
+    Investigates how people coordinate with robots and embodied agents in shared physical and cognitive tasks. Empirical studies examine communication, gaze, language, and behavioural cues to inform the design of collaborative systems that enhance trust, team fluency, and joint performance.
+
+- slug: haptic-vr-wellbeing
+  title: "Haptic for VR & Wellbeing"
+  short: "Visuo-haptic and virtual/mixed reality interfaces coupling touch, force, and perception to support fine motor control, grasping, and sensorimotor training for rehabilitation and wellbeing."
+  description: |
+    Develops visuo-haptic and virtual/mixed reality interfaces that couple touch, force, and perception to support fine motor control, grasping, and sensorimotor training. These systems enable immersive, measurable, and repeatable practice environments for rehabilitation, wellbeing, and performance improvement.
+
+- slug: teleoperation
+  title: "Teleoperation & Telepresence"
+  short: "Assisted teleoperation and telepresence robots enabling effective remote action in work and everyday environments, with shared-control strategies that reduce workload while preserving user agency."
+  description: |
+    Studies assisted teleoperation and telepresence robots that enable effective remote action and representation in work and everyday environments. Shared-control strategies reduce workload and improve accuracy while maintaining user agency, situational awareness, and accountability.
+
+- slug: controllable-autonomy
+  title: "Controllable Autonomy & Shared Control"
+  short: "Conceptualising autonomy as a negotiated, interactional property — developing adaptive shared-control frameworks that remain steerable, interruptible, and aligned with human intent."
+  description: |
+    Conceptualises autonomy as an interactional property negotiated between humans and intelligent systems. Develops adaptive shared-control frameworks that balance assistance and oversight, enabling autonomy that remains steerable, interruptible, and aligned with human intent.

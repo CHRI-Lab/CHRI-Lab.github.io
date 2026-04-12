@@ -1,0 +1,104 @@
+---
+# Standalone layout for individual research theme pages
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="chri-redesign">
+{% include header.html %}
+
+<main>
+
+<section class="chri-theme-hero">
+  <div class="chri-container">
+    <a class="chri-theme-back" href="{{ site.url }}{{ site.baseurl }}/#research">← Research Themes</a>
+    <h1>{{ page.title }}</h1>
+    <p class="chri-theme-lead">{{ page.description | default: page.excerpt }}</p>
+  </div>
+</section>
+
+<div class="chri-divider"></div>
+
+<!-- ── People working on this theme ──────────────────────────────────────── -->
+{% assign theme_slug = page.theme_slug %}
+{% assign fac_members = "" | split: "" %}
+{% for member in site.data.team.faculty %}
+  {% if member.research_themes contains theme_slug %}
+    {% assign fac_members = fac_members | push: member %}
+  {% endif %}
+{% endfor %}
+
+{% assign phd_members = "" | split: "" %}
+{% for member in site.data.team.current-students %}
+  {% if member.research_themes contains theme_slug %}
+    {% assign phd_members = phd_members | push: member %}
+  {% endif %}
+{% endfor %}
+
+{% if fac_members.size > 0 or phd_members.size > 0 %}
+<section class="chri-section">
+  <div class="chri-section-head">
+    <h2>People</h2>
+  </div>
+
+  {% if fac_members.size > 0 %}
+  <div class="chri-team-group">
+    <div class="chri-team-grid">
+      {% for member in fac_members %}
+      <div class="chri-member-card">
+        <div class="member-photo-wrap">
+          {% if member.photo %}
+          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+               alt="{{ member.name | strip_html }}"
+               onerror="this.style.background='#85AD96'">
+          {% endif %}
+        </div>
+        <div class="member-name">{{ member.name | strip_html }}</div>
+        <div class="member-role">{{ member.info }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if phd_members.size > 0 %}
+  <div class="chri-team-group">
+    <div class="chri-team-grid">
+      {% for member in phd_members %}
+      <div class="chri-member-card">
+        <div class="member-photo-wrap">
+          {% if member.photo %}
+          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+               alt="{{ member.name | strip_html }}"
+               onerror="this.style.background='#85AD96'">
+          {% endif %}
+        </div>
+        <div class="member-name">{{ member.name | strip_html }}</div>
+        <div class="member-role">{{ member.info }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+</section>
+{% endif %}
+
+<!-- ── Publications for this theme ───────────────────────────────────────── -->
+<section class="chri-section chri-section--alt">
+  <div class="chri-section-head">
+    <h2>Publications</h2>
+    <a href="{{ site.url }}{{ site.baseurl }}/publications" class="see-all">All Publications →</a>
+  </div>
+  <div class="chri-pub-list">
+    {% assign q = "@*[research_theme=" | append: theme_slug | append: "]*" %}
+    {% bibliography -f papers --query q %}
+  </div>
+</section>
+
+</main>
+
+{% include footer.html %}
+{% include misc.html %}
+</body>
+</html>

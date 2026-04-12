@@ -39,87 +39,43 @@
 <!-- ══════════════════════════════════════════════════════════════════════════
      RESEARCH THEMES
 ══════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════════════════════
+     RESEARCH THEMES
+══════════════════════════════════════════════════════════════════════════ -->
 <section class="chri-section" id="research">
-  <div class="chri-section-head">
-    <h2>Research Themes</h2>
-  </div>
-
-  <div class="chri-themes-grid reveal-children">
-
-    <!-- Theme 1 -->
-    <div class="chri-theme-card">
-      <div class="theme-icon">🤖</div>
-      <h3>Human-Robot Interaction</h3>
-      <p>Designing robots that collaborate naturally with people in real-world social and workplace environments, from crowded spaces to assistive care.</p>
-      <div class="theme-footer">
-        <div class="avatar-stack">
-          {% for member in site.data.team.faculty limit:1 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-          {% for member in site.data.team.current-students limit:3 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-        </div>
-        <span class="theme-pub-count">30+ papers</span>
-      </div>
-    </div>
-
-    <!-- Theme 2 -->
-    <div class="chri-theme-card">
-      <div class="theme-icon">🎓</div>
-      <h3>Learning from Demonstration</h3>
-      <p>Teaching robots through human demonstrations and failure cases, enabling adaptive skill acquisition without explicit programming.</p>
-      <div class="theme-footer">
-        <div class="avatar-stack">
-          {% for member in site.data.team.faculty limit:1 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-          {% for member in site.data.team.current-students limit:2 offset:1 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-          <span class="avatar-more">+2</span>
-        </div>
-        <span class="theme-pub-count">12+ papers</span>
-      </div>
-    </div>
-
-    <!-- Theme 3 -->
-    <div class="chri-theme-card">
-      <div class="theme-icon">🥽</div>
-      <h3>Augmented & Extended Reality</h3>
-      <p>Leveraging XR and haptic interfaces to enhance teleoperation, spatial understanding, and mixed-reality human-robot collaboration.</p>
-      <div class="theme-footer">
-        <div class="avatar-stack">
-          {% for member in site.data.team.faculty limit:1 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-          {% for member in site.data.team.current-students limit:2 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-        </div>
-        <span class="theme-pub-count">10+ papers</span>
-      </div>
-    </div>
-
-    <!-- Theme 4 -->
-    <div class="chri-theme-card">
-      <div class="theme-icon">🧠</div>
-      <h3>AI Agents & Multi-Agent Systems</h3>
-      <p>Exploring HCI challenges in interactive multi-agentic systems, including social robots orchestrated by large language models.</p>
-      <div class="theme-footer">
-        <div class="avatar-stack">
-          {% for member in site.data.team.faculty limit:1 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-          {% for member in site.data.team.current-students limit:2 offset:2 %}
-          <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
-          {% endfor %}
-        </div>
-        <span class="theme-pub-count">8+ papers</span>
-      </div>
-    </div>
-
-  </div>
+<div class="chri-section-head">
+<h2>Research Themes</h2>
+</div>
+<div class="chri-themes-grid reveal-children">
+{% for theme in site.data.themes %}
+{% assign theme_members = "" | split: "" %}
+{% for member in site.data.team.faculty %}
+  {% if member.research_themes contains theme.slug %}
+    {% assign theme_members = theme_members | push: member %}
+  {% endif %}
+{% endfor %}
+{% for member in site.data.team.current-students %}
+  {% if member.research_themes contains theme.slug %}
+    {% assign theme_members = theme_members | push: member %}
+  {% endif %}
+{% endfor %}
+<a class="chri-theme-card" href="{{ site.url }}{{ site.baseurl }}/research/{{ theme.slug }}/">
+<h3>{{ theme.title }}</h3>
+<p>{{ theme.short }}</p>
+<div class="theme-footer">
+<div class="avatar-stack">
+  {% for member in theme_members limit:4 %}
+  <img class="avatar-thumb" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name | strip_html }}" onerror="this.style.background='#85AD96';this.src=''">
+  {% endfor %}
+  {% if theme_members.size > 4 %}
+  <span class="avatar-more">+{{ theme_members.size | minus: 4 }}</span>
+  {% endif %}
+</div>
+<span class="theme-arrow">→</span>
+</div>
+</a>
+{% endfor %}
+</div>
 </section>
 
 <!-- ══════════════════════════════════════════════════════════════════════════
