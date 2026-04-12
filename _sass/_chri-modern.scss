@@ -1,11 +1,11 @@
 /* =============================================================================
    CHRI Lab – Modern Redesign
-   Fonts: Roboto Mono (headings) + Lato (body)
+   Fonts: Roboto Mono (headings) + Roboto (body)
    Accent 1: Steel blue  #7A9DB8
    Accent 2: Sage green  #85AD96
    ============================================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;600;700;800&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;600;700;800&family=Roboto:wght@300;400;700&display=swap');
 
 /* ── Reset / Base ─────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--chri-text);
   background: #fff;
   margin: 0;
@@ -514,7 +514,7 @@ a:hover { color: var(--chri-blue-dark); }
   cursor: pointer;
   color: var(--chri-muted);
   transition: all var(--transition);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   &:hover,
   &.active {
@@ -570,7 +570,7 @@ a:hover { color: var(--chri-blue-dark); }
   }
 
   h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.95rem;
     font-weight: 700;
     color: var(--chri-text);
@@ -603,7 +603,7 @@ a:hover { color: var(--chri-blue-dark); }
     cursor: pointer;
     text-decoration: none;
     transition: all var(--transition);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
 
     &:hover {
