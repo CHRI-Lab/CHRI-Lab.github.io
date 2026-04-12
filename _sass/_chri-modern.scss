@@ -1,14 +1,23 @@
 /* =============================================================================
    CHRI Lab – Modern Redesign
-   Fonts: Roboto Mono (headings) + Roboto (body)
+   Fonts: Roboto Mono (headings/nav/logo) + Roboto (body)  — mirrors KiXLab
    Accent 1: Steel blue  #7A9DB8
    Accent 2: Sage green  #85AD96
    ============================================================================= */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;600;700;800&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 /* ── Reset / Base ─────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
+
+/* Reset the aggressive global img rule from main.scss that bloats images */
+body.chri-redesign img {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+  height: auto;
+}
 
 :root {
   --chri-blue:       #7A9DB8;
@@ -26,6 +35,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--chri-text);
   background: #fff;
   margin: 0;
@@ -35,7 +47,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Mono', monospace;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
   margin: 0 0 0.5em;
 }
@@ -95,7 +107,7 @@ a:hover { color: var(--chri-blue-dark); }
 
     span {
       font-family: 'Roboto Mono', monospace;
-      font-weight: 800;
+      font-weight: 700;
       font-size: 1.05rem;
       color: var(--chri-text);
       letter-spacing: -0.01em;
@@ -188,8 +200,8 @@ a:hover { color: var(--chri-blue-dark); }
   }
 
   h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 800;
+    font-size: clamp(1.9rem, 4vw, 3rem);  /* Roboto Mono is wide; keep tight */
+    font-weight: 700;
     line-height: 1.1;
     max-width: 800px;
     color: var(--chri-text);
@@ -202,7 +214,7 @@ a:hover { color: var(--chri-blue-dark); }
   }
 
   p.chri-hero-lead {
-    font-size: 1.1rem;
+    font-size: 1.125em;   /* KiXLab intro size */
     color: var(--chri-muted);
     max-width: 620px;
     line-height: 1.7;
@@ -224,56 +236,10 @@ a:hover { color: var(--chri-blue-dark); }
   }
 }
 
-/* ── STATS BAR ────────────────────────────────────────────────────────────── */
-.chri-stats {
-  background: var(--chri-dark);
-  padding: 2.5rem 0;
-
-  .chri-stats-grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-
-    .stat-item {
-      text-align: center;
-      padding: 1rem;
-      border-right: 1px solid rgba(255,255,255,.1);
-
-      &:last-child { border-right: none; }
-
-      .stat-number {
-        font-family: 'Roboto Mono', monospace;
-        font-size: 2.8rem;
-        font-weight: 800;
-        color: var(--chri-blue);
-        line-height: 1;
-        display: block;
-      }
-
-      .stat-label {
-        font-size: 0.78rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: rgba(255,255,255,.5);
-        margin-top: 0.4rem;
-        display: block;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .chri-stats .chri-stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-
-    .stat-item:nth-child(2) { border-right: none; }
-    .stat-item:nth-child(3) { border-top: 1px solid rgba(255,255,255,.1); }
-    .stat-item:nth-child(4) { border-top: 1px solid rgba(255,255,255,.1); border-right: none; }
-  }
+/* ── DIVIDER ──────────────────────────────────────────────────────────────── */
+.chri-divider {
+  height: 3px;
+  background: linear-gradient(90deg, var(--chri-blue) 0%, var(--chri-green) 100%);
 }
 
 /* ── SECTION WRAPPER ──────────────────────────────────────────────────────── */
@@ -294,8 +260,8 @@ a:hover { color: var(--chri-blue-dark); }
     gap: 1rem;
 
     h2 {
-      font-size: clamp(1.6rem, 3vw, 2.2rem);
-      font-weight: 800;
+      font-size: clamp(1.3rem, 2.5vw, 1.8rem);  /* section h2 — Roboto Mono scale */
+      font-weight: 700;
     }
 
     a.see-all {
@@ -708,8 +674,8 @@ a:hover { color: var(--chri-blue-dark); }
   }
 
   h2 {
-    font-size: clamp(1.8rem, 3vw, 2.4rem);
-    font-weight: 800;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);  /* join banner h2 */
+    font-weight: 700;
     color: #fff;
     margin-bottom: 0.75rem;
   }
