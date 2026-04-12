@@ -20,17 +20,16 @@
 <div class="chri-divider"></div>
 
 <!-- ── People working on this theme ──────────────────────────────────────── -->
-{% assign theme_slug = page.theme_slug %}
 {% assign fac_members = "" | split: "" %}
 {% for member in site.data.team.faculty %}
-  {% if member.research_themes contains theme_slug %}
+  {% if member.research_themes contains page.theme_slug %}
     {% assign fac_members = fac_members | push: member %}
   {% endif %}
 {% endfor %}
 
 {% assign phd_members = "" | split: "" %}
 {% for member in site.data.team.current-students %}
-  {% if member.research_themes contains theme_slug %}
+  {% if member.research_themes contains page.theme_slug %}
     {% assign phd_members = phd_members | push: member %}
   {% endif %}
 {% endfor %}
@@ -91,8 +90,7 @@
     <a href="{{ site.url }}{{ site.baseurl }}/publications" class="see-all">All Publications →</a>
   </div>
   <div class="chri-pub-list">
-    {% assign q = "@*[research_theme=" | append: theme_slug | append: "]*" %}
-    {% bibliography -f papers --query q %}
+    {% bibliography -f papers -q @*[research_theme={{ page.theme_slug }}]* %}
   </div>
 </section>
 
