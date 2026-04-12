@@ -164,131 +164,13 @@
   </div>
 </section>
 
-<!-- ══════════════════════════════════════════════════════════════════════════
-     SELECTED PUBLICATIONS
-══════════════════════════════════════════════════════════════════════════ -->
-<section class="chri-section" id="publications">
-  <div class="chri-section-head">
-    <h2>Selected Publications</h2>
-    <a href="{{ site.url }}{{ site.baseurl }}/publications" class="see-all">All Publications →</a>
-  </div>
-
-  <!-- Topic filter buttons -->
-  <div class="chri-pub-filters reveal">
-    <button class="chri-filter-btn active" data-filter="all">All</button>
-    <button class="chri-filter-btn" data-filter="CHI">CHI</button>
-    <button class="chri-filter-btn" data-filter="HRI">HRI</button>
-    <button class="chri-filter-btn" data-filter="ISMAR">ISMAR</button>
-    <button class="chri-filter-btn" data-filter="HAI">HAI</button>
-  </div>
-
-  <div class="chri-pub-list reveal" id="pub-list">
-    {% bibliography -f papers -q @*[selected=yes]* --max 6 %}
-  </div>
-
-  <!-- Pub filter script -->
-  <script>
-  (function(){
-    var btns = document.querySelectorAll('.chri-filter-btn');
-    var rows = document.querySelectorAll('#pub-list li');
-    btns.forEach(function(btn){
-      btn.addEventListener('click', function(){
-        btns.forEach(function(b){ b.classList.remove('active'); });
-        btn.classList.add('active');
-        var filter = btn.getAttribute('data-filter');
-        rows.forEach(function(row){
-          if (filter === 'all') {
-            row.style.display = '';
-          } else {
-            var text = row.textContent || row.innerText;
-            row.style.display = text.indexOf(filter) > -1 ? '' : 'none';
-          }
-        });
-      });
-    });
-  })();
-  </script>
-</section>
-
-<!-- ══════════════════════════════════════════════════════════════════════════
-     TEAM
-══════════════════════════════════════════════════════════════════════════ -->
-<section class="chri-section chri-section--alt" id="team">
-  <div class="chri-section-head">
-    <h2>Our Team</h2>
-    <a href="{{ site.url }}{{ site.baseurl }}/people" class="see-all">Full Team →</a>
-  </div>
-
-  <!-- Faculty -->
-  <div class="chri-team-group reveal">
-    <h3>Faculty</h3>
-    <div class="chri-team-grid">
-      {% assign fac_array = site.data.team.faculty | sort: "lastname" %}
-      {% for member in fac_array %}
-      <div class="chri-member-card">
-        <div class="member-photo-wrap">
-          {% if member.photo %}
-          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
-               alt="{{ member.name | strip_html }}"
-               onerror="this.style.background='#85AD96'">
-          {% endif %}
-        </div>
-        <div class="member-name">{{ member.name | strip_html }}</div>
-        <div class="member-role">{{ member.info }}</div>
-        {% if member.social %}
-        <div class="member-links">
-          {% if member.social.website %}<a href="{{ member.social.website }}" target="_blank" rel="noopener" title="Website">🌐</a>{% endif %}
-          {% if member.social.google-scholar %}<a href="{{ member.social.google-scholar }}" target="_blank" rel="noopener" title="Scholar">📖</a>{% endif %}
-          {% if member.social.email %}<a href="mailto:{{ member.social.email }}" title="Email">✉️</a>{% endif %}
-        </div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-
-  <!-- PhD Students -->
-  <div class="chri-team-group reveal">
-    <h3>PhD Students</h3>
-    <div class="chri-team-grid">
-      {% assign students = site.data.team.current-students | sort: "lastname" %}
-      {% for member in students %}
-      {% if member.info contains 'PhD' %}
-      <div class="chri-member-card">
-        <div class="member-photo-wrap">
-          {% if member.photo %}
-          <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
-               alt="{{ member.name | strip_html }}"
-               onerror="this.style.background='#85AD96'">
-          {% endif %}
-        </div>
-        <div class="member-name">{{ member.name | strip_html }}</div>
-        <div class="member-role">{{ member.info }}</div>
-        {% if member.social %}
-        <div class="member-links">
-          {% if member.social.website %}<a href="{{ member.social.website }}" target="_blank" rel="noopener" title="Website">🌐</a>{% endif %}
-          {% if member.social.linkedin %}<a href="{{ member.social.linkedin }}" target="_blank" rel="noopener" title="LinkedIn">💼</a>{% endif %}
-        </div>
-        {% endif %}
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
-</section>
 
 <!-- ══════════════════════════════════════════════════════════════════════════
      JOIN BANNER
 ══════════════════════════════════════════════════════════════════════════ -->
 <section class="chri-join reveal" id="join">
   <div class="chri-join-inner">
-    <h2>Join Our Lab</h2>
-    <p>
-      We are looking for motivated PhD students, Postdocs, and Research Assistants
-      passionate about human-robot interaction and intelligent systems.
-    </p>
-    <a href="mailto:wafa.johal@unimelb.edu.au" class="chri-join-btn">Get in Touch</a>
+    <a href="mailto:hri-connect@unimelb.edu.au" class="chri-join-btn">Get in Touch</a>
   </div>
 </section>
 
