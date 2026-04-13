@@ -22,6 +22,28 @@
   headline: "Muhammad Bilal's paper on the “Design and Evaluation of AR-Based Real-Time Feedback System for Kinaesthetic Robot Teaching” has been accepted to DIS26."
   description: "Publication"
 
+- date: Mar 19, 2026
+  headline: "Muhammad Bilal presented his work on “Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration” at HRI26."
+  description: "Publication"
+  img: 03192026_Muhammad_HRI26.jpg
+
+- date: Mar 19, 2026
+  headline: "Yan Zhang successfully completed her duties of SV Chair at HRI26, and ran a workshop on Multi-Agentic in HRI at HRI2026!"
+  description: "Event"
+
+- date: Mar 19, 2026
+  headline: "Farshad and Sarah gave a demo at the Future of Digital Technology Industry event, showcasing work respectively on shared control and embodied multi-agentic systems. It was great to see so much interest in our work!"
+  description: "Event"
+
+- date: Mar 9, 2026
+  headline: "We welcome new bachelor and master students to the lab, Grace Yang, Hao Zhen, Minhe Chen and Shaun Murray! Looking forward to working with you all!"
+  description: "Lab Life"
+
+
+- date: Mar 9, 2026
+  headline: "Ramtin, Wafa and Vas received an Honourable Mention (top 5%) for their paper, “Oops I did it again (But I am Know of it): Consistency and Awareness of Robot Failure in Human-Robot Collaboration” at CHI26! Congratulations to the team!"
+  description: "Awards"
+
 - date: Feb 02, 2026
   headline: "Congratulations to Muhammad Bilal on successfully completing his Ph.D.! His presentation showcased an impressive range of contributions, from benchmarking LfD algorithms and learning from failed demonstrations to developing the XR system and conducting focus groups. Wishing him all the best in his future endeavors!"
   img: 02022026_01_Muhammad_Confirmation_Seminar.jpg
