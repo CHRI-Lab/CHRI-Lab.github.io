@@ -5,6 +5,15 @@ layout: default
 <div id="textid" class="col-sm-12">
   <h1>News</h1>
   {% for article in site.data.news %}
+  {% assign tag_class = 'tag-gray' %}
+      {% case article.tag %}
+        {% when 'Event' %}{% assign tag_class = 'tag-blue' %}
+        {% when 'Lab Life' %}{% assign tag_class = 'tag-green' %}
+        {% when 'Awards' %}{% assign tag_class = 'tag-orange' %}
+        {% when 'Funding' %}{% assign tag_class = 'tag-orange' %}
+        {% when 'Publication' %}{% assign tag_class = 'tag-purple' %}
+        {% when 'PhD Confirmation' %}{% assign tag_class = 'tag-blue-dark' %}
+      {% endcase %}
     {% if article.img %}
       <div style="display: table; width: 100%; margin-bottom: 20px;">
         <!-- Image Cell -->
@@ -14,7 +23,11 @@ layout: default
         </div>
         <!-- Text Cell -->
         <div style="display: table-cell; vertical-align: middle; padding-left: 15px;">
-          <div style="font-weight: bold; margin-bottom: 5px;">{{ article.date }}</div>
+          <div style="font-weight: bold; margin-bottom: 5px;">
+            <span class="chri-tag {{ tag_class }} news-tag">
+          {% if article.tag %}{{ article.tag }}{% else %}News{% endif %}
+          </span>
+            {{ article.date }}</div>
           <div>{{ article.headline }}</div>
         </div>
       </div>
