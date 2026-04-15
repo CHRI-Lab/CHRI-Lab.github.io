@@ -29,6 +29,8 @@ body.chri-redesign img {
   --chri-muted:      #6c7280;
   --chri-border:     #e2e6ea;
   --chri-light:      #f7f9fb;
+  --chri-orange:     #D4531A;
+  --chri-purple:     #8B5CF6;
   --radius:          8px;
   --transition:      0.25s ease;
 }
@@ -458,6 +460,13 @@ a:hover { color: var(--chri-blue-dark); }
     }
   }
 }
+
+.tag-blue       { background-color: var(--chri-blue); color: white; }
+.tag-green      { background-color: var(--chri-green); color: white; }
+.tag-orange     { background-color: var(--chri-orange); color: white; }
+.tag-purple     { background-color: var(--chri-purple); color: white; }
+.tag-blue-dark  { background-color: var(--chri-blue-dark); color: white; }
+.tag-muted      { background-color: var(--chri-muted); color: white; }  /* fallback */
 
 /* ── PUBLICATIONS ─────────────────────────────────────────────────────────── */
 .chri-pub-filters {

@@ -88,9 +88,19 @@
     <div class="chri-news-list reveal">
       {% assign news_items = site.data.news | slice: 1, 10 %}
       {% for item in news_items %}
+
+      {% assign tag_class = 'tag-gray' %}
+      {% case item.tag %}
+        {% when 'Event' %}{% assign tag_class = 'tag-blue' %}
+        {% when 'Lab Life' %}{% assign tag_class = 'tag-green' %}
+        {% when 'Awards' %}{% assign tag_class = 'tag-orange' %}
+        {% when 'Funding' %}{% assign tag_class = 'tag-orange' %}
+        {% when 'Publication' %}{% assign tag_class = 'tag-purple' %}
+        {% when 'PhD Confirmation' %}{% assign tag_class = 'tag-blue-dark' %}
+      {% endcase %}
       <div class="news-item">
-        <span class="chri-tag tag-blue news-tag">
-          {% if item.description %}{{ item.description }}{% else %}News{% endif %}
+        <span class="chri-tag {{ tag_class }} news-tag">
+          {% if item.tag %}{{ item.tag }}{% else %}News{% endif %}
         </span>
         <span class="news-title">{{ item.headline }}</span>
         <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
