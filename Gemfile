@@ -19,4 +19,6 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'jekyll-redirect-from'
+    gem "sass-embedded", "1.75.0"
+    gem "google-protobuf", "~> 3.25"
 end
