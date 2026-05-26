@@ -1,4 +1,4 @@
-- date: Apr 26, 2026
+- date: "Apr 26, 2026"
   headline: "Please welcome Tejas Umesh and Hugo Durieux to our group. Tejas will be starting his PhD with us, joining from Arizona State University. Hugo is an exchange student doing a project in HRI for a few months; joining from Ecole Polytechnique (Paris).  :wave:"
   tag: "Lab Life" 
 
@@ -12,58 +12,58 @@
   tag: "Lab Life"
   image: "11042026_Muhammad_Thesis_Submission.jpg"
 
-- date: Apr 8, 2026
+- date: "Apr 8, 2026"
   headline: "Melanie Baumgartner is joining our group for a research visit of 1 year as part of her PhD at ETHZ. Welcome, Melanie!"
   tag: "Lab Life" 
 
-- date: Mar 27, 2026
+- date: "Mar 27, 2026"
   headline: "Booster Demo! We had a good time testing this new robot. "
   tag: "Lab Life" 
-  img: 27032026_Bosster_Demo.jpg
+  img: "27032026_Bosster_Demo.jpg"
 
-- date: Mar 20, 2026
+- date: "Mar 20, 2026"
   headline: "Canghai Wang, who did his bachelor thesis with us on the “A Robot of Many Minds” project, just got accepted to a Master program at CMU!"
   tag: "Lab Life"
 
-- date: Mar 20, 2026
+- date: "Mar 20, 2026"
   headline: "Sarah Schoembs co-authored a paper which received an honourable mention at HRI26! <a href="https://humanrobotinteraction.org/2026/award-nominees/">[Check out!]</a>"
   tag: "Publication"
 
-- date: Mar 20, 2026
+- date: "Mar 20, 2026"
   headline: "Muhammad Bilal's paper on the “Design and Evaluation of AR-Based Real-Time Feedback System for Kinaesthetic Robot Teaching” has been accepted to DIS26."
   tag: "Publication"
 
-- date: Mar 19, 2026
+- date: "Mar 19, 2026"
   headline: "Muhammad Bilal presented his work on “Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration” at HRI26."
   tag: "Publication"
-  img: 03192026_Muhammad_HRI26_updated.jpg
+  img: "03192026_Muhammad_HRI26_updated.jpg"
 
-- date: Mar 19, 2026
+- date: "Mar 19, 2026"
   headline: "Yan Zhang successfully completed her duties of SV Chair at HRI26, and ran a workshop on Multi-Agentic in HRI at HRI2026!"
   tag: "Event"
 
-- date: Mar 19, 2026
+- date: "Mar 19, 2026"
   headline: "Farshad and Sarah gave a demo at the Future of Digital Technology Industry event, showcasing work respectively on shared control and embodied multi-agentic systems. It was great to see so much interest in our work!"
   tag: "Event"
-  img: 19032026_Sarah-Farshad-Demo.png
+  img: "19032026_Sarah-Farshad-Demo.png"
 
-- date: Mar 9, 2026
+- date: "Mar 9, 2026"
   headline: "We welcome new bachelor and master students to the lab, Grace Yang, Hao Zhen, Minhe Chen and Shaun Murray! Looking forward to working with you all!"
   tag: "Lab Life"
 
 
-- date: Mar 9, 2026
+- date: "Mar 9, 2026"
   headline: "Ramtin, Wafa and Vas received an Honourable Mention (top 5%) for their paper, “Oops I did it again (But I am Know of it): Consistency and Awareness of Robot Failure in Human-Robot Collaboration” at CHI26! Congratulations to the team!"
   tag: "Awards"
 
-- date: Feb 02, 2026
+- date: "Feb 02, 2026"
   headline: "Congratulations to Muhammad Bilal on successfully completing his Ph.D.! His presentation showcased an impressive range of contributions, from benchmarking LfD algorithms and learning from failed demonstrations to developing the XR system and conducting focus groups. Wishing him all the best in his future endeavors!"
-  img: 02022026_01_Muhammad_Confirmation_Seminar.jpg
+  img: "02022026_01_Muhammad_Confirmation_Seminar.jpg"
   tag: "PhD Completion" 
 
-- date: Dec 09, 2025
-  headline: Congratulations to A/Prof. Wafa Johal on receiving the School of CIS 2025 Excellence in Research Award.
-  img: 20251209_CIS_2025_Excellence_in_Research_Award.jpg
+- date: "Dec 09, 2025"
+  headline: "Congratulations to A/Prof. Wafa Johal on receiving the School of CIS 2025 Excellence in Research Award."
+  img: "20251209_CIS_2025_Excellence_in_Research_Award.jpg"
   tag: "Awards" 
 
 - date: Dec 02, 2025
