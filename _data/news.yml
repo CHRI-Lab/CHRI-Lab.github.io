@@ -66,147 +66,147 @@
   img: "20251209_CIS_2025_Excellence_in_Research_Award.jpg"
   tag: "Awards" 
 
-- date: Dec 02, 2025
-  headline: Congratulations to A/Prof. Wafa Johal on receiving funding from the ARC Centre of Excellence.
-  img: 20251202_wafa_arc.jpg
+- date: "Dec 02, 2025"
+  headline: "Congratulations to A/Prof. Wafa Johal on receiving funding from the ARC Centre of Excellence."
+  img: "20251202_wafa_arc.jpg"
   tag: "Awards" 
 
-- date: Dec 02, 2025
-  headline: Congratulations to Muhammad and co-authors on having their paper Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration accepted to HRI 2026.
+- date: "Dec 02, 2025"
+  headline: "Congratulations to Muhammad and co-authors on having their paper Investigating the Impact of Robot Degree of Redundancy on Learning from Demonstration accepted to HRI 2026."
   tag: "Publication" 
 
-- date: Nov 28, 2025
-  headline: Audrey's last YoCHI. Farewell, Audrey.
-  img: 20251128_Farewell_Audrey.jpg
+- date: "Nov 28, 2025"
+  headline: "Audrey's last YoCHI. Farewell, Audrey."
+  img: "20251128_Farewell_Audrey.jpg"
   tag: "Lab Life" 
 
-- date: Nov 21, 2025
-  headline: Muhammad and Ramtin demonstrated Franka and Tiago at CIS.
+- date: "Nov 21, 2025"
+  headline: "Muhammad and Ramtin demonstrated Franka and Tiago at CIS."
   tag: "Event" 
 
-- date: Nov 14, 2025
-  headline: Congratulations to Haoqi Li on completing his Master's degree and graduating.
-  img: 20251114_Haoqi_Li_Graduation.jpg
+- date: "Nov 14, 2025"
+  headline: "Congratulations to Haoqi Li on completing his Master's degree and graduating."
+  img: "20251114_Haoqi_Li_Graduation.jpg"
   tag: "Graduation" 
 
-- date: Nov 12, 2025
+- date: "Nov 12, 2025"
   headline: "Yan presented at HAI 2025, sharing the paper From Conversation to Orchestration: HCI Challenges and Opportunities in Interactive Multi-Agentic Systems on behalf of co-authors Sarah Schömbs, Jorge Goncalves, and Wafa Johal. <a href=\"https://arxiv.org/abs/2506.20091\">[Read more]</a>"
-  img: 20251112_yan_hai2025.jpg
+  img: "20251112_yan_hai2025.jpg"
   tag: "Publication" 
 
-- date: Nov 05, 2025
-  headline: Farshad successfully passed his PhD confirmation.
-  img: 20251105_Farshad_Confirmation.jpg
+- date: "Nov 05, 2025"
+  headline: "Farshad successfully passed his PhD confirmation."
+  img: "20251105_Farshad_Confirmation.jpg"
   tag: "PhD Confirmation" 
   
-- date: Oct 31, 2025
+- date: "Oct 31, 2025"
   headline: "When multi-agentic systems meet robots! During the launch event on Friday, we were finally able to share a really cool project. We collaborated with the National Communication Museum and are now exhibiting our project, A Robot of Many Minds 🤖 🧠 , over the coming weeks as part of FRIEND, an exhibition about the relationship between humans and machines. Shoutout to the incredible #team Alex Wang, Sarah Schömbs, Yan Zhang and of course Wafa Johal."
-  img: 02112025_furhat_museum.gif
+  img: "02112025_furhat_museum.gif"
   tag: "Event" 
   
-- date: Oct 30, 2025
+- date: "Oct 30, 2025"
   headline: "Congratulations Jian Zhang,  for winning the Best HCI Poster Award at the CIS DC! :tada:"
-  img: 30102025_Jian_DC.jpg
+  img: "30102025_Jian_DC.jpg"
   tag: "Awards" 
 
-- date: Oct 28, 2025
+- date: "Oct 28, 2025"
   headline: "The Australian Research Council awarded a Discovery Project to A/Prof Wafa Johal and colleagues (Prof Denny Oetomo, Prof Vassilis Kostakos and Dr Jonathan Eden)! :tada:"
   tag: "Funding" 
   
-- date: Oct 20, 2025
+- date: "Oct 20, 2025"
   headline: "Jian presented 👍ThumbShift: Modulating Perceived Object Properties through Dynamic Thumb Repositioning, as a full paper at #ISMAR2025 in Korea."
   tag: "Publication"
   
-- date: Sept 15, 2025
+- date: "Sept 15, 2025"
   headline: "Enjie joined our group as a PhD student."
-  img: portrait_Enjie.jpg
+  img: "portrait_Enjie.jpg"
   tag: "Lab Life" 
   
-- date: Aug 12, 2025
+- date: "Aug 12, 2025"
   headline: "Congratulations to Yan Zhang and Sarah Schoembs for the paper, From Conversation to Orchestration: HCI Challenges and Opportunities in Interactive Multi-Agentic Systems, accepted at HAI25!"
   tag: "Publication" 
 
-- date: Aug 12, 2025
+- date: "Aug 12, 2025"
   headline: "Congratulations to Jian Zhang  for leading the  paper, ThumbShift: Modulating Perceived Object Properties through Dynamic Thumb Reposition in VR - accepted at ISMAR25!"
   tag: "Publication" 
 
-- date: July 8, 2025
-  headline: A/Prof. Wafa Johal wins ARC fellowship grant, Balancing Autonomy and Control in Interactive Social Agent Design <a href="https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/278">[Read more]</a>
+- date: "July 8, 2025"
+  headline: 'A/Prof. Wafa Johal wins ARC fellowship grant, Balancing Autonomy and Control in Interactive Social Agent Design <a href="https://rms.arc.gov.au/RMS/Report/Download/Report/a3f6be6e-33f7-4fb5-98a6-7526aaa184cf/278">[Read more]</a>'
   tag: "Funding" 
 
-- date: July 7, 2025
-  headline: Congratulations to Jian Zhang for being awarded a FEIT Visiting Fellowship! 
+- date: "July 7, 2025"
+  headline: "Congratulations to Jian Zhang for being awarded a FEIT Visiting Fellowship! "
   tag: "Funding" 
   
-- date: July 6, 2025
-  headline: Congratulations to Muhammad Bilal for being accepted into the TRAM PhD Innovators Program! 
+- date: "July 6, 2025"
+  headline: "Congratulations to Muhammad Bilal for being accepted into the TRAM PhD Innovators Program!"
   tag: "Funding" 
   
-- date: May 11, 2025
-  headline: Tharaka gets confirmed!
-  img: Thraka_Confirmation.jpg
+- date: "May 11, 2025"
+  headline: "Tharaka gets confirmed!"
+  img: "Thraka_Confirmation.jpg"
   tag: "PhD Confirmation" 
 
-- date: May 2, 2025
-  headline: Yan receives the <a href="https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/graduate-research-students/scholarships/scholarships/diane-lemaire">Diane Lemaire scholarship</a> to do a research stay in Europe!
+- date: "May 2, 2025"
+  headline: 'Yan receives the <a href="https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/graduate-research-students/scholarships/scholarships/diane-lemaire">Diane Lemaire scholarship</a> to do a research stay in Europe!'
   tag: "Funding" 
 
-- date: April 29, 2025
-  headline: Jian presents a full paper at CHI25!   <a href="https://chri-lab.github.io/files/papers/jian2025.pdf">[Read it] </a> 
+- date: "Apr 29, 2025"
+  headline: 'Jian presents a full paper at CHI25!   <a href="https://chri-lab.github.io/files/papers/jian2025.pdf">[Read it] </a> '
   tag: "Publication" 
 
-- date: April 29, 2025
-  headline: Yan presents a full paper at CHI25!
+- date: "April 29, 2025"
+  headline: "Yan presents a full paper at CHI25!"
   tag: "Publication" 
   
-- date: April 5, 2025
-  headline: Yan receives a Google Travel Grant to attend CHI25 in Japan!
+- date: "April 5, 2025"
+  headline: "Yan receives a Google Travel Grant to attend CHI25 in Japan!"
   tag: "Funding" 
 
-- date: Mar 05, 2025
-  headline: Yan, Sarah, Ramtin, and Muhammad present a poster at HRI25!
+- date: "Mar 05, 2025"
+  headline: "Yan, Sarah, Ramtin, and Muhammad present a poster at HRI25!"
   tag: "Publication" 
 
-- date: Mar 05, 2025
-  headline: Ramtin and Yan present a full and short paper at HRI25!
+- date: "Mar 05, 2025"
+  headline: "Ramtin and Yan present a full and short paper at HRI25!"
   tag: "Publication" 
 
-- date: Mar 04, 2025
-  headline: Sarah Schombs hosts a workshop on Sustainability at HRI25!
+- date: "Mar 04, 2025"
+  headline: "Sarah Schombs hosts a workshop on Sustainability at HRI25!"
   tag: "Publication" 
 
-- date: Mar 04, 2025
-  headline: A/Prof. Johal gives a keynote talk at the VAM-HRI workshop at HRI25!
+- date: "Mar 04, 2025"
+  headline: "A/Prof. Johal gives a keynote talk at the VAM-HRI workshop at HRI25!"
   tag: "Publication" 
 
-- date: Mar 04, 2025
-  headline: Welcome reception with Wafa as one of the general chairs!
-  img: Wafa_HRI25_Edited.jpg
+- date: "Mar 04, 2025"
+  headline: "Welcome reception with Wafa as one of the general chairs!"
+  img: "Wafa_HRI25_Edited.jpg"
   tag: "Event" 
 
-- date: Mar 04, 2025
-  headline: HRI2025 kicks off! 
-  img: HRI25.png
+- date: "Mar 04, 2025"
+  headline: "HRI2025 kicks off! "
+  img: "HRI25.png"
   tag: "Event" 
  
-- date: Jan 20, 2025
-  headline: Jian passes his confirmation!
+- date: "Jan 20, 2025"
+  headline: "Jian passes his confirmation!"
   tag: "PhD Confirmation" 
 
-- date: Dec 20, 2024
-  headline: HCI Monash joint workshop!
+- date: "Dec 20, 2024"
+  headline: "HCI Monash joint workshop!"
   tag: "Event" 
 
-- date: Dec 20, 2024
-  headline: Wafa promoted to Associate Professor!
+- date: "Dec 20, 2024"
+  headline: "Wafa promoted to Associate Professor!"
   tag: "Lab Life" 
  
-- date: Dec 15, 2024
-  headline: Sarah accepted to CHI2025 DC!
+- date: "Dec 15, 2024"
+  headline: "Sarah accepted to CHI2025 DC!"
   tag: "Lab Life" 
 
-- date: Dec 12, 2024
-  headline: Short contribution accepted for HRI2025!
+- date: "Dec 12, 2024"
+  headline: "Short contribution accepted for HRI2025!"
   tag: "Publication" 
  
 - date: Dec 10, 2024
