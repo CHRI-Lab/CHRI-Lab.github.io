@@ -312,22 +312,22 @@
   img: Tharaka.jpeg
   tag: "Lab Life"  
 
-- date: Mar 16, 2024
+- date: "Mar 16, 2024"
   headline: "#TeamMelbourne wins the HRI2024 Robot Competition in Boulder Colorado"
   tag: "Lab Life" 
 
-- date: Mar 16, 2024
-  headline: Dr Wafa Johal will be General co-Chair of HRI2025 in Melbourne, Australia.
-  img: HRI24_logo_outline.png
+- date: "Mar 16, 2024"
+  headline: "Dr Wafa Johal will be General co-Chair of HRI2025 in Melbourne, Australia."
+  img: "HRI24_logo_outline.png"
   tag: "Lab Life" 
 
-- date: Mar 10, 2024
-  headline: Jian joined our group. 
-  img: Jian-Zhang.png
+- date: "Mar 10, 2024"
+  headline: "Jian joined our group."
+  img: "Jian-Zhang.png"
   tag: "Lab Life"  
 
-- date: Jun 29, 2024
-  headline: Tiago is here! 
-  img: 012024_01_Tiago.png
-  description: Tiago joined us!
+- date: "Jun 29, 2024"
+  headline: "Tiago is here!"
+  img: "012024_01_Tiago.png"
+  description: "Tiago joined us!"
   tag: "Lab Life"
