@@ -2,10 +2,15 @@
   headline: "Please welcome Tejas Umesh and Hugo Durieux to our group. Tejas will be starting his PhD with us, joining from Arizona State University. Hugo is an exchange student doing a project in HRI for a few months; joining from Ecole Polytechnique (Paris).  :wave:"
   tag: "Lab Life" 
 
-- date: Apr 11, 2026
-  headline: "Muhammad Bilal submitted his Ph.D. thesis, marking a significant milestone in his academic journey. His thesis encompasses a comprehensive exploration of learning from demonstration (LfD) algorithms, the impact of robot redundancy on LfD, and the development of an XR system for human-robot collaboration. Congratulations to Muhammad on this remarkable achievement!"
-  tag: "Lab Life" 
-  image: 11042026_Muhammad_Thesis_Submission.jpg
+- date: "Apr 11, 2026"
+  headline: >-
+    Muhammad Bilal submitted his Ph.D. thesis, marking a significant milestone
+    in his academic journey. His thesis encompasses a comprehensive exploration
+    of learning from demonstration (LfD) algorithms, the impact of robot
+    redundancy on LfD, and the development of an XR system for human-robot
+    collaboration. Congratulations to Muhammad on this remarkable achievement!
+  tag: "Lab Life"
+  image: "11042026_Muhammad_Thesis_Submission.jpg"
 
 - date: Apr 8, 2026
   headline: "Melanie Baumgartner is joining our group for a research visit of 1 year as part of her PhD at ETHZ. Welcome, Melanie!"
