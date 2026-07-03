@@ -129,7 +129,7 @@ current-students:
       google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
     research_themes:
       - teleoperation
-      - shared-autonomy
+      - controllable-autonomy
   
   - name: <a href="https://chri-lab.github.io/people/enjie/">Enjie Cao</a>
     lastname: Cao
