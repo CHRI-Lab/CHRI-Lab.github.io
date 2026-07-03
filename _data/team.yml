@@ -129,7 +129,7 @@ current-students:
       google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
     research_themes:
       - teleoperation
-      - controllable-autonomy
+      - shared-autonomy
   
   - name: <a href="https://chri-lab.github.io/people/enjie/">Enjie Cao</a>
     lastname: Cao
@@ -145,6 +145,20 @@ current-students:
     research_themes:
       - embodied-interaction
       - haptic-vr-wellbeing
+
+  - name: <a href="https://chri-lab.github.io/people/enjie/">Tejas Umesh</a>
+    lastname: Umesh
+    photo: backup/portrait_Enjie.jpg
+    info: PhD Student
+    start: June 2026
+    advisor:
+      - Róisín McNaney
+      - Wafa Johal
+      - Jorge Goncalves
+    social:
+      linkedin: https://www.linkedin.com/in/enjie-cao/
+    research_themes:
+      - Human-Robot/Agent interaction
 
 
   
