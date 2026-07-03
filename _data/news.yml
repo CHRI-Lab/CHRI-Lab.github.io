@@ -1,3 +1,36 @@
+- date: "Jun 19, 2026"
+  headline: >-
+    Wafa gave an invited talk at NUS, presenting CHRI’s work and connecting with researchers and students through insightful discussions.
+  tag: "Awards"
+  img: "wafa_in_NUS.jpg"
+  
+- date: "Jun 15, 2026"
+  headline: >-
+    Exciting news! Muhammad Bilal and Tharaka Raty received an Honourable Mention Award, top 5%, at DIS’26 for their paper 
+    “Design and Evaluation of AR-Based Real-Time Feedback System for Kinesthetic Robot Teaching,” co-authored with Antony Chacon, 
+    Nir, Wafa Johal, and Denny Oetomo.
+  tag: "Awards"
+  img: "DIS2026_muhammad_award.jpg"
+  
+- date: "Jun 09, 2026"
+  headline: >-
+    Jian and Ramtin presented their work at CHI Melbourne. Great to see CHRI research being shared with the local HCI community!
+  tag: "Event"
+  img: "chi_melbourne.jpg"
+  
+- date: "Jun 05, 2026"
+  headline: >-
+    A big congratulations to Sarah for successfully completing her PhD completion seminar. Wishing you all the best for the next chapter, Dr Schombs!
+  tag: "Event"
+  img: "Sarah_completion_seminar.jpg"
+  
+- date: "May 19, 2026"
+  headline: >-
+    The CHRI group was delighted to host students from INFO90005 and share demos of our current research. 
+    It was a great opportunity to introduce our work and discuss ideas with the next generation of researchers.
+  tag: "Lab Life"
+  img: "v3INFO90005.png"
+  
 - date: "Apr 26, 2026"
   headline: "Please welcome Tejas Umesh and Hugo Durieux to our group. Tejas will be starting his PhD with us, joining from Arizona State University. Hugo is an exchange student doing a project in HRI for a few months; joining from Ecole Polytechnique (Paris).  :wave:"
   tag: "Lab Life" 
