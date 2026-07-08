@@ -156,9 +156,9 @@ current-students:
       - Jorge Goncalves
       - Wafa Johal
     social:
-      linkedin: http://www.linkedin.com/in/tejas-umesh
       google-scholar: https://scholar.google.com/citations?user=kW4x2ZUAAAAJ&hl=en
       website: https://officialtejasumesh.github.io/
+      linkedin: http://www.linkedin.com/in/tejas-umesh
     research_themes:
       - human-robot-collaboration
 
