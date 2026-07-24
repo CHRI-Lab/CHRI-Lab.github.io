@@ -176,5 +176,6 @@ current-students:
       github: https://github.com/nanoozzz
       linkedin: https://www.linkedin.com/in/nguyenle18082003/
     research_themes:
-      - human-robot-collaboration
+      - embodied-interaction
+      - controllable-autonomy
   
