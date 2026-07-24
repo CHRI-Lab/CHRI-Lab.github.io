@@ -162,8 +162,7 @@ current-students:
       linkedin: http://www.linkedin.com/in/tejas-umesh
     research_themes:
       - human-robot-collaboration
-
-- name: <a href="https://chri-lab.github.io/people/nguyen/">Nguyen Bao Nguyen Le</a>
+  - name: <a href="https://chri-lab.github.io/people/nguyen/">Nguyen Bao Nguyen Le</a>
     lastname: Umesh
     photo: backup/nguyen.jpeg
     info: PhD Student
