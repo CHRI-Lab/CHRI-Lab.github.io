@@ -178,3 +178,20 @@ current-students:
       - embodied-interaction
       - controllable-autonomy
   
+Postdoc: 
+  - name: <a href="https://chri-lab.github.io/people/farshad/">Farshad Haque Daryakenari</a>
+    lastname: Haque Daryakenari
+    photo: backup/farshad.png
+    info: PhD Student
+    start: November 2024
+    advisor:
+      - Denny Oetomo
+      - Wafa Johal
+      - Jon Eden
+    social:
+      linkedin: https://www.linkedin.com/in/farshad-haque-daryakenari
+      google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
+      github: https://github.com/FarshadHD
+    research_themes:
+      - teleoperation
+      - controllable-autonomy
