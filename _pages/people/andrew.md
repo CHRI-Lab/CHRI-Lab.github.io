@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Andrew"
 layout: personal
-permalink: /people/Andrew/
+permalink: /people/andrew/
 sitemap: false
 excerpt: "Personal webpage of Andrew"
 ---
