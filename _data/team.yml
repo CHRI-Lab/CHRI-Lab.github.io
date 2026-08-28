@@ -161,7 +161,7 @@ current-students:
   
 Postdoc: 
   - name: <a href="https://chri-lab.github.io/people/andrew/">Andrew Razjigaev</a>
-    lastname: Razjigaev
+    lastname: "Razjigaev"
     photo: backup/andrew.png
     info: Postdoc
     start: August 2026
