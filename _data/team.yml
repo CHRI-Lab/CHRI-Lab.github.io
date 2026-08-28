@@ -178,7 +178,7 @@ Postdoc:
       - teleoperation
       - controllable-autonomy
       
-- name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
+  - name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
     lastname: "Schombs"
     photo: Sarah/sarah.jpg
     info: Postdoc
