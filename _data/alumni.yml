@@ -39,19 +39,19 @@
       website: https://sites.google.com/view/audrey-balaska-engineering/home
 
 - name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
-    lastname: "Schombs"
-    photo: Sarah/sarah.jpg
-    info: PhD Graduate
-    start: August 2026
-    advisor:
-      - Jorge Goncalves
-      - Wafa Johal
-    social:
-      twitter: https://twitter.com/sarah_schoembs
-      linkedin: https://www.linkedin.com/in/sarah-schoembs/
-      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
-      website: "https://sites.google.com/view/sarahschombs/"
-    research_themes:
-      - embodied-interaction
+  lastname: "Schombs"
+  photo: Sarah/sarah.jpg
+  info: PhD Graduate
+  start: August 2026
+  advisor:
+    - Jorge Goncalves
+    - Wafa Johal
+  social:
+    twitter: https://twitter.com/sarah_schoembs
+    linkedin: https://www.linkedin.com/in/sarah-schoembs/
+    google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
+    website: "https://sites.google.com/view/sarahschombs/"
+  research_themes:
+    - embodied-interaction
       - failure-uncertainty
       - human-robot-collaboration
