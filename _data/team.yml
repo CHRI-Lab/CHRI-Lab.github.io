@@ -73,25 +73,6 @@ current-students:
       - human-robot-collaboration
 
 
-  - name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
-    lastname: "Schombs"
-    photo: Sarah/sarah.jpg
-    info: PhD Student
-    start: March 2023
-    advisor:
-      - Jorge Goncalves
-      - Wafa Johal
-    social:
-      twitter: https://twitter.com/sarah_schoembs
-      linkedin: https://www.linkedin.com/in/sarah-schoembs/
-      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
-      website: "https://sites.google.com/view/sarahschombs/"
-    research_themes:
-      - embodied-interaction
-      - failure-uncertainty
-      - human-robot-collaboration
-
-
   - name: <a href="https://chri-lab.github.io/people/muhammad/">Muhammad Bilal </a>
     lastname: "Bilal"
     photo: backup/Muhammad-Bilal.png
@@ -179,19 +160,38 @@ current-students:
       - controllable-autonomy
   
 Postdoc: 
-  - name: <a href="https://chri-lab.github.io/people/farshad/">Farshad Haque Daryakenari</a>
-    lastname: Haque Daryakenari
-    photo: backup/farshad.png
-    info: PhD Student
-    start: November 2024
+  - name: <a href="https://chri-lab.github.io/people/andrew/">Andrew Razjigaev</a>
+    lastname: Razjigaev
+    photo: backup/andrew.png
+    info: Postdoc
+    start: August 2026
     advisor:
       - Denny Oetomo
       - Wafa Johal
       - Jon Eden
     social:
-      linkedin: https://www.linkedin.com/in/farshad-haque-daryakenari
-      google-scholar: https://scholar.google.com/citations?user=qt7q0ZsAAAAJ&hl=en&oi=ao
-      github: https://github.com/FarshadHD
+      linkedin: https://www.linkedin.com/in/andrew-razjigaev-79a419115/
+      google-scholar: https://scholar.google.com/citations?user=_9itsLMAAAAJ&hl=en
+      github: https://github.com/Andrew-Raz-ACRV
+      email: andrew.razjigaev@unimelb.edu.au
     research_themes:
       - teleoperation
       - controllable-autonomy
+      
+- name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
+    lastname: "Schombs"
+    photo: Sarah/sarah.jpg
+    info: Postdoc
+    start: August 2026
+    advisor:
+      - Jorge Goncalves
+      - Wafa Johal
+    social:
+      twitter: https://twitter.com/sarah_schoembs
+      linkedin: https://www.linkedin.com/in/sarah-schoembs/
+      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
+      website: "https://sites.google.com/view/sarahschombs/"
+    research_themes:
+      - embodied-interaction
+      - failure-uncertainty
+      - human-robot-collaboration
