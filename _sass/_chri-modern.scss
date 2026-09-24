@@ -670,6 +670,206 @@ a:hover { color: var(--chri-blue-dark); }
   }
 }
 
+/* ── OPEN POSITIONS: home panel ───────────────────────────────────────────── */
+.chri-positions-panel {
+  background: var(--chri-dark);
+  padding: 4.5rem 0;
+
+  .chri-positions-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) 2.4fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .chri-positions-eyebrow {
+    font-size: 1.326rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--chri-green);
+    margin-bottom: 0.75rem;
+  }
+
+  h2 {
+    font-size: clamp(2.21rem, 2.5vw, 3.06rem);
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 1.25rem;
+  }
+
+  a.see-all {
+    font-size: 1.326rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--chri-blue);
+    &:hover { color: #fff; }
+  }
+
+  .chri-positions-list {
+    display: grid;
+    gap: 1.25rem;
+  }
+}
+
+.chri-position-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.75rem;
+  background: #fff;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--chri-orange);
+  text-decoration: none;
+  transition: box-shadow var(--transition), transform var(--transition);
+
+  &:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,.25);
+    transform: translateY(-3px);
+    text-decoration: none;
+  }
+
+  h3 {
+    font-size: 1.87rem;
+    font-weight: 700;
+    color: var(--chri-text);
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.53rem;
+    color: var(--chri-muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .position-more {
+    font-size: 1.326rem;
+    font-weight: 700;
+    color: var(--chri-orange);
+  }
+}
+
+@media (max-width: 768px) {
+  .chri-positions-panel .chri-positions-inner { grid-template-columns: 1fr; gap: 1.5rem; }
+}
+
+/* ── OPEN POSITIONS: /join/ page ──────────────────────────────────────────── */
+.chri-page-hero {
+  padding: 5rem 0 3rem;
+
+  .chri-page-lead {
+    max-width: 760px;
+    font-size: 1.87rem;
+    line-height: 1.6;
+    color: var(--chri-muted);
+    margin: 1rem 0 0;
+  }
+}
+
+.chri-pos {
+  max-width: 900px;
+  scroll-margin-top: 80px;
+
+  & + & {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    border-top: 1px solid var(--chri-border);
+  }
+}
+
+.chri-pos-head {
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: clamp(2.21rem, 2.5vw, 3.06rem);
+    font-weight: 700;
+    color: var(--chri-text);
+    margin: 0.75rem 0 1.5rem;
+    line-height: 1.25;
+  }
+}
+
+.chri-pos-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem 2rem;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--chri-light);
+  border: 1px solid var(--chri-border);
+  border-radius: var(--radius);
+
+  dt {
+    font-size: 1.19rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--chri-muted);
+    margin-bottom: 0.25rem;
+  }
+
+  dd {
+    font-size: 1.53rem;
+    color: var(--chri-text);
+    margin: 0;
+  }
+}
+
+.chri-pos-body {
+  font-size: 1.62rem;
+  line-height: 1.7;
+  color: var(--chri-text);
+
+  h2 { font-size: 2.55rem; font-weight: 700; margin: 0 0 1.25rem; }
+  h3 { font-size: 2.04rem; font-weight: 700; margin: 2.5rem 0 1rem; }
+  h4 { font-size: 1.7rem; font-weight: 700; margin: 1.75rem 0 0.75rem; color: var(--chri-blue-dark); }
+  p  { margin: 0 0 1.1rem; }
+  ul { padding-left: 1.4rem; margin: 0 0 1.25rem; }
+  li { margin-bottom: 0.35rem; }
+  a  { color: var(--chri-blue-dark); text-decoration: underline; }
+}
+
+.chri-section--alt .chri-pos-body { max-width: 900px; }
+
+.chri-pos-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+
+  > div {
+    padding: 0.25rem 1.5rem 0.5rem;
+    border: 1px solid var(--chri-border);
+    border-radius: var(--radius);
+  }
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+
+.chri-pos-apply {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.85rem 2.2rem;
+  background: var(--chri-orange);
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1.53rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: background var(--transition);
+
+  &:hover, &:focus { background: var(--chri-dark); color: #fff; text-decoration: none; }
+}
+
+.chri-pos-empty { font-size: 1.7rem; color: var(--chri-muted); }
+
 /* ── JOIN BANNER ──────────────────────────────────────────────────────────── */
 .chri-join {
   background: var(--chri-blue);
