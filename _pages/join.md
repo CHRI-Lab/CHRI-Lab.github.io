@@ -2,7 +2,7 @@
 title: "Join Us"
 layout: positions
 permalink: /join/
-description: "Open positions in Human-Robot and Human-AI Interaction"
+description: ""
 sitemap: true
 ---
 
