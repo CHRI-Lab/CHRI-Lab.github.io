@@ -1,0 +1,76 @@
+# Open positions shown on the home page panel and on /join/.
+# Set status to "closed" to hide a position without deleting it.
+# `details` is Markdown.
+
+- slug: phd-autonomy-agency
+  status: open
+  type: "PhD"
+  title: "PhD Position in Human-AI & Human-Robot Interaction: Autonomy and Agency"
+  short: "Investigate autonomy and agency in human-AI and human-robot interaction: delegation, oversight and alignment."
+  supervisors: ["A/Prof Wafa Johal"]
+  theme: controllable-autonomy
+  funding: "Graduate Research Scholarship (full fee offset + stipend)"
+  deadline: "2026-10-06"   # applications received before this date get priority
+  apply_url: "https://forms.gle/rzrKGn8eRCTGs5rQA"
+  details: |
+    The School of Computing and Information Systems at the University of Melbourne is looking for an outstanding applicant for a PhD position to conduct research in Human-AI Interaction / Human-Robot Interaction, and to contribute to research projects under the supervision of A/Prof Wafa Johal.
+
+    ### Description
+
+    The Collaborative Human-Robot Interaction (CHRI) research group is offering PhD positions to excellent candidates on a project that investigates **autonomy and agency in human-AI and human-robot interaction**, with topics such as **delegation, oversight and alignment**.
+
+    You will work in a dynamic group of interdisciplinary researchers and PhD students, with access to world-class robotic equipment and research facilities. You will work closely with researchers from the AI and HCI groups at CIS, sharing expertise and collaborating on publications in top HCI, robotics and AI conferences and journals.
+
+    Successful candidates will be considered for a [Graduate Research Scholarship](https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships), which includes a full fee offset and a stipend.
+
+    ### Requirements
+
+    The project welcomes applicants with either a **technical** or a **human factors** background. Please consider applying if you hold a Master's degree or equivalent in computer science, mechanical or electrical engineering or a related technical discipline, or in human factors, psychology, cognitive science, HCI or a related discipline. Equivalent practical experience will also be considered.
+
+    #### All candidates
+
+    - An excellent academic record
+    - Prior research experience, ideally in HCI (e.g. a research assistant position, research projects or a thesis)
+    - Fluency in spoken and written English
+    - Good communication skills and the ability to present complex content to a diverse audience
+    - High flexibility to acquire new knowledge
+    - A creative and independent mindset
+    - The ability to work well in interdisciplinary teams with diverse people
+
+    <div class="chri-pos-columns">
+    <div markdown="1">
+
+    #### Technical background
+
+    A Master's degree in computer science, mechanical engineering, electrical engineering or a related field, ideally with:
+
+    - Strong skills in C/C++, Python and ROS
+    - Experience with robots, AI agents or interactive prototypes
+    - Knowledge and understanding of robot control and machine learning
+    - Experience with user experiments is an advantage
+
+    </div>
+    <div markdown="1">
+
+    #### Human factors / psychology background
+
+    A Master's degree in psychology, cognitive science, human factors, HCI or a related field, ideally with:
+
+    - Solid knowledge of experimental design and quantitative or qualitative research methods
+    - Experience with user studies or experiments with human participants
+    - Experience with robots, AI agents or interactive prototypes
+    - Strong skills in statistical analysis (e.g. R, Python)
+    - Some programming experience (e.g. Python) and the ability to build simple interactive prototypes, for example with AI-assisted development tools
+
+    </div>
+    </div>
+
+    ### How to apply
+
+    Complete the [application form](https://forms.gle/rzrKGn8eRCTGs5rQA), answer all questions, and upload the following mandatory documents:
+
+    - A detailed CV
+    - Academic transcripts from your Bachelor's and Master's degrees
+    - Email addresses of at least two referees
+
+    The position will be filled as soon as possible, and only shortlisted candidates will be notified. **Preference will be given to applications received before 6 October 2026.**

@@ -1,0 +1,66 @@
+---
+# Standalone layout for the Join Us / open positions page
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="chri-redesign">
+{% include header.html %}
+
+<main>
+
+<section class="chri-hero chri-page-hero">
+  <div class="chri-container">
+    <p class="chri-hero-eyebrow">Join the CHRI Lab</p>
+    <h1>Open Positions</h1>
+    <p class="chri-page-lead">{{ page.description }}</p>
+  </div>
+</section>
+
+<div class="chri-divider"></div>
+
+{% assign open_pos = site.data.positions | where: "status", "open" %}
+
+<section class="chri-section">
+  <div class="chri-container">
+    {% if open_pos.size == 0 %}
+    <p class="chri-pos-empty">We don't have any open positions right now. Outstanding candidates with their own fellowship or scholarship are always welcome to <a href="mailto:wafa.johal@unimelb.edu.au">get in touch</a>.</p>
+    {% endif %}
+
+    {% for p in open_pos %}
+    <article class="chri-pos" id="{{ p.slug }}">
+      <header class="chri-pos-head">
+        <span class="chri-tag tag-orange">{{ p.type | default: "Position" }}</span>
+        <h2>{{ p.title }}</h2>
+        <dl class="chri-pos-meta">
+          {% if p.supervisors %}<div><dt>Supervision</dt><dd>{{ p.supervisors | join: ", " }}</dd></div>{% endif %}
+          {% if p.funding %}<div><dt>Funding</dt><dd>{{ p.funding }}</dd></div>{% endif %}
+          {% if p.deadline %}<div><dt>Priority deadline</dt><dd>{{ p.deadline | date: "%-d %B %Y" }}</dd></div>{% endif %}
+          {% if p.theme %}{% assign th = site.data.themes | where: "slug", p.theme | first %}{% if th %}<div><dt>Research theme</dt><dd><a href="{{ site.url }}{{ site.baseurl }}/research/{{ th.slug }}/">{{ th.title }}</a></dd></div>{% endif %}{% endif %}
+        </dl>
+      </header>
+
+      <div class="chri-pos-body">
+        {{ p.details | markdownify }}
+      </div>
+
+      {% if p.apply_url %}
+      <a class="chri-pos-apply" href="{{ p.apply_url }}" target="_blank" rel="noopener">Apply now →</a>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="chri-section chri-section--alt">
+  <div class="chri-container chri-pos-body">
+    {{ content }}
+  </div>
+</section>
+
+</main>
+
+{% include footer.html %}
+{% include misc.html %}
+</body>
+</html>

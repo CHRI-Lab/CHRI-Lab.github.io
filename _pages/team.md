@@ -7,7 +7,7 @@ permalink: /people/
 ---
 
 <!-- # Group Members -->
-<!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
+**We are looking for new PhD students to join the team** [(see open positions)]({{ site.url }}{{ site.baseurl }}/join/)**!**
 
 Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#postdoc), [Alumni](#alumni).
 

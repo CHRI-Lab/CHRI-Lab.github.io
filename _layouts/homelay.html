@@ -75,6 +75,32 @@
 </section>
 
 <!-- ══════════════════════════════════════════════════════════════════════════
+     OPEN POSITIONS (from _data/positions.yml; hidden when none are open)
+══════════════════════════════════════════════════════════════════════════ -->
+{% assign open_pos = site.data.positions | where: "status", "open" %}
+{% if open_pos.size > 0 %}
+<section class="chri-positions-panel reveal" id="positions">
+  <div class="chri-positions-inner">
+    <div class="chri-positions-intro">
+      <p class="chri-positions-eyebrow">We're recruiting</p>
+      <h2>Open PhD Positions</h2>
+      <a class="see-all" href="{{ site.url }}{{ site.baseurl }}/join/">All positions →</a>
+    </div>
+    <div class="chri-positions-list">
+      {% for p in open_pos limit:3 %}
+      <a class="chri-position-card" href="{{ site.url }}{{ site.baseurl }}/join/#{{ p.slug }}">
+        {% if p.deadline %}<span class="chri-tag tag-orange">Priority by {{ p.deadline | date: "%-d %b %Y" }}</span>{% endif %}
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.short }}</p>
+        <span class="position-more">Details &amp; how to apply →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ══════════════════════════════════════════════════════════════════════════
      NEWS
 ══════════════════════════════════════════════════════════════════════════ -->
 <section class="chri-section chri-section--alt" id="news">
