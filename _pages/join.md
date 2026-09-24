@@ -2,7 +2,7 @@
 title: "Join Us"
 layout: positions
 permalink: /join/
-description: "Open PhD positions in Human-Robot and Human-AI Interaction at the CHRI Lab, School of Computing and Information Systems, University of Melbourne."
+description: "Open positions in Human-Robot and Human-AI Interaction"
 sitemap: true
 ---
 
