@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRediT Statement Builder</title>
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<style>
+  :root{
+    --chri-blue:#7A9DB8;
+    --chri-blue-dark:#5A7D96;
+    --chri-green:#85AD96;
+    --chri-green-dark:#4A8A63;
+    --chri-orange:#D4531A;
+    --chri-purple:#8B5CF6;
+    --chri-ink:#1A1E26;
+    --chri-text:#2D3142;
+    --chri-muted:#6C7280;
+    --chri-border:#E2E6EA;
+    --chri-surface:#F7F9FB;
+    --chri-white:#FFFFFF;
+    --chri-radius:8px;
+
+    --text:var(--chri-text);
+    --muted:var(--chri-muted);
+    --border:var(--chri-border);
+    --input-border:var(--chri-border);
+    --header-bg:var(--chri-surface);
+    --note-bg:var(--chri-surface);
+    --error-text:#9c3d13;
+    --error-bg:rgba(212,83,26,0.07);
+    --error-border:var(--chri-orange);
+    --warning-text:#856404;
+    --warning-bg:#FFF3CD;
+    --warning-border:#f0dc94;
+    --focus:var(--chri-blue-dark);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font:16px/1.7 'Manrope', Calibri, Carlito, Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+    margin:0 auto;
+    max-width:1200px;
+    padding:2.5rem 2rem 4rem;
+  }
+  h1, h2, h3{
+    font-family:'Inter', Arial, 'Liberation Sans', sans-serif;
+    font-weight:500;
+    letter-spacing:-0.01em;
+    color:var(--text);
+    margin:0 0 0.5em;
+  }
+  h1{font-size:2.3rem; letter-spacing:-0.02em; margin-bottom:4px;}
+  h2{
+    margin-top:2.4rem;
+    margin-bottom:10px;
+    font-size:1.5rem;
+  }
+  p{max-width:1100px;}
+  a{color:var(--chri-blue-dark); text-decoration:none;}
+  a:hover{color:var(--chri-blue);}
+  .back-link{
+    font-size:0.85rem;
+    color:var(--muted);
+    display:inline-block;
+    margin-bottom:1.2rem;
+  }
+  .eyebrow{
+    font-family:'Inter', Arial, sans-serif;
+    font-size:0.72rem;
+    font-weight:700;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--chri-blue);
+    display:block;
+    margin-bottom:0.6rem;
+  }
+  .tag{
+    color:var(--muted);
+    font-weight:600;
+    margin-top:0;
+  }
+  hr.chri-rule{
+    width:72px;
+    height:2px;
+    border:0;
+    background:var(--chri-blue);
+    margin:1rem 0 1.5rem;
+  }
+  .note{
+    padding:16px 18px;
+    background:var(--note-bg);
+    border-radius:var(--chri-radius);
+    max-width:1100px;
+  }
+  .note p{margin:0;max-width:none;}
+
+  label{
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    display:block;
+    margin-bottom:5px;
+    font-size:0.92rem;
+  }
+  .field{
+    margin-bottom:14px;
+  }
+  .field-row, .meta{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:14px;
+    margin-bottom:14px;
+  }
+  input[type="text"], select{
+    box-sizing:border-box;
+    width:100%;
+    font:inherit;
+    border:1px solid var(--input-border);
+    border-radius:var(--chri-radius);
+    padding:9px 10px;
+    background:#fff;
+    color:var(--text);
+  }
+  input[type="text"]:focus, select:focus, button:focus-visible, a:focus-visible{
+    outline:3px solid var(--focus);
+    outline-offset:1px;
+  }
+  .req::after{
+    content:" *";
+    color:var(--chri-orange);
+  }
+  small.hint{
+    display:block;
+    color:var(--muted);
+    font-size:13px;
+    margin-top:4px;
+    font-weight:normal;
+  }
+  .invalid{
+    border-color:var(--chri-orange) !important;
+  }
+
+  button{
+    font:inherit;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:500;
+    cursor:pointer;
+    border:1px solid var(--input-border);
+    border-radius:var(--chri-radius);
+    background:#fff;
+    color:var(--text);
+    padding:10px 18px;
+    margin:0 8px 0 0;
+    transition:border-color 0.2s ease, background 0.2s ease;
+  }
+  button:hover{border-color:var(--chri-blue); background:var(--chri-surface);}
+  button:disabled{opacity:0.5;cursor:not-allowed;}
+  button.primary{
+    background:var(--chri-blue);
+    border-color:var(--chri-blue);
+    color:#fff;
+    font-weight:600;
+  }
+  button.primary:hover{background:var(--chri-blue-dark); border-color:var(--chri-blue-dark);}
+  button.icon-btn{
+    padding:4px 9px;
+    line-height:1;
+    margin:0;
+  }
+  button.link-btn{
+    background:none;
+    border:none;
+    color:var(--muted);
+    text-decoration:underline;
+    padding:0;
+    margin:0;
+    font-size:14px;
+  }
+
+  section{margin-bottom:10px;}
+  section > p.section-hint{
+    margin-top:-4px;
+    color:var(--muted);
+  }
+
+  /* Author list */
+  .author-entry{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    gap:14px;
+    padding:14px 0;
+    border-bottom:1px solid var(--border);
+  }
+  .author-entry:first-of-type{border-top:1px solid var(--border);}
+  .author-entry .field{margin-bottom:0;flex:1 1 220px;}
+  .author-entry .orcid-field{flex:1 1 200px;}
+  .author-controls{
+    display:flex;
+    gap:4px;
+    flex:0 0 auto;
+  }
+
+  /* Role grid (wide screens) */
+  .roles-toolbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .toggle-field{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .toggle-field label{margin:0;font-weight:normal;font-family:inherit;}
+
+  .grid-wrap{
+    overflow-x:auto;
+    border:1px solid var(--border);
+    border-radius:var(--chri-radius);
+  }
+  table{
+    border-collapse:collapse;
+    width:100%;
+  }
+  table.role-grid{
+    table-layout:fixed;
+    min-width:1150px;
+  }
+  table.role-grid th, table.role-grid td{
+    border:1px solid var(--border);
+    padding:7px 6px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:13px;
+  }
+  table.role-grid tbody tr:nth-child(even) td{background:var(--chri-surface);}
+  table.role-grid thead th{
+    background:var(--chri-ink);
+    color:#fff;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    position:sticky;
+    top:0;
+  }
+  table.role-grid th.author-col, table.role-grid td.author-col{
+    text-align:left;
+    width:190px;
+    position:sticky;
+    left:0;
+    background:#fff;
+    z-index:1;
+  }
+  table.role-grid tbody tr:nth-child(even) td.author-col{background:var(--chri-surface);}
+  table.role-grid thead th.author-col{
+    background:var(--chri-ink);
+    z-index:2;
+  }
+  .role-header-inner{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:3px;
+  }
+  .role-cell{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+  }
+  .role-cell select{
+    font-size:12px;
+    padding:2px 3px;
+    width:auto;
+    max-width:100px;
+    border-radius:4px;
+  }
+  input[type="checkbox"]{
+    width:1.15rem;
+    height:1.15rem;
+    accent-color:var(--chri-blue-dark);
+  }
+
+  /* info tooltip */
+  .info-btn{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    border:1px solid var(--chri-blue);
+    color:var(--chri-blue-dark);
+    background:#fff;
+    font-size:11px;
+    line-height:1;
+    padding:0;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  table.role-grid thead .info-btn{
+    background:transparent;
+    border-color:rgba(255,255,255,0.7);
+    color:#fff;
+  }
+  .has-tip{position:relative;}
+  .has-tip[data-tip]:hover::after, .has-tip[data-tip]:focus::after,
+  .has-tip[data-tip]:hover::before, .has-tip[data-tip]:focus::before{
+    opacity:1;
+    visibility:visible;
+  }
+  .has-tip::after{
+    content:attr(data-tip);
+    position:absolute;
+    bottom:125%;
+    left:50%;
+    transform:translateX(-50%);
+    background:var(--chri-ink);
+    color:#fff;
+    padding:8px 10px;
+    border-radius:6px;
+    font-size:12px;
+    font-family:'Manrope', Arial, sans-serif;
+    font-weight:normal;
+    width:220px;
+    text-align:left;
+    line-height:1.35;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.12s ease;
+    z-index:5;
+    pointer-events:none;
+  }
+  .has-tip::before{
+    content:"";
+    position:absolute;
+    bottom:115%;
+    left:50%;
+    transform:translateX(-50%);
+    border:6px solid transparent;
+    border-top-color:var(--chri-ink);
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.12s ease;
+    z-index:5;
+  }
+
+  /* Role cards (narrow screens) */
+  .role-cards{display:none;}
+  .role-card{
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:var(--chri-radius);
+    padding:14px;
+    margin-bottom:14px;
+    transition:border-color 0.2s ease;
+  }
+  .role-card:hover{border-color:var(--chri-blue);}
+  .role-card h3{
+    margin:0 0 8px 0;
+    font-size:1.1rem;
+    font-weight:600;
+    color:var(--chri-blue-dark);
+  }
+  .role-checklist{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+  .role-checklist li{
+    border-bottom:1px dashed var(--border);
+    padding-bottom:8px;
+  }
+  .role-check-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    flex-wrap:wrap;
+  }
+  .role-check-row label.role-name-label{
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    margin:0;
+    flex:1 1 auto;
+  }
+  .role-check-row select{
+    width:auto;
+    flex:0 0 auto;
+  }
+  .role-def{
+    margin:4px 0 0 26px;
+    color:var(--muted);
+    font-size:13px;
+    font-weight:normal;
+  }
+
+  @media (max-width: 860px){
+    .grid-wrap{display:none;}
+    .role-cards{display:block;}
+  }
+
+  /* Validation */
+  #validation-region{margin:14px 0;}
+  .msg-list{
+    list-style:none;
+    margin:0 0 10px 0;
+    padding:12px 16px;
+    max-width:1100px;
+    border-radius:var(--chri-radius);
+  }
+  .msg-list li{
+    padding:5px 0;
+    font-size:14px;
+  }
+  .msg-list li + li{border-top:1px dashed rgba(0,0,0,0.08);}
+  .msg-list.errors{background:var(--error-bg); color:var(--error-text); border-left:3px solid var(--error-border);}
+  .msg-list.warnings{background:var(--warning-bg); color:var(--warning-text); border-left:3px solid var(--warning-border);}
+  .msg-heading{margin:0 0 4px 0; font-size:15px; font-family:'Inter', Arial, sans-serif; font-weight:600;}
+
+  /* Preview */
+  .format-choice{
+    display:flex;
+    gap:24px;
+    margin-bottom:14px;
+    flex-wrap:wrap;
+  }
+  .format-choice label{
+    font-weight:normal;
+    font-family:inherit;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  #statement-preview{
+    background:var(--note-bg);
+    border-radius:var(--chri-radius);
+    padding:14px 16px;
+    min-height:3rem;
+    max-width:1100px;
+  }
+  #statement-preview p{
+    margin:0 0 8px 0;
+    max-width:none;
+  }
+  #statement-preview p:last-child{margin-bottom:0;}
+  #statement-preview .placeholder{color:var(--muted); font-style:italic;}
+
+  .export-actions{
+    margin-top:10px;
+  }
+  #copy-status{
+    font-size:14px;
+    color:var(--chri-green-dark);
+    margin-left:8px;
+    font-weight:600;
+  }
+  .export-hint{
+    color:var(--muted);
+    font-size:14px;
+    margin-top:10px;
+  }
+
+  /* Reference table */
+  table.reference{
+    font-size:13px;
+    table-layout:fixed;
+    max-width:1100px;
+  }
+  table.reference th, table.reference td{
+    padding:10px;
+    text-align:left;
+    vertical-align:top;
+    border-bottom:1px solid var(--border);
+  }
+  table.reference thead th{
+    background:var(--chri-ink);
+    color:#fff;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+  }
+  table.reference tbody tr:nth-child(even){background:var(--chri-surface);}
+  table.reference th:first-child, table.reference td:first-child{width:26%;}
+
+  footer{
+    max-width:1100px;
+    color:var(--muted);
+    font-size:13px;
+    margin-top:40px;
+    padding-top:14px;
+    border-top:1px solid var(--border);
+  }
+  footer a{color:var(--muted);}
+  footer .lab-credit{
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    color:var(--text);
+    margin:0 0 6px 0;
+  }
+
+  .visually-hidden{
+    position:absolute;
+    width:1px;height:1px;
+    overflow:hidden;
+    clip:rect(0 0 0 0);
+    white-space:nowrap;
+  }
+</style>
+</head>
+<body>
+
+<a class="back-link" href="/">&larr; Back to CHRI Lab</a>
+<span class="eyebrow">CHRI Lab &middot; Research Tool</span>
+<h1>CRediT Statement Builder</h1>
+<p class="tag">Author contribution statement builder &middot; CRediT Contributor Roles Taxonomy (ANSI/NISO Z39.104-2022)</p>
+<hr class="chri-rule">
+<p><b>Purpose:</b> record who did what on this paper using the 14 standard CRediT contributor roles, then export a ready-to-submit contribution statement.</p>
+<p class="note"><b>How this works:</b> add every author, tick the roles each person contributed (with an optional Lead / Equal / Supporting degree), then copy or download the generated statement. Everything runs in your browser &mdash; nothing is uploaded, stored, or sent anywhere.</p>
+
+<main>
+
+  <!-- Paper details -->
+  <section aria-labelledby="paper-heading">
+    <h2 id="paper-heading">1. Paper details</h2>
+    <div class="field">
+      <label for="paper-title" class="req">Paper title</label>
+      <input type="text" id="paper-title" name="paper-title" autocomplete="off">
+    </div>
+    <div class="meta">
+      <div class="field">
+        <label for="paper-venue">Journal or venue</label>
+        <input type="text" id="paper-venue" name="paper-venue" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="corresponding-author">Corresponding author name</label>
+        <input type="text" id="corresponding-author" name="corresponding-author" autocomplete="off">
+      </div>
+    </div>
+  </section>
+
+  <!-- Authors -->
+  <section aria-labelledby="authors-heading">
+    <h2 id="authors-heading">2. Authors</h2>
+    <p class="section-hint">Add every contributing author. Use the arrows to set author order.</p>
+    <div id="author-list"></div>
+    <p><button type="button" id="add-author-btn">+ Add author</button></p>
+  </section>
+
+  <!-- Role assignment -->
+  <section aria-labelledby="roles-heading">
+    <h2 id="roles-heading">3. Role assignment</h2>
+    <p class="section-hint">For definitions of each role, see the <a href="#role-reference">full CRediT role reference</a> at the bottom of this page.</p>
+    <p class="section-hint">Tick every CRediT role each author contributed. Optionally set a degree of contribution.</p>
+    <div class="roles-toolbar">
+      <div class="toggle-field">
+        <input type="checkbox" id="hide-degrees-toggle">
+        <label for="hide-degrees-toggle">Hide contribution degrees (Lead / Equal / Supporting)</label>
+      </div>
+    </div>
+
+    <div class="grid-wrap">
+      <table class="role-grid" id="role-grid" aria-label="Author by role assignment grid"></table>
+    </div>
+
+    <div class="role-cards" id="role-cards" aria-label="Author role checklists"></div>
+  </section>
+
+  <!-- Validation -->
+  <div id="validation-region" aria-live="polite"></div>
+
+  <!-- Preview -->
+  <section aria-labelledby="preview-heading">
+    <h2 id="preview-heading">4. Statement preview</h2>
+    <fieldset style="border:none; padding:0; margin:0 0 1rem 0;">
+      <legend class="visually-hidden">Choose statement format</legend>
+      <div class="format-choice">
+        <label><input type="radio" name="format" value="by-author" checked> By author</label>
+        <label><input type="radio" name="format" value="by-role"> By role</label>
+      </div>
+    </fieldset>
+    <div id="statement-preview" aria-live="polite"></div>
+  </section>
+
+  <!-- Export -->
+  <section aria-labelledby="export-heading">
+    <h2 id="export-heading">5. Export</h2>
+    <div class="export-actions">
+      <button type="button" class="primary" id="copy-btn">Copy to clipboard</button>
+      <button type="button" id="export-txt-btn">Download TXT</button>
+      <button type="button" id="export-pdf-btn">Download PDF</button>
+      <span id="copy-status" role="status"></span>
+    </div>
+    <p class="export-hint">Downloads save a file to your device. Nothing on this page is uploaded or saved elsewhere.</p>
+  </section>
+
+  <!-- Reference -->
+  <section aria-labelledby="reference-heading" id="role-reference">
+    <h2 id="reference-heading">CRediT role reference</h2>
+    <p class="section-hint">Full definitions for each of the 14 CRediT Contributor Roles (ANSI/NISO Z39.104-2022).</p>
+    <table class="reference" id="role-reference-table">
+      <thead><tr><th>Role</th><th>Definition</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer>
+  <p class="lab-credit">CHRI Lab &middot; Collaborative Human-Robot Interaction Lab, University of Melbourne</p>
+  <p>Contributor roles follow the CRediT taxonomy: National Information Standards Organization. (2022). ANSI/NISO Z39.104-2022, CRediT, Contributor Roles Taxonomy. NISO. https://doi.org/10.3789/ansi.niso.z39.104-2022 &mdash; <a href="https://credit.niso.org" target="_blank" rel="noopener noreferrer">credit.niso.org</a></p>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var CREDIT_ROLES = [
+    {key:"conceptualization", label:"Conceptualization", def:"Ideas; formulation or evolution of overarching research goals and aims."},
+    {key:"data-curation", label:"Data curation", def:"Management activities to annotate, clean and maintain research data for initial use and later reuse."},
+    {key:"formal-analysis", label:"Formal analysis", def:"Application of statistical, mathematical, computational or other formal techniques to analyse data."},
+    {key:"funding-acquisition", label:"Funding acquisition", def:"Acquisition of the financial support for the project."},
+    {key:"investigation", label:"Investigation", def:"Conducting the research, specifically performing experiments or collecting data/evidence."},
+    {key:"methodology", label:"Methodology", def:"Development or design of methodology; creation of models."},
+    {key:"project-administration", label:"Project administration", def:"Management and coordination of research planning and execution."},
+    {key:"resources", label:"Resources", def:"Provision of study materials, reagents, participants, instruments, computing resources or other tools."},
+    {key:"software", label:"Software", def:"Programming and software development; implementing and testing code and algorithms."},
+    {key:"supervision", label:"Supervision", def:"Oversight and leadership of research planning and execution, including mentorship."},
+    {key:"validation", label:"Validation", def:"Verification of the overall replication or reproducibility of results and other outputs."},
+    {key:"visualization", label:"Visualization", def:"Preparation and presentation of the work, specifically data visualization."},
+    {key:"writing-original-draft", label:"Writing – original draft", def:"Preparation of the initial draft."},
+    {key:"writing-review-editing", label:"Writing – review & editing", def:"Critical review, commentary or revision of the work."}
+  ];
+
+  var DEGREES = [
+    {value:"", label:"No degree"},
+    {value:"lead", label:"Lead"},
+    {value:"equal", label:"Equal"},
+    {value:"supporting", label:"Supporting"}
+  ];
+
+  var REFERENCE_TEXT = "National Information Standards Organization. (2022). ANSI/NISO Z39.104-2022, CRediT, Contributor Roles Taxonomy. NISO. https://doi.org/10.3789/ansi.niso.z39.104-2022";
+  var PDF_FOOTER_TEXT = "Contributor roles follow CRediT (ANSI/NISO Z39.104-2022). https://doi.org/10.3789/ansi.niso.z39.104-2022";
+
+  var ORCID_RE = /^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/;
+
+  var nextAuthorId = 1;
+
+  var state = {
+    title: "",
+    venue: "",
+    correspondingAuthor: "",
+    hideDegrees: false,
+    format: "by-author",
+    authors: [ makeAuthor() ]
+  };
+
+  function makeAuthor(){
+    return { id: "a" + (nextAuthorId++), name: "", orcid: "", roles: {} };
+  }
+
+  function escapeHtml(s){
+    return String(s == null ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function isValidOrcid(v){
+    if (!v) return true;
+    return ORCID_RE.test(v.trim());
+  }
+
+  function degreeLabel(v){
+    for (var i=0;i<DEGREES.length;i++){ if (DEGREES[i].value === v) return DEGREES[i].label; }
+    return "";
+  }
+
+  // ---------- Rendering: authors ----------
+  var authorListEl = document.getElementById("author-list");
+
+  function renderAuthors(){
+    authorListEl.innerHTML = "";
+    state.authors.forEach(function(author, idx){
+      var row = document.createElement("div");
+      row.className = "author-entry";
+      row.dataset.authorId = author.id;
+
+      var nameField = document.createElement("div");
+      nameField.className = "field";
+      var nameLabel = document.createElement("label");
+      nameLabel.className = "req";
+      nameLabel.setAttribute("for", "name-" + author.id);
+      nameLabel.textContent = "Full name";
+      var nameInput = document.createElement("input");
+      nameInput.type = "text";
+      nameInput.id = "name-" + author.id;
+      nameInput.value = author.name;
+      nameInput.autocomplete = "off";
+      nameInput.addEventListener("input", function(){
+        author.name = nameInput.value;
+        renderRoleGrid(); renderRoleCards(); renderValidationAndPreview();
+      });
+      nameField.appendChild(nameLabel);
+      nameField.appendChild(nameInput);
+
+      var orcidField = document.createElement("div");
+      orcidField.className = "field orcid-field";
+      var orcidLabel = document.createElement("label");
+      orcidLabel.setAttribute("for", "orcid-" + author.id);
+      orcidLabel.textContent = "ORCID (optional)";
+      var orcidInput = document.createElement("input");
+      orcidInput.type = "text";
+      orcidInput.id = "orcid-" + author.id;
+      orcidInput.value = author.orcid;
+      orcidInput.placeholder = "0000-0000-0000-000X";
+      orcidInput.setAttribute("aria-describedby", "orcid-hint-" + author.id);
+      orcidInput.addEventListener("input", function(){
+        author.orcid = orcidInput.value;
+        renderValidationAndPreview();
+        orcidInput.classList.toggle("invalid", !isValidOrcid(author.orcid));
+      });
+      var orcidHint = document.createElement("small");
+      orcidHint.className = "hint";
+      orcidHint.id = "orcid-hint-" + author.id;
+      orcidHint.textContent = "Format: 0000-0000-0000-000X";
+      orcidField.appendChild(orcidLabel);
+      orcidField.appendChild(orcidInput);
+      orcidField.appendChild(orcidHint);
+      if (!isValidOrcid(author.orcid)) orcidInput.classList.add("invalid");
+
+      var controls = document.createElement("div");
+      controls.className = "author-controls";
+
+      var upBtn = document.createElement("button");
+      upBtn.type = "button";
+      upBtn.className = "icon-btn";
+      upBtn.setAttribute("aria-label", "Move " + (author.name || "author " + (idx+1)) + " up");
+      upBtn.textContent = "↑";
+      upBtn.disabled = idx === 0;
+      upBtn.addEventListener("click", function(){ moveAuthor(author.id, -1); });
+
+      var downBtn = document.createElement("button");
+      downBtn.type = "button";
+      downBtn.className = "icon-btn";
+      downBtn.setAttribute("aria-label", "Move " + (author.name || "author " + (idx+1)) + " down");
+      downBtn.textContent = "↓";
+      downBtn.disabled = idx === state.authors.length - 1;
+      downBtn.addEventListener("click", function(){ moveAuthor(author.id, 1); });
+
+      var removeBtn = document.createElement("button");
+      removeBtn.type = "button";
+      removeBtn.className = "icon-btn";
+      removeBtn.setAttribute("aria-label", "Remove " + (author.name || "author " + (idx+1)));
+      removeBtn.textContent = "✕";
+      removeBtn.disabled = state.authors.length === 1;
+      removeBtn.addEventListener("click", function(){ removeAuthor(author.id); });
+
+      controls.appendChild(upBtn);
+      controls.appendChild(downBtn);
+      controls.appendChild(removeBtn);
+
+      row.appendChild(nameField);
+      row.appendChild(orcidField);
+      row.appendChild(controls);
+      authorListEl.appendChild(row);
+    });
+  }
+
+  function moveAuthor(id, dir){
+    var idx = state.authors.findIndex(function(a){ return a.id === id; });
+    var newIdx = idx + dir;
+    if (newIdx < 0 || newIdx >= state.authors.length) return;
+    var tmp = state.authors[idx];
+    state.authors[idx] = state.authors[newIdx];
+    state.authors[newIdx] = tmp;
+    renderAll();
+  }
+
+  function removeAuthor(id){
+    if (state.authors.length === 1) return;
+    state.authors = state.authors.filter(function(a){ return a.id !== id; });
+    renderAll();
+  }
+
+  document.getElementById("add-author-btn").addEventListener("click", function(){
+    state.authors.push(makeAuthor());
+    renderAll();
+  });
+
+  // ---------- Rendering: role grid (wide) ----------
+  var roleGridEl = document.getElementById("role-grid");
+
+  function renderRoleGrid(){
+    roleGridEl.innerHTML = "";
+    var thead = document.createElement("thead");
+    var headRow = document.createElement("tr");
+    var authorTh = document.createElement("th");
+    authorTh.className = "author-col";
+    authorTh.textContent = "Author";
+    headRow.appendChild(authorTh);
+    CREDIT_ROLES.forEach(function(role){
+      var th = document.createElement("th");
+      var inner = document.createElement("div");
+      inner.className = "role-header-inner";
+      var span = document.createElement("span");
+      span.textContent = role.label;
+      var infoBtn = document.createElement("button");
+      infoBtn.type = "button";
+      infoBtn.className = "info-btn has-tip";
+      infoBtn.setAttribute("data-tip", role.def);
+      infoBtn.setAttribute("aria-label", "What is " + role.label + "?");
+      infoBtn.textContent = "i";
+      inner.appendChild(span);
+      inner.appendChild(infoBtn);
+      th.appendChild(inner);
+      headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    roleGridEl.appendChild(thead);
+
+    var tbody = document.createElement("tbody");
+    state.authors.forEach(function(author, idx){
+      var tr = document.createElement("tr");
+      var nameTd = document.createElement("td");
+      nameTd.className = "author-col";
+      nameTd.textContent = author.name || ("Author " + (idx+1));
+      tr.appendChild(nameTd);
+
+      CREDIT_ROLES.forEach(function(role){
+        var td = document.createElement("td");
+        var wrap = document.createElement("div");
+        wrap.className = "role-cell";
+        var cbId = "cb-" + author.id + "-" + role.key;
+        var cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.id = cbId;
+        cb.checked = Object.prototype.hasOwnProperty.call(author.roles, role.key);
+        cb.setAttribute("aria-label", (author.name || "Author " + (idx+1)) + ": " + role.label);
+        cb.addEventListener("change", function(){
+          if (cb.checked) author.roles[role.key] = author.roles[role.key] || "";
+          else delete author.roles[role.key];
+          renderRoleCards();
+          renderValidationAndPreview();
+          renderRoleGridCellDegree(author, role, wrap);
+        });
+        wrap.appendChild(cb);
+
+        if (!state.hideDegrees){
+          var sel = buildDegreeSelect(author, role, (author.name || "Author " + (idx+1)) + " " + role.label + " degree");
+          sel.style.display = cb.checked ? "" : "none";
+          wrap.appendChild(sel);
+        }
+        td.appendChild(wrap);
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    roleGridEl.appendChild(tbody);
+  }
+
+  function renderRoleGridCellDegree(author, role, wrap){
+    var sel = wrap.querySelector("select");
+    if (sel){
+      var checked = Object.prototype.hasOwnProperty.call(author.roles, role.key);
+      sel.style.display = checked ? "" : "none";
+    }
+  }
+
+  function buildDegreeSelect(author, role, ariaLabel){
+    var sel = document.createElement("select");
+    sel.setAttribute("aria-label", ariaLabel);
+    DEGREES.forEach(function(d){
+      var opt = document.createElement("option");
+      opt.value = d.value;
+      opt.textContent = d.label;
+      sel.appendChild(opt);
+    });
+    sel.value = author.roles[role.key] || "";
+    sel.addEventListener("change", function(){
+      author.roles[role.key] = sel.value;
+      renderValidationAndPreview();
+      syncDegreeSelects(author.id, role.key, sel.value);
+    });
+    return sel;
+  }
+
+  function syncDegreeSelects(authorId, roleKey, value){
+    var selector = '[data-role-select="' + authorId + "-" + roleKey + '"]';
+    document.querySelectorAll(selector).forEach(function(el){ el.value = value; });
+  }
+
+  // ---------- Rendering: role cards (narrow) ----------
+  var roleCardsEl = document.getElementById("role-cards");
+
+  function renderRoleCards(){
+    roleCardsEl.innerHTML = "";
+    state.authors.forEach(function(author, idx){
+      var card = document.createElement("div");
+      card.className = "role-card";
+      var h3 = document.createElement("h3");
+      h3.textContent = author.name || ("Author " + (idx+1));
+      card.appendChild(h3);
+
+      var ul = document.createElement("ul");
+      ul.className = "role-checklist";
+
+      CREDIT_ROLES.forEach(function(role){
+        var li = document.createElement("li");
+        var row = document.createElement("div");
+        row.className = "role-check-row";
+
+        var cbId = "card-cb-" + author.id + "-" + role.key;
+        var cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.id = cbId;
+        cb.checked = Object.prototype.hasOwnProperty.call(author.roles, role.key);
+
+        var label = document.createElement("label");
+        label.className = "role-name-label";
+        label.setAttribute("for", cbId);
+        label.textContent = role.label;
+
+        var infoBtn = document.createElement("button");
+        infoBtn.type = "button";
+        infoBtn.className = "info-btn has-tip";
+        infoBtn.setAttribute("data-tip", role.def);
+        infoBtn.setAttribute("aria-label", "What is " + role.label + "?");
+        infoBtn.textContent = "i";
+
+        row.appendChild(cb);
+        row.appendChild(label);
+        row.appendChild(infoBtn);
+
+        var selHolder = null;
+        if (!state.hideDegrees){
+          selHolder = buildDegreeSelect(author, role, author.name + " " + role.label + " degree");
+          selHolder.style.display = cb.checked ? "" : "none";
+          row.appendChild(selHolder);
+        }
+
+        cb.addEventListener("change", function(){
+          if (cb.checked) author.roles[role.key] = author.roles[role.key] || "";
+          else delete author.roles[role.key];
+          if (selHolder) selHolder.style.display = cb.checked ? "" : "none";
+          renderRoleGrid();
+          renderValidationAndPreview();
+        });
+
+        var def = document.createElement("p");
+        def.className = "role-def";
+        def.textContent = role.def;
+
+        li.appendChild(row);
+        li.appendChild(def);
+        ul.appendChild(li);
+      });
+
+      card.appendChild(ul);
+      roleCardsEl.appendChild(card);
+    });
+  }
+
+  // ---------- Validation ----------
+  function validate(){
+    var errors = [];
+    var warnings = [];
+
+    if (!state.title.trim()) errors.push("Paper title is required.");
+    if (state.authors.length === 0) errors.push("Add at least one author.");
+
+    state.authors.forEach(function(author, idx){
+      var label = author.name.trim() || ("Author " + (idx+1));
+      if (!author.name.trim()) errors.push("Author " + (idx+1) + " needs a full name.");
+      if (!isValidOrcid(author.orcid)) errors.push(label + "’s ORCID must be in the format 0000-0000-0000-000X.");
+      if (Object.keys(author.roles).length === 0) errors.push(label + " has no roles assigned.");
+    });
+
+    var usedRoleKeys = {};
+    state.authors.forEach(function(author){
+      Object.keys(author.roles).forEach(function(k){ usedRoleKeys[k] = true; });
+    });
+    var unusedRoles = CREDIT_ROLES.filter(function(r){ return !usedRoleKeys[r.key]; }).map(function(r){ return r.label; });
+    if (unusedRoles.length > 0){
+      warnings.push("No author is assigned: " + unusedRoles.join(", ") + ". This may be fine if these roles don’t apply to this work.");
+    }
+
+    return { errors: errors, warnings: warnings };
+  }
+
+  var validationRegionEl = document.getElementById("validation-region");
+
+  function renderValidation(result){
+    validationRegionEl.innerHTML = "";
+    if (result.errors.length){
+      var h = document.createElement("h3");
+      h.className = "msg-heading";
+      h.style.color = "var(--error-text)";
+      h.textContent = "Please fix before exporting:";
+      var ul = document.createElement("ul");
+      ul.className = "msg-list errors";
+      result.errors.forEach(function(e){ var li = document.createElement("li"); li.textContent = e; ul.appendChild(li); });
+      validationRegionEl.appendChild(h);
+      validationRegionEl.appendChild(ul);
+    }
+    if (result.warnings.length){
+      var h2 = document.createElement("h3");
+      h2.className = "msg-heading";
+      h2.style.color = "var(--warning-text)";
+      h2.textContent = "Heads up:";
+      var ul2 = document.createElement("ul");
+      ul2.className = "msg-list warnings";
+      result.warnings.forEach(function(w){ var li = document.createElement("li"); li.textContent = w; ul2.appendChild(li); });
+      validationRegionEl.appendChild(h2);
+      validationRegionEl.appendChild(ul2);
+    }
+  }
+
+  // ---------- Statement building ----------
+  function buildByAuthorLines(){
+    var lines = [];
+    state.authors.forEach(function(author){
+      var roleKeys = Object.keys(author.roles);
+      if (roleKeys.length === 0) return;
+      var parts = CREDIT_ROLES
+        .filter(function(r){ return Object.prototype.hasOwnProperty.call(author.roles, r.key); })
+        .map(function(r){
+          var deg = author.roles[r.key];
+          if (!state.hideDegrees && deg) return r.label + " (" + degreeLabel(deg).toLowerCase() + ")";
+          return r.label;
+        });
+      var name = author.name.trim() || "Unnamed author";
+      lines.push(name + ": " + parts.join(", ") + ".");
+    });
+    return lines;
+  }
+
+  function buildByRoleLines(){
+    var lines = [];
+    CREDIT_ROLES.forEach(function(role){
+      var contributors = state.authors
+        .filter(function(a){ return Object.prototype.hasOwnProperty.call(a.roles, role.key); })
+        .map(function(a){
+          var deg = a.roles[role.key];
+          var name = a.name.trim() || "Unnamed author";
+          if (!state.hideDegrees && deg) return name + " (" + degreeLabel(deg).toLowerCase() + ")";
+          return name;
+        });
+      if (contributors.length === 0) return;
+      lines.push(role.label + ": " + contributors.join(", ") + ".");
+    });
+    return lines;
+  }
+
+  function currentStatementLines(){
+    return state.format === "by-author" ? buildByAuthorLines() : buildByRoleLines();
+  }
+
+  var previewEl = document.getElementById("statement-preview");
+
+  function renderPreview(){
+    var lines = currentStatementLines();
+    previewEl.innerHTML = "";
+    if (lines.length === 0){
+      var p = document.createElement("p");
+      p.className = "placeholder";
+      p.textContent = "No roles assigned yet. Tick roles above to see the statement here.";
+      previewEl.appendChild(p);
+      return;
+    }
+    lines.forEach(function(line){
+      var p = document.createElement("p");
+      p.textContent = line;
+      previewEl.appendChild(p);
+    });
+  }
+
+  function renderValidationAndPreview(){
+    var result = validate();
+    renderValidation(result);
+    renderPreview();
+    var hasErrors = result.errors.length > 0;
+    document.getElementById("copy-btn").disabled = hasErrors;
+    document.getElementById("export-txt-btn").disabled = hasErrors;
+    document.getElementById("export-pdf-btn").disabled = hasErrors;
+    return result;
+  }
+
+  function renderAll(){
+    renderAuthors();
+    renderRoleGrid();
+    renderRoleCards();
+    renderValidationAndPreview();
+  }
+
+  function renderRoleReferenceTable(){
+    var tbody = document.querySelector("#role-reference-table tbody");
+    CREDIT_ROLES.forEach(function(role){
+      var tr = document.createElement("tr");
+      var th = document.createElement("td");
+      th.innerHTML = "<strong>" + escapeHtml(role.label) + "</strong>";
+      var td = document.createElement("td");
+      td.textContent = role.def;
+      tr.appendChild(th);
+      tr.appendChild(td);
+      tbody.appendChild(tr);
+    });
+  }
+
+  // ---------- Top-level field wiring ----------
+  document.getElementById("paper-title").addEventListener("input", function(e){
+    state.title = e.target.value;
+    renderValidationAndPreview();
+  });
+  document.getElementById("paper-venue").addEventListener("input", function(e){
+    state.venue = e.target.value;
+  });
+  document.getElementById("corresponding-author").addEventListener("input", function(e){
+    state.correspondingAuthor = e.target.value;
+  });
+  document.getElementById("hide-degrees-toggle").addEventListener("change", function(e){
+    state.hideDegrees = e.target.checked;
+    renderRoleGrid();
+    renderRoleCards();
+    renderPreview();
+  });
+  document.querySelectorAll('input[name="format"]').forEach(function(radio){
+    radio.addEventListener("change", function(){
+      if (radio.checked) { state.format = radio.value; renderPreview(); }
+    });
+  });
+
+  // ---------- Export ----------
+  function todayString(){
+    var d = new Date();
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function statementText(){
+    return currentStatementLines().join("\n");
+  }
+
+  function download(filename, content, mime){
+    var blob = new Blob([content], { type: mime });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  }
+
+  function safeFileBase(){
+    var base = state.title.trim() || "credit-statement";
+    return base.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 60) || "credit-statement";
+  }
+
+  document.getElementById("copy-btn").addEventListener("click", function(){
+    var text = statementText();
+    var status = document.getElementById("copy-status");
+    function ok(){ status.textContent = "Copied!"; setTimeout(function(){ status.textContent = ""; }, 2500); }
+    function fail(){ status.textContent = "Could not copy — select and copy manually."; }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(ok, fail);
+    } else {
+      try {
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+        ok();
+      } catch (e){ fail(); }
+    }
+  });
+
+  document.getElementById("export-txt-btn").addEventListener("click", function(){
+    var lines = [];
+    lines.push(state.title.trim() || "Untitled paper");
+    if (state.venue.trim()) lines.push(state.venue.trim());
+    lines.push(todayString());
+    lines.push("");
+    lines.push(statementText());
+    lines.push("");
+    lines.push(REFERENCE_TEXT);
+    download(safeFileBase() + ".txt", lines.join("\n"), "text/plain;charset=utf-8");
+  });
+
+  document.getElementById("export-pdf-btn").addEventListener("click", function(){
+    if (!window.jspdf || !window.jspdf.jsPDF){
+      alert("PDF library failed to load. Please check your connection and try again.");
+      return;
+    }
+    var jsPDF = window.jspdf.jsPDF;
+    var doc = new jsPDF({ unit: "pt", format: "a4" });
+    var pageWidth = doc.internal.pageSize.getWidth();
+    var pageHeight = doc.internal.pageSize.getHeight();
+    var margin = 56;
+    var maxWidth = pageWidth - margin * 2;
+    var y = margin;
+
+    doc.setFont("times", "bold");
+    doc.setFontSize(16);
+    var titleLines = doc.splitTextToSize(state.title.trim() || "Untitled paper", maxWidth);
+    doc.text(titleLines, margin, y);
+    y += titleLines.length * 20 + 4;
+
+    doc.setFont("times", "normal");
+    doc.setFontSize(11);
+    if (state.venue.trim()){
+      doc.text(state.venue.trim(), margin, y);
+      y += 16;
+    }
+    doc.text(todayString(), margin, y);
+    y += 28;
+
+    doc.setFontSize(12);
+    doc.setFont("times", "bold");
+    doc.text("Author contributions", margin, y);
+    y += 18;
+
+    doc.setFont("times", "normal");
+    doc.setFontSize(11);
+    var lines = currentStatementLines();
+    if (lines.length === 0) lines = ["No roles assigned."];
+    lines.forEach(function(line){
+      var wrapped = doc.splitTextToSize(line, maxWidth);
+      wrapped.forEach(function(w){
+        doc.text(w, margin, y);
+        y += 15;
+      });
+      y += 4;
+    });
+
+    doc.setFontSize(9);
+    doc.setFont("times", "italic");
+    var footerLines = doc.splitTextToSize(PDF_FOOTER_TEXT, maxWidth);
+    var footerY = pageHeight - margin / 2 - (footerLines.length - 1) * 11;
+    doc.text(footerLines, margin, footerY);
+
+    doc.save(safeFileBase() + ".pdf");
+  });
+
+  // ---------- init ----------
+  renderRoleReferenceTable();
+  renderAll();
+})();
+</script>
+
+</body>
+</html>
