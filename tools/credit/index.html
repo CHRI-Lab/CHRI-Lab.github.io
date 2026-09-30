@@ -520,6 +520,70 @@
   table.reference tbody tr:nth-child(even){background:var(--chri-surface);}
   table.reference th:first-child, table.reference td:first-child{width:26%;}
 
+  /* Contribution matrix (table preview format) */
+  .contrib-table-wrap{
+    overflow-x:auto;
+    max-width:1100px;
+  }
+  table.contrib-table{
+    border-collapse:collapse;
+  }
+  table.contrib-table th, table.contrib-table td{
+    border:1px solid var(--chri-border);
+    padding:5px 7px;
+    text-align:center;
+    font-size:12px;
+    white-space:nowrap;
+  }
+  table.contrib-table thead th.author-col{
+    text-align:left;
+    vertical-align:bottom;
+    background:#fff;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    padding-left:8px;
+  }
+  table.contrib-table thead th.rot-head{
+    height:150px;
+    vertical-align:bottom;
+    background:#fff;
+    padding-bottom:8px;
+  }
+  table.contrib-table thead th.rot-head span{
+    display:inline-block;
+    writing-mode:vertical-rl;
+    transform:rotate(180deg);
+    font-size:11px;
+    font-weight:normal;
+    color:var(--text);
+  }
+  table.contrib-table thead th.abbr-band{
+    background:var(--chri-ink);
+    color:#fff;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:700;
+    font-size:11px;
+    letter-spacing:0.03em;
+  }
+  table.contrib-table tbody td.author-col{
+    text-align:left;
+    font-family:'Inter', Arial, sans-serif;
+    font-weight:600;
+    padding-left:8px;
+  }
+  table.contrib-table tbody tr:nth-child(even) td{background:var(--chri-surface);}
+  table.contrib-table td.checked{
+    color:var(--chri-blue-dark);
+    font-weight:700;
+    font-size:15px;
+  }
+  .contrib-caption{
+    color:var(--muted);
+    font-size:0.85rem;
+    margin:10px 0 0;
+    max-width:1100px;
+  }
+
   footer{
     max-width:1100px;
     color:var(--muted);
@@ -641,6 +705,7 @@
       <div class="format-choice">
         <label><input type="radio" name="format" value="by-author" checked> By author</label>
         <label><input type="radio" name="format" value="by-role"> By role</label>
+        <label><input type="radio" name="format" value="table"> Table</label>
       </div>
     </fieldset>
     <div id="statement-preview" aria-live="polite"></div>
@@ -680,20 +745,20 @@
   "use strict";
 
   var CREDIT_ROLES = [
-    {key:"conceptualization", label:"Conceptualization", def:"Ideas; formulation or evolution of overarching research goals and aims."},
-    {key:"data-curation", label:"Data curation", def:"Management activities to annotate, clean and maintain research data for initial use and later reuse."},
-    {key:"formal-analysis", label:"Formal analysis", def:"Application of statistical, mathematical, computational or other formal techniques to analyse data."},
-    {key:"funding-acquisition", label:"Funding acquisition", def:"Acquisition of the financial support for the project."},
-    {key:"investigation", label:"Investigation", def:"Conducting the research, specifically performing experiments or collecting data/evidence."},
-    {key:"methodology", label:"Methodology", def:"Development or design of methodology; creation of models."},
-    {key:"project-administration", label:"Project administration", def:"Management and coordination of research planning and execution."},
-    {key:"resources", label:"Resources", def:"Provision of study materials, reagents, participants, instruments, computing resources or other tools."},
-    {key:"software", label:"Software", def:"Programming and software development; implementing and testing code and algorithms."},
-    {key:"supervision", label:"Supervision", def:"Oversight and leadership of research planning and execution, including mentorship."},
-    {key:"validation", label:"Validation", def:"Verification of the overall replication or reproducibility of results and other outputs."},
-    {key:"visualization", label:"Visualization", def:"Preparation and presentation of the work, specifically data visualization."},
-    {key:"writing-original-draft", label:"Writing – original draft", def:"Preparation of the initial draft."},
-    {key:"writing-review-editing", label:"Writing – review & editing", def:"Critical review, commentary or revision of the work."}
+    {key:"conceptualization", label:"Conceptualization", abbr:"CON", def:"Ideas; formulation or evolution of overarching research goals and aims."},
+    {key:"data-curation", label:"Data curation", abbr:"DCU", def:"Management activities to annotate, clean and maintain research data for initial use and later reuse."},
+    {key:"formal-analysis", label:"Formal analysis", abbr:"FAN", def:"Application of statistical, mathematical, computational or other formal techniques to analyse data."},
+    {key:"funding-acquisition", label:"Funding acquisition", abbr:"FUN", def:"Acquisition of the financial support for the project."},
+    {key:"investigation", label:"Investigation", abbr:"INV", def:"Conducting the research, specifically performing experiments or collecting data/evidence."},
+    {key:"methodology", label:"Methodology", abbr:"MET", def:"Development or design of methodology; creation of models."},
+    {key:"project-administration", label:"Project administration", abbr:"PAD", def:"Management and coordination of research planning and execution."},
+    {key:"resources", label:"Resources", abbr:"RES", def:"Provision of study materials, reagents, participants, instruments, computing resources or other tools."},
+    {key:"software", label:"Software", abbr:"SOF", def:"Programming and software development; implementing and testing code and algorithms."},
+    {key:"supervision", label:"Supervision", abbr:"SUP", def:"Oversight and leadership of research planning and execution, including mentorship."},
+    {key:"validation", label:"Validation", abbr:"VAL", def:"Verification of the overall replication or reproducibility of results and other outputs."},
+    {key:"visualization", label:"Visualization", abbr:"VIS", def:"Preparation and presentation of the work, specifically data visualization."},
+    {key:"writing-original-draft", label:"Writing – original draft", abbr:"WOR", def:"Preparation of the initial draft."},
+    {key:"writing-review-editing", label:"Writing – review & editing", abbr:"WRE", def:"Critical review, commentary or revision of the work."}
   ];
 
   var DEGREES = [
@@ -705,6 +770,17 @@
 
   var REFERENCE_TEXT = "National Information Standards Organization. (2022). ANSI/NISO Z39.104-2022, CRediT, Contributor Roles Taxonomy. NISO. https://doi.org/10.3789/ansi.niso.z39.104-2022";
   var PDF_FOOTER_TEXT = "Contributor roles follow CRediT (ANSI/NISO Z39.104-2022). https://doi.org/10.3789/ansi.niso.z39.104-2022";
+
+  var PDF_COLOR = {
+    ink: [26, 30, 38],
+    text: [45, 49, 66],
+    muted: [108, 114, 128],
+    blue: [122, 157, 184],
+    blueDark: [90, 125, 150],
+    border: [200, 208, 216],
+    surface: [247, 249, 251],
+    white: [255, 255, 255]
+  };
 
   var ORCID_RE = /^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/;
 
@@ -1118,11 +1194,100 @@
     return state.format === "by-author" ? buildByAuthorLines() : buildByRoleLines();
   }
 
+  function buildContributionMatrix(){
+    return state.authors.map(function(author){
+      return {
+        name: author.name.trim() || "Unnamed author",
+        cells: CREDIT_ROLES.map(function(role){
+          var has = Object.prototype.hasOwnProperty.call(author.roles, role.key);
+          return { checked: has, degree: has ? author.roles[role.key] : "" };
+        })
+      };
+    });
+  }
+
   var previewEl = document.getElementById("statement-preview");
 
+  function renderTablePreview(){
+    var matrix = buildContributionMatrix();
+    var hasAny = matrix.some(function(a){ return a.cells.some(function(c){ return c.checked; }); });
+    if (!hasAny){
+      var placeholder = document.createElement("p");
+      placeholder.className = "placeholder";
+      placeholder.textContent = "No roles assigned yet. Tick roles above to see the table here.";
+      previewEl.appendChild(placeholder);
+      return;
+    }
+
+    var wrap = document.createElement("div");
+    wrap.className = "contrib-table-wrap";
+    var table = document.createElement("table");
+    table.className = "contrib-table";
+
+    var thead = document.createElement("thead");
+    var rowLabels = document.createElement("tr");
+    var corner = document.createElement("th");
+    corner.className = "author-col";
+    corner.textContent = "Author";
+    corner.rowSpan = 2;
+    rowLabels.appendChild(corner);
+    CREDIT_ROLES.forEach(function(role){
+      var th = document.createElement("th");
+      th.className = "rot-head";
+      th.title = role.label;
+      var span = document.createElement("span");
+      span.textContent = role.label;
+      th.appendChild(span);
+      rowLabels.appendChild(th);
+    });
+    thead.appendChild(rowLabels);
+
+    var rowAbbr = document.createElement("tr");
+    CREDIT_ROLES.forEach(function(role){
+      var th = document.createElement("th");
+      th.className = "abbr-band";
+      th.textContent = role.abbr;
+      th.title = role.label;
+      rowAbbr.appendChild(th);
+    });
+    thead.appendChild(rowAbbr);
+    table.appendChild(thead);
+
+    var tbody = document.createElement("tbody");
+    matrix.forEach(function(a){
+      var tr = document.createElement("tr");
+      var nameTd = document.createElement("td");
+      nameTd.className = "author-col";
+      nameTd.textContent = a.name;
+      tr.appendChild(nameTd);
+      a.cells.forEach(function(c){
+        var td = document.createElement("td");
+        if (c.checked){
+          td.textContent = "✓";
+          td.className = "checked";
+          if (!state.hideDegrees && c.degree) td.title = degreeLabel(c.degree);
+        }
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    previewEl.appendChild(wrap);
+
+    var caption = document.createElement("p");
+    caption.className = "contrib-caption";
+    caption.textContent = CREDIT_ROLES.map(function(r){ return r.abbr + " = " + r.label; }).join("  ·  ");
+    previewEl.appendChild(caption);
+  }
+
   function renderPreview(){
-    var lines = currentStatementLines();
     previewEl.innerHTML = "";
+    if (state.format === "table"){
+      renderTablePreview();
+      return;
+    }
+    var lines = currentStatementLines();
     if (lines.length === 0){
       var p = document.createElement("p");
       p.className = "placeholder";
@@ -1198,7 +1363,19 @@
     return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
   }
 
+  function tableToTsv(){
+    var matrix = buildContributionMatrix();
+    var header = ["Author"].concat(CREDIT_ROLES.map(function(r){ return r.label; }));
+    var rows = [header.join("\t")];
+    matrix.forEach(function(a){
+      var cells = [a.name].concat(a.cells.map(function(c){ return c.checked ? "✓" : ""; }));
+      rows.push(cells.join("\t"));
+    });
+    return rows.join("\n");
+  }
+
   function statementText(){
+    if (state.format === "table") return tableToTsv();
     return currentStatementLines().join("\n");
   }
 
@@ -1253,59 +1430,151 @@
     download(safeFileBase() + ".txt", lines.join("\n"), "text/plain;charset=utf-8");
   });
 
+  function drawContributionTablePdf(doc, x0, y0, maxWidth){
+    var matrix = buildContributionMatrix();
+    var authorColWidth = 130;
+    var roleColWidth = (maxWidth - authorColWidth) / CREDIT_ROLES.length;
+    var rowHeight = 18;
+    var headerHeight = 30;
+    var y = y0;
+    var x;
+
+    doc.setLineWidth(0.5);
+    doc.setDrawColor.apply(doc, PDF_COLOR.border);
+
+    doc.setFillColor.apply(doc, PDF_COLOR.ink);
+    doc.rect(x0, y, authorColWidth + roleColWidth * CREDIT_ROLES.length, headerHeight, "F");
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(7.5);
+    doc.setTextColor.apply(doc, PDF_COLOR.white);
+    x = x0;
+    doc.rect(x, y, authorColWidth, headerHeight);
+    doc.text("Author", x + 5, y + headerHeight / 2 + 3);
+    x += authorColWidth;
+    CREDIT_ROLES.forEach(function(role){
+      doc.rect(x, y, roleColWidth, headerHeight);
+      doc.text(role.abbr, x + roleColWidth / 2, y + headerHeight / 2 + 3, { align: "center" });
+      x += roleColWidth;
+    });
+    y += headerHeight;
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(9);
+    matrix.forEach(function(a, i){
+      x = x0;
+      if (i % 2 === 1){
+        doc.setFillColor.apply(doc, PDF_COLOR.surface);
+        doc.rect(x0, y, authorColWidth + roleColWidth * CREDIT_ROLES.length, rowHeight, "F");
+      }
+      doc.setTextColor.apply(doc, PDF_COLOR.text);
+      doc.setFont("helvetica", "bold");
+      doc.rect(x, y, authorColWidth, rowHeight);
+      var nameLines = doc.splitTextToSize(a.name, authorColWidth - 8);
+      doc.text(nameLines[0], x + 5, y + rowHeight / 2 + 3);
+      doc.setFont("helvetica", "normal");
+      x += authorColWidth;
+      a.cells.forEach(function(c){
+        doc.rect(x, y, roleColWidth, rowHeight);
+        if (c.checked){
+          doc.setTextColor.apply(doc, PDF_COLOR.blueDark);
+          doc.setFont("helvetica", "bold");
+          doc.text("X", x + roleColWidth / 2, y + rowHeight / 2 + 3, { align: "center" });
+          doc.setFont("helvetica", "normal");
+        }
+        x += roleColWidth;
+      });
+      y += rowHeight;
+    });
+
+    y += 16;
+    doc.setFont("helvetica", "italic");
+    doc.setFontSize(8);
+    doc.setTextColor.apply(doc, PDF_COLOR.muted);
+    var legend = CREDIT_ROLES.map(function(r){ return r.abbr + " = " + r.label; }).join("   ·   ");
+    var legendLines = doc.splitTextToSize(legend, maxWidth);
+    doc.text(legendLines, x0, y);
+    y += legendLines.length * 10 + 6;
+
+    return y;
+  }
+
   document.getElementById("export-pdf-btn").addEventListener("click", function(){
     if (!window.jspdf || !window.jspdf.jsPDF){
       alert("PDF library failed to load. Please check your connection and try again.");
       return;
     }
     var jsPDF = window.jspdf.jsPDF;
-    var doc = new jsPDF({ unit: "pt", format: "a4" });
+    var isTable = state.format === "table";
+    var doc = new jsPDF({ unit: "pt", format: "a4", orientation: isTable ? "l" : "p" });
     var pageWidth = doc.internal.pageSize.getWidth();
     var pageHeight = doc.internal.pageSize.getHeight();
-    var margin = 56;
+    var margin = isTable ? 36 : 56;
     var maxWidth = pageWidth - margin * 2;
     var y = margin;
 
-    doc.setFont("times", "bold");
-    doc.setFontSize(16);
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(8.5);
+    doc.setTextColor.apply(doc, PDF_COLOR.blue);
+    doc.text("CHRI LAB · CREDIT STATEMENT", margin, y);
+    y += 16;
+
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(18);
+    doc.setTextColor.apply(doc, PDF_COLOR.ink);
     var titleLines = doc.splitTextToSize(state.title.trim() || "Untitled paper", maxWidth);
     doc.text(titleLines, margin, y);
-    y += titleLines.length * 20 + 4;
+    y += titleLines.length * 22 + 6;
 
-    doc.setFont("times", "normal");
-    doc.setFontSize(11);
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(10.5);
+    doc.setTextColor.apply(doc, PDF_COLOR.muted);
     if (state.venue.trim()){
       doc.text(state.venue.trim(), margin, y);
-      y += 16;
+      y += 15;
     }
     doc.text(todayString(), margin, y);
-    y += 28;
+    y += 12;
 
-    doc.setFontSize(12);
-    doc.setFont("times", "bold");
+    doc.setDrawColor.apply(doc, PDF_COLOR.blue);
+    doc.setLineWidth(2);
+    doc.line(margin, y, margin + 52, y);
+    y += 24;
+
+    doc.setFontSize(12.5);
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor.apply(doc, PDF_COLOR.ink);
     doc.text("Author contributions", margin, y);
     y += 18;
 
-    doc.setFont("times", "normal");
-    doc.setFontSize(11);
-    var lines = currentStatementLines();
-    if (lines.length === 0) lines = ["No roles assigned."];
-    lines.forEach(function(line){
-      var wrapped = doc.splitTextToSize(line, maxWidth);
-      wrapped.forEach(function(w){
-        doc.text(w, margin, y);
-        y += 15;
+    if (isTable){
+      drawContributionTablePdf(doc, margin, y, maxWidth);
+    } else {
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(11);
+      doc.setTextColor.apply(doc, PDF_COLOR.text);
+      var lines = currentStatementLines();
+      if (lines.length === 0) lines = ["No roles assigned."];
+      lines.forEach(function(line){
+        var wrapped = doc.splitTextToSize(line, maxWidth);
+        wrapped.forEach(function(w){
+          doc.text(w, margin, y);
+          y += 15;
+        });
+        y += 4;
       });
-      y += 4;
-    });
+    }
 
-    doc.setFontSize(9);
-    doc.setFont("times", "italic");
+    doc.setFontSize(8.5);
+    doc.setFont("helvetica", "italic");
+    doc.setTextColor.apply(doc, PDF_COLOR.muted);
     var footerLines = doc.splitTextToSize(PDF_FOOTER_TEXT, maxWidth);
     var footerY = pageHeight - margin / 2 - (footerLines.length - 1) * 11;
+    doc.setDrawColor.apply(doc, PDF_COLOR.border);
+    doc.setLineWidth(0.75);
+    doc.line(margin, footerY - 14, pageWidth - margin, footerY - 14);
     doc.text(footerLines, margin, footerY);
 
-    doc.save(safeFileBase() + ".pdf");
+    download(safeFileBase() + ".pdf", doc.output("blob"), "application/pdf");
   });
 
   // ---------- init ----------
