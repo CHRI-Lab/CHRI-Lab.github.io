@@ -101,6 +101,38 @@
   }
   .note p{margin:0;max-width:none;}
 
+  #about-credit{margin-top:2.2rem;}
+  .about-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:16px;
+    max-width:1100px;
+  }
+  .about-card{
+    background:#fff;
+    border:1px solid var(--chri-border);
+    border-radius:var(--chri-radius);
+    padding:1.1rem 1.2rem;
+    transition:border-color 0.2s ease;
+  }
+  .about-card:hover{border-color:var(--chri-blue);}
+  .about-card h3{
+    margin:0 0 0.4rem 0;
+    font-size:1.05rem;
+    color:var(--chri-blue-dark);
+  }
+  .about-card p{
+    margin:0;
+    max-width:none;
+    font-size:0.92rem;
+    color:var(--text);
+  }
+  .about-card--highlight{
+    background:var(--chri-surface);
+    border-top:3px solid var(--chri-orange);
+  }
+  .about-card--highlight h3{color:var(--chri-orange);}
+
   label{
     font-family:'Inter', Arial, sans-serif;
     font-weight:600;
@@ -526,6 +558,33 @@
 <hr class="chri-rule">
 <p><b>Purpose:</b> record who did what on this paper using the 14 standard CRediT contributor roles, then export a ready-to-submit contribution statement.</p>
 <p class="note"><b>How this works:</b> add every author, tick the roles each person contributed (with an optional Lead / Equal / Supporting degree), then copy or download the generated statement. Everything runs in your browser &mdash; nothing is uploaded, stored, or sent anywhere.</p>
+
+<section aria-labelledby="about-heading" id="about-credit">
+  <span class="eyebrow">Before you start</span>
+  <h2 id="about-heading">Why, who, what, how &mdash; and when</h2>
+  <div class="about-grid">
+    <div class="about-card">
+      <h3>Why</h3>
+      <p>Author order alone doesn&rsquo;t say who did what. A CRediT statement makes each person&rsquo;s contribution explicit and auditable, gives credit for work that byline position hides (data curation, software, supervision&hellip;), and is increasingly required by journals and funders.</p>
+    </div>
+    <div class="about-card">
+      <h3>Who</h3>
+      <p>Usually drafted by the corresponding author, but it should reflect everyone&rsquo;s view of their own contribution &mdash; not just one person&rsquo;s assumption. Every co-author should see and agree with the final statement.</p>
+    </div>
+    <div class="about-card">
+      <h3>What</h3>
+      <p>Each of the 14 standardised CRediT roles (Conceptualization, Investigation, Writing, Supervision, and so on) is assigned to whoever did that work, with an optional Lead / Equal / Supporting degree where it helps.</p>
+    </div>
+    <div class="about-card">
+      <h3>How</h3>
+      <p>Add every author below, tick the roles they contributed, review the generated statement, then copy or export it for your submission system.</p>
+    </div>
+    <div class="about-card about-card--highlight">
+      <h3>When &amp; where</h3>
+      <p><b>As soon as you plan the paper</b> &mdash; not at submission time. Fill this in early, then share the exported statement with every co-author over Slack or email straight away. Agreeing on contributions up front, in writing, heads off disputes later: it effectively works as an authorship contract for the project.</p>
+    </div>
+  </div>
+</section>
 
 <main>
 
