@@ -457,19 +457,6 @@
   .msg-heading{margin:0 0 4px 0; font-size:15px; font-family:'Inter', Arial, sans-serif; font-weight:600;}
 
   /* Preview */
-  .format-choice{
-    display:flex;
-    gap:24px;
-    margin-bottom:14px;
-    flex-wrap:wrap;
-  }
-  .format-choice label{
-    font-weight:normal;
-    font-family:inherit;
-    display:flex;
-    align-items:center;
-    gap:6px;
-  }
   #statement-preview{
     background:var(--note-bg);
     border-radius:var(--chri-radius);
@@ -486,12 +473,6 @@
 
   .export-actions{
     margin-top:10px;
-  }
-  #copy-status{
-    font-size:14px;
-    color:var(--chri-green-dark);
-    margin-left:8px;
-    font-weight:600;
   }
   .export-hint{
     color:var(--muted);
@@ -520,7 +501,7 @@
   table.reference tbody tr:nth-child(even){background:var(--chri-surface);}
   table.reference th:first-child, table.reference td:first-child{width:26%;}
 
-  /* Contribution matrix (table preview format) */
+  /* Contribution matrix (statement preview) */
   .contrib-table-wrap{
     overflow-x:auto;
     max-width:1100px;
@@ -530,58 +511,49 @@
   }
   table.contrib-table th, table.contrib-table td{
     border:1px solid var(--chri-border);
-    padding:5px 7px;
+    padding:4px 3px;
     text-align:center;
     font-size:12px;
-    white-space:nowrap;
   }
   table.contrib-table thead th.author-col{
     text-align:left;
     vertical-align:bottom;
-    background:#fff;
+    background:var(--chri-ink);
+    color:#fff;
     font-family:'Inter', Arial, sans-serif;
     font-weight:600;
     padding-left:8px;
+    white-space:nowrap;
   }
   table.contrib-table thead th.rot-head{
-    height:150px;
+    width:30px;
+    height:190px;
     vertical-align:bottom;
-    background:#fff;
+    background:var(--chri-ink);
     padding-bottom:8px;
   }
   table.contrib-table thead th.rot-head span{
     display:inline-block;
     writing-mode:vertical-rl;
     transform:rotate(180deg);
-    font-size:11px;
-    font-weight:normal;
-    color:var(--text);
-  }
-  table.contrib-table thead th.abbr-band{
-    background:var(--chri-ink);
-    color:#fff;
+    font-size:11.5px;
     font-family:'Inter', Arial, sans-serif;
-    font-weight:700;
-    font-size:11px;
-    letter-spacing:0.03em;
+    font-weight:600;
+    color:#fff;
+    white-space:nowrap;
   }
   table.contrib-table tbody td.author-col{
     text-align:left;
     font-family:'Inter', Arial, sans-serif;
     font-weight:600;
     padding-left:8px;
+    white-space:nowrap;
   }
   table.contrib-table tbody tr:nth-child(even) td{background:var(--chri-surface);}
   table.contrib-table td.checked{
     color:var(--chri-blue-dark);
     font-weight:700;
     font-size:15px;
-  }
-  .contrib-caption{
-    color:var(--muted);
-    font-size:0.85rem;
-    margin:10px 0 0;
-    max-width:1100px;
   }
 
   footer{
@@ -700,14 +672,6 @@
   <!-- Preview -->
   <section aria-labelledby="preview-heading">
     <h2 id="preview-heading">4. Statement preview</h2>
-    <fieldset style="border:none; padding:0; margin:0 0 1rem 0;">
-      <legend class="visually-hidden">Choose statement format</legend>
-      <div class="format-choice">
-        <label><input type="radio" name="format" value="by-author" checked> By author</label>
-        <label><input type="radio" name="format" value="by-role"> By role</label>
-        <label><input type="radio" name="format" value="table"> Table</label>
-      </div>
-    </fieldset>
     <div id="statement-preview" aria-live="polite"></div>
   </section>
 
@@ -715,10 +679,7 @@
   <section aria-labelledby="export-heading">
     <h2 id="export-heading">5. Export</h2>
     <div class="export-actions">
-      <button type="button" class="primary" id="copy-btn">Copy to clipboard</button>
-      <button type="button" id="export-txt-btn">Download TXT</button>
-      <button type="button" id="export-pdf-btn">Download PDF</button>
-      <span id="copy-status" role="status"></span>
+      <button type="button" class="primary" id="export-pdf-btn">Download PDF</button>
     </div>
     <p class="export-hint">Downloads save a file to your device. Nothing on this page is uploaded or saved elsewhere.</p>
   </section>
@@ -768,7 +729,6 @@
     {value:"supporting", label:"Supporting"}
   ];
 
-  var REFERENCE_TEXT = "National Information Standards Organization. (2022). ANSI/NISO Z39.104-2022, CRediT, Contributor Roles Taxonomy. NISO. https://doi.org/10.3789/ansi.niso.z39.104-2022";
   var PDF_FOOTER_TEXT = "Contributor roles follow CRediT (ANSI/NISO Z39.104-2022). https://doi.org/10.3789/ansi.niso.z39.104-2022";
 
   var PDF_COLOR = {
@@ -791,7 +751,6 @@
     venue: "",
     correspondingAuthor: "",
     hideDegrees: false,
-    format: "by-author",
     authors: [ makeAuthor() ]
   };
 
@@ -1155,45 +1114,6 @@
   }
 
   // ---------- Statement building ----------
-  function buildByAuthorLines(){
-    var lines = [];
-    state.authors.forEach(function(author){
-      var roleKeys = Object.keys(author.roles);
-      if (roleKeys.length === 0) return;
-      var parts = CREDIT_ROLES
-        .filter(function(r){ return Object.prototype.hasOwnProperty.call(author.roles, r.key); })
-        .map(function(r){
-          var deg = author.roles[r.key];
-          if (!state.hideDegrees && deg) return r.label + " (" + degreeLabel(deg).toLowerCase() + ")";
-          return r.label;
-        });
-      var name = author.name.trim() || "Unnamed author";
-      lines.push(name + ": " + parts.join(", ") + ".");
-    });
-    return lines;
-  }
-
-  function buildByRoleLines(){
-    var lines = [];
-    CREDIT_ROLES.forEach(function(role){
-      var contributors = state.authors
-        .filter(function(a){ return Object.prototype.hasOwnProperty.call(a.roles, role.key); })
-        .map(function(a){
-          var deg = a.roles[role.key];
-          var name = a.name.trim() || "Unnamed author";
-          if (!state.hideDegrees && deg) return name + " (" + degreeLabel(deg).toLowerCase() + ")";
-          return name;
-        });
-      if (contributors.length === 0) return;
-      lines.push(role.label + ": " + contributors.join(", ") + ".");
-    });
-    return lines;
-  }
-
-  function currentStatementLines(){
-    return state.format === "by-author" ? buildByAuthorLines() : buildByRoleLines();
-  }
-
   function buildContributionMatrix(){
     return state.authors.map(function(author){
       return {
@@ -1229,7 +1149,6 @@
     var corner = document.createElement("th");
     corner.className = "author-col";
     corner.textContent = "Author";
-    corner.rowSpan = 2;
     rowLabels.appendChild(corner);
     CREDIT_ROLES.forEach(function(role){
       var th = document.createElement("th");
@@ -1241,16 +1160,6 @@
       rowLabels.appendChild(th);
     });
     thead.appendChild(rowLabels);
-
-    var rowAbbr = document.createElement("tr");
-    CREDIT_ROLES.forEach(function(role){
-      var th = document.createElement("th");
-      th.className = "abbr-band";
-      th.textContent = role.abbr;
-      th.title = role.label;
-      rowAbbr.appendChild(th);
-    });
-    thead.appendChild(rowAbbr);
     table.appendChild(thead);
 
     var tbody = document.createElement("tbody");
@@ -1274,32 +1183,11 @@
     table.appendChild(tbody);
     wrap.appendChild(table);
     previewEl.appendChild(wrap);
-
-    var caption = document.createElement("p");
-    caption.className = "contrib-caption";
-    caption.textContent = CREDIT_ROLES.map(function(r){ return r.abbr + " = " + r.label; }).join("  ·  ");
-    previewEl.appendChild(caption);
   }
 
   function renderPreview(){
     previewEl.innerHTML = "";
-    if (state.format === "table"){
-      renderTablePreview();
-      return;
-    }
-    var lines = currentStatementLines();
-    if (lines.length === 0){
-      var p = document.createElement("p");
-      p.className = "placeholder";
-      p.textContent = "No roles assigned yet. Tick roles above to see the statement here.";
-      previewEl.appendChild(p);
-      return;
-    }
-    lines.forEach(function(line){
-      var p = document.createElement("p");
-      p.textContent = line;
-      previewEl.appendChild(p);
-    });
+    renderTablePreview();
   }
 
   function renderValidationAndPreview(){
@@ -1307,8 +1195,6 @@
     renderValidation(result);
     renderPreview();
     var hasErrors = result.errors.length > 0;
-    document.getElementById("copy-btn").disabled = hasErrors;
-    document.getElementById("export-txt-btn").disabled = hasErrors;
     document.getElementById("export-pdf-btn").disabled = hasErrors;
     return result;
   }
@@ -1351,32 +1237,10 @@
     renderRoleCards();
     renderPreview();
   });
-  document.querySelectorAll('input[name="format"]').forEach(function(radio){
-    radio.addEventListener("change", function(){
-      if (radio.checked) { state.format = radio.value; renderPreview(); }
-    });
-  });
-
   // ---------- Export ----------
   function todayString(){
     var d = new Date();
     return d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
-  }
-
-  function tableToTsv(){
-    var matrix = buildContributionMatrix();
-    var header = ["Author"].concat(CREDIT_ROLES.map(function(r){ return r.label; }));
-    var rows = [header.join("\t")];
-    matrix.forEach(function(a){
-      var cells = [a.name].concat(a.cells.map(function(c){ return c.checked ? "✓" : ""; }));
-      rows.push(cells.join("\t"));
-    });
-    return rows.join("\n");
-  }
-
-  function statementText(){
-    if (state.format === "table") return tableToTsv();
-    return currentStatementLines().join("\n");
   }
 
   function download(filename, content, mime){
@@ -1395,40 +1259,6 @@
     var base = state.title.trim() || "credit-statement";
     return base.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 60) || "credit-statement";
   }
-
-  document.getElementById("copy-btn").addEventListener("click", function(){
-    var text = statementText();
-    var status = document.getElementById("copy-status");
-    function ok(){ status.textContent = "Copied!"; setTimeout(function(){ status.textContent = ""; }, 2500); }
-    function fail(){ status.textContent = "Could not copy — select and copy manually."; }
-    if (navigator.clipboard && navigator.clipboard.writeText){
-      navigator.clipboard.writeText(text).then(ok, fail);
-    } else {
-      try {
-        var ta = document.createElement("textarea");
-        ta.value = text;
-        ta.style.position = "fixed";
-        ta.style.opacity = "0";
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand("copy");
-        document.body.removeChild(ta);
-        ok();
-      } catch (e){ fail(); }
-    }
-  });
-
-  document.getElementById("export-txt-btn").addEventListener("click", function(){
-    var lines = [];
-    lines.push(state.title.trim() || "Untitled paper");
-    if (state.venue.trim()) lines.push(state.venue.trim());
-    lines.push(todayString());
-    lines.push("");
-    lines.push(statementText());
-    lines.push("");
-    lines.push(REFERENCE_TEXT);
-    download(safeFileBase() + ".txt", lines.join("\n"), "text/plain;charset=utf-8");
-  });
 
   function drawContributionTablePdf(doc, x0, y0, maxWidth){
     var matrix = buildContributionMatrix();
@@ -1504,11 +1334,10 @@
       return;
     }
     var jsPDF = window.jspdf.jsPDF;
-    var isTable = state.format === "table";
-    var doc = new jsPDF({ unit: "pt", format: "a4", orientation: isTable ? "l" : "p" });
+    var doc = new jsPDF({ unit: "pt", format: "a4", orientation: "l" });
     var pageWidth = doc.internal.pageSize.getWidth();
     var pageHeight = doc.internal.pageSize.getHeight();
-    var margin = isTable ? 36 : 56;
+    var margin = 36;
     var maxWidth = pageWidth - margin * 2;
     var y = margin;
 
@@ -1546,23 +1375,7 @@
     doc.text("Author contributions", margin, y);
     y += 18;
 
-    if (isTable){
-      drawContributionTablePdf(doc, margin, y, maxWidth);
-    } else {
-      doc.setFont("helvetica", "normal");
-      doc.setFontSize(11);
-      doc.setTextColor.apply(doc, PDF_COLOR.text);
-      var lines = currentStatementLines();
-      if (lines.length === 0) lines = ["No roles assigned."];
-      lines.forEach(function(line){
-        var wrapped = doc.splitTextToSize(line, maxWidth);
-        wrapped.forEach(function(w){
-          doc.text(w, margin, y);
-          y += 15;
-        });
-        y += 4;
-      });
-    }
+    drawContributionTablePdf(doc, margin, y, maxWidth);
 
     doc.setFontSize(8.5);
     doc.setFont("helvetica", "italic");
