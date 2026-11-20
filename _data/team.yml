@@ -181,7 +181,7 @@ current-students:
     research_themes:
       - human-robot-collaboration
   - name: <a href="https://chri-lab.github.io/people/nguyen/">Nguyen Bao Nguyen Le</a>
-    lastname: Umesh
+    lastname: Le
     photo: backup/nguyen.jpeg
     info: PhD Student
     start: July 2026
@@ -193,7 +193,20 @@ current-students:
       github: https://github.com/nanoozzz
       linkedin: https://www.linkedin.com/in/nguyenle18082003/
     research_themes:
+    
+  - name: <a href="https://chri-lab.github.io/people/nguyen/">Cyrus Yau</a>
+    lastname: Yau
+    photo: backup/cyrus.jpeg
+    info: PhD Student
+    start: Nov 2026
+    advisor:
+      - Wafa Johal
+      - Jon Eden
+    social:
+      linkedin: https://www.linkedin.com/in/cyrus-yau-4b7a792b5/
+    research_themes:
       - embodied-interaction
+      - human-robot-collaboration
       - controllable-autonomy
   
 
