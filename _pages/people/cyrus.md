@@ -30,11 +30,4 @@ excerpt: "Personal webpage of Cyrus"
 </div>
 
 
-
-## Publications
-
-<div class="publications">
-
-{% bibliography -f people/cyrus%}
-
 </div>
